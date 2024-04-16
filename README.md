@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @tanmay-tiwari-20
-- 👀 I’m interested in ...
+- 👀 I’m interested in Web Dev
 - 🌱 I’m currently learning UI/UX & Frontend.
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me tanmaytiwari200905@gmail.com
