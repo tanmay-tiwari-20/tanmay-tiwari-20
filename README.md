@@ -1,7 +1,7 @@
-![MasterHead](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FCyberpunk%2Fcomments%2F17orhba%2Fcoding_by_pixel_jeff%2F&psig=AOvVaw35V-9mT8KFxHI-IKsqEpgz&ust=1714117247569000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJDen7_u3IUDFQAAAAAdAAAAABAx)
+![MasterHead](https://i.redd.it/n8agw6z2smyb1.gif)
 <h1 align="center">Hi 👋, I'm Tanmay Tiwari</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
-<img align="right" alt="coding" width="400" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2FAnmol-Baranwal%2FCool-GIFs-For-GitHub&psig=AOvVaw35V-9mT8KFxHI-IKsqEpgz&ust=1714117247569000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJDen7_u3IUDFQAAAAAdAAAAABAZ">
+<img align="right" alt="coding" width="400" src="https://miro.medium.com/v2/resize:fit:1358/1*zVnWJtyGOX_kUIDm6ccCfQ.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tanmay-tiwari-20&label=Profile%20views&color=0e75b6&style=flat" alt="tanmay-tiwari-20" /> </p>
 
