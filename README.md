@@ -4,8 +4,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tanmay-tiwari-20&label=Profile%20views&color=0e75b6&style=flat" alt="tanmay-tiwari-20" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=tanmay-tiwari-20" alt="tanmay-tiwari-20" /></a> </p>
-
 - 🔭 I’m currently working on **my personal portfolio**
 
 - 🌱 I’m currently learning **Back-End Development**
@@ -18,7 +16,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="www.linkedin.com/in/tanmay-tiwari20" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/tanmay-tiwari20/" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/tanmay-tiwari20/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/tanmay-tiwari20/" height="30" width="40" /></a>
 <a href="https://instagram.com/tanmay__tiwari__" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="tanmay__tiwari__" height="30" width="40" /></a>
 </p>
 
