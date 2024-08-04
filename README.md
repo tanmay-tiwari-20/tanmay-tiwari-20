@@ -1,3 +1,4 @@
+![MasterHead](https://i.redd.it/n8agw6z2smyb1.gif)
 <h1 align="center">Hi 👋, I'm Tanmay Tiwari</h1>
 <h3 align="center">A passionate Frontend Developer from India</h3>
 
