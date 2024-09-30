@@ -8,7 +8,7 @@
 
 - 🌱 I’m currently learning **some new technologies**
 
-- 👨‍💻 All of my projects are available at [https://www.thetanmay.xyz/](https://www.thetanmay.xyz/)
+- 👨‍💻 All of my projects are available at [thetanmay.xyz](https://www.thetanmay.xyz/)
 
 - 💬 Ask me about **MERN Stack Development**
 
