@@ -4,13 +4,13 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tanmay-tiwari-20&label=Profile%20views&color=0e75b6&style=flat" alt="tanmay-tiwari-20" /> </p>
 
-- 🔭 I’m currently working on **some new ideas.**
+- 🔭 I’m currently working on **Spools.**
 
-- 🌱 I’m currently learning **Back-End Development**
+- 🌱 I’m currently learning **some new technologies**
 
 - 👨‍💻 All of my projects are available at [https://www.thetanmay.xyz/](https://www.thetanmay.xyz/)
 
-- 💬 Ask me about **Front-End Development**
+- 💬 Ask me about **MERN Stack Development**
 
 - 📫 How to reach me **tanmaytiwari200905@gmail.com**
 
