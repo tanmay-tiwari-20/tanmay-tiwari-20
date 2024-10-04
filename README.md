@@ -6,7 +6,7 @@
 
 - 🔭 I’m currently working on **Spools.**
 
-- 🌱 I’m currently learning **some new technologies**
+- 🌱 I’m currently learning **Three.js**
 
 - 👨‍💻 All of my projects are available at [thetanmay.xyz](https://www.thetanmay.xyz/)
 
