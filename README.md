@@ -10,7 +10,7 @@
 
 - 👨‍💻 All of my projects are available at [thetanmay.xyz](https://www.thetanmay.xyz/)
 
-- 💬 Ask me about **MERN Stack development**
+- 💬 Ask me about **MERN Stack Development**
 
 - 📫 How to reach me **tanmaytiwari200905@gmail.com**
 
