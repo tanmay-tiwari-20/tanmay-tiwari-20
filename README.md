@@ -2,7 +2,6 @@
 <h1 align="center">Hi 👋, I'm Tanmay Tiwari</h1>
 <h3 align="center">A passionate MERN Stack Developer from India</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=tanmay-tiwari-20&label=Profile%20views&color=0e75b6&style=flat" alt="tanmay-tiwari-20" /> </p>
 
 # 💫 About Me:
 🔭 I’m currently working on my personal projects.<br>👯 I’m looking to collaborate on any full-stack project.<br>🌱 I’m currently learning Next15.<br>💬 Ask me about Full Stack Development
@@ -25,6 +24,3 @@
 ![](https://github-contributor-stats.vercel.app/api?username=tanmay-tiwari-20&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=tanmay-tiwari-20&icon=0&color=3)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
