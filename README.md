@@ -4,7 +4,7 @@
 
 
 # 💫 About Me:
-🔭 I’m currently working on my personal projects.<br>👯 I’m looking to collaborate on any full-stack project.<br>💬 Ask me about Hackathons.<br>🤓 Check my Portfolio: [Tanmay Tiwari](https://takneekitanmay.vercel.app)
+🔭 I’m currently working on my personal projects.<br>👯 I’m looking to collaborate on any full-stack project.<br>💬 Ask me about Hackathons.<br>🤓 Check my Portfolio: [Tanmay Tiwari](https://takneekitanmay.vercel.app/)
 
 
 ## 🌐 Socials:
