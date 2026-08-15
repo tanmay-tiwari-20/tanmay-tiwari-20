@@ -1,6 +1,7 @@
 ![MasterHead](https://i.redd.it/n8agw6z2smyb1.gif)
 <h1 align="center">Hi 👋, I'm Tanmay Tiwari</h1>
 <h3 align="center">A passionate Full Stack Developer from India</h3>
+<img src="https://komarev.com/ghpvc/?username=tanmay-tiwari-20&label=Profile%20Views&color=0e75b6&style=flat" />
 
 
 # 💫 About Me:
