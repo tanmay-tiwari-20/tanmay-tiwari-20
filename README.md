@@ -8,7 +8,7 @@
 🔭 I’m currently working on my personal projects.<br>👯 I’m looking to collaborate on any full-stack project.<br>💬 Ask me about Hackathons.<br>🤓 Check my Portfolio: [Tanmay Tiwari](https://takneekitanmay.vercel.app/)
 
 
-## Socials:
+# Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/takneekitanmay) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/tanmay-tiwari20/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:workwithtakneekitanmay@gmail.com) 
 
 # Tech Stack:
