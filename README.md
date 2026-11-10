@@ -1,20 +1,77 @@
-![MasterHead](https://i.redd.it/n8agw6z2smyb1.gif)
-<h1 align="center">Hi 👋, I'm Tanmay Tiwari</h1>
-<h3 align="center">A passionate Full Stack Developer from India</h3>
-<img src="https://komarev.com/ghpvc/?username=tanmay-tiwari-20&label=Profile%20Views&color=0e75b6&style=flat" />
-
-
-# About Me:
-🔭 I’m currently working on my personal projects.<br>👯 I’m looking to collaborate on any full-stack project.<br>💬 Ask me about Hackathons.<br>🤓 Check my Portfolio: [Tanmay Tiwari](https://takneekitanmay.tech)
-
-
-# Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/takneekitanmay) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/tanmay-tiwari20/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:workwithtakneekitanmay@gmail.com) 
-
-# Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=flat&logo=graphql&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=flat&logo=powershell&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=flat&logo=windows-terminal&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=flat&logo=netlify&logoColor=#00C7B7) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=flat&logo=render&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white) ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=flat&logo=chakraui&logoColor=white) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=flat&logo=chart.js&logoColor=white) ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=flat&logo=react) ![EJS](https://img.shields.io/badge/ejs-%23B4CA65.svg?style=flat&logo=ejs&logoColor=black) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) ![Green Sock](https://img.shields.io/badge/green%20sock-88CE02?style=flat&logo=greensock&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=flat&logo=jquery&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=flat&logo=JSON%20web%20tokens) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=flat&logo=nodemon&logoColor=%BBDEAD) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Radix UI](https://img.shields.io/badge/radix%20ui-161618.svg?style=flat&logo=radix-ui&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=flat&logo=reacthookform&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=flat&logo=redux&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=flat&logo=socket.io&badgeColor=010101) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white) ![Three js](https://img.shields.io/badge/threejs-black?style=flat&logo=three.js&logoColor=white) ![WebGL](https://img.shields.io/badge/WebGL-990000?logo=webgl&logoColor=white&style=flat) ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=flat&logo=webpack&logoColor=black) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white) ![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=flat&logo=web3.js&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=flat&logo=WordPress&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=flat&logo=Prisma&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) ![Framer](https://img.shields.io/badge/Framer-black?style=flat&logo=framer&logoColor=blue) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=flat&logo=eslint&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=flat&logo=notion&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=flat&logo=firefox&logoColor=#FF7139) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white) ![Prettier](https://img.shields.io/badge/prettier-%23F7B93E.svg?style=flat&logo=prettier&logoColor=black)
-  
-# <b>My GitHub Stats</b>
-
 <div align="center">
-<a href="http://www.github.com/tanmay-tiwari-20"><img src="https://github-readme-streak-stats.herokuapp.com/?user=tanmay-tiwari-20&stroke=ffffff&background=0D1117&ring=FE586D&fire=FE586D&currStreakNum=ffffff&currStreakLabel=FE586D&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=false" /></a>
+
+<a href="https://takneekitanmay.tech">
+  <img src="./cards/hero.svg" width="100%" alt="Tanmay Tiwari — full-stack developer from India. Building web apps, real-time experiences, and ideas into products." />
+</a>
+
+<p>
+  <a href="https://takneekitanmay.tech">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/tanmay-tiwari20/">LinkedIn</a> ·
+  <a href="mailto:workwithtakneekitanmay@gmail.com">Email</a> ·
+  <a href="https://www.instagram.com/takneekitanmay/">Instagram</a>
+</p>
+
+<p>
+  <img src="./cards/heatmap.svg" width="100%" alt="My contribution calendar for the last 365 days, refreshed daily from GitHub. The card shows a pending state until its first successful refresh." />
+</p>
+
+<p>
+  <img src="./cards/activity.svg" width="100%" alt="Monthly contributions and activity: current streak, longest streak, active days, and busiest day. The first and last calendar months may be partial." />
+</p>
+
+<p>
+  <a href="https://github.com/tanmay-tiwari-20?tab=repositories"><img src="./cards/build.svg" width="32.5%" alt="Build — explore my projects and code on GitHub." /></a>
+  <a href="https://takneekitanmay.tech"><img src="./cards/create.svg" width="32.5%" alt="Create — visit my portfolio of web experiences." /></a>
+  <a href="mailto:workwithtakneekitanmay@gmail.com"><img src="./cards/connect.svg" width="32.5%" alt="Connect — get in touch about full-stack projects and hackathons." /></a>
+</p>
+
+<h3>Selected projects</h3>
+
+<p>
+  <a href="https://github.com/tanmay-tiwari-20/Unoverse"><img src="./cards/project-unoverse.svg" width="49%" alt="Unoverse — 3D multiplayer UNO with custom rules, bots, and voice chat. Next.js, TypeScript, React Three Fiber, and Socket.IO." /></a>
+  <a href="https://github.com/tanmay-tiwari-20/Spools"><img src="./cards/project-spools.svg" width="49%" alt="Spools — communities, collaborative stories, and real-time messaging. React, Node.js, Express, and MongoDB." /></a>
+</p>
+
+<p>
+  <a href="https://github.com/tanmay-tiwari-20/Baithak"><img src="./cards/project-baithak.svg" width="49%" alt="Baithak — video meetings with scheduling, personal rooms, and host-controlled access. Next.js, TypeScript, Clerk, and Stream." /></a>
+  <a href="https://github.com/tanmay-tiwari-20/Resumify"><img src="./cards/project-resumify.svg" width="49%" alt="Resumify — AI-powered resume reviews, ATS scoring, and personalized feedback. React, TypeScript, Tailwind CSS, and Puter." /></a>
+</p>
+
+<p>
+  <img src="./cards/stack.svg" width="100%" alt="My toolkit: React, Next.js, TypeScript, Node.js, Express, MongoDB, Socket.IO, Three.js, and creative web tools." />
+</p>
+
+<a href="mailto:workwithtakneekitanmay@gmail.com">
+  <img src="./cards/footer.svg" width="100%" alt="Have something in mind? Let's build it. Email workwithtakneekitanmay@gmail.com." />
+</a>
+
+</div>
+
+<details>
+<summary>About me, projects, and links in plain text</summary>
+
+I'm **Tanmay Tiwari**, a full-stack developer from India. I build web applications, interactive 3D experiences, and products that bring people together. I'm currently working on personal projects and open to full-stack collaborations. Ask me about hackathons.
+
+### Projects
+
+- [Unoverse](https://github.com/tanmay-tiwari-20/Unoverse): a 3D multiplayer UNO experience with custom rules, bots, and voice chat. Built with Next.js, TypeScript, React Three Fiber, and Socket.IO.
+- [Spools](https://github.com/tanmay-tiwari-20/Spools): a social platform with interest-based communities, collaborative stories, and real-time messaging. Built with React, Node.js, Express, and MongoDB.
+- [Baithak](https://github.com/tanmay-tiwari-20/Baithak): video meetings with scheduling, personal rooms, and host-controlled access. Built with Next.js, TypeScript, Clerk, and Stream.
+- [Resumify](https://github.com/tanmay-tiwari-20/Resumify): AI-powered resume reviews with ATS scoring and personalized feedback. Built with React, TypeScript, Tailwind CSS, and Puter.
+
+### Toolkit
+
+- **Frontend:** React, Next.js, TypeScript, JavaScript, Tailwind CSS.
+- **Backend:** Node.js, Express, MongoDB, Redis, Socket.IO.
+- **Creative web:** Three.js, React Three Fiber, GSAP, Framer Motion.
+- **Tools:** Git, GitHub, Vercel, Vite, Figma.
+
+### Find me
+
+[Portfolio](https://takneekitanmay.tech) · [GitHub](https://github.com/tanmay-tiwari-20) · [LinkedIn](https://www.linkedin.com/in/tanmay-tiwari20/) · [Instagram](https://www.instagram.com/takneekitanmay/) · [Email](mailto:workwithtakneekitanmay@gmail.com)
+
+The activity cards use my public GitHub contribution calendar. [How the cards are maintained](./docs/PROFILE.md).
+
+Design inspired by [Avi Vashishta's animated SVG README cards](https://www.avivashishta.com/blog/github-profile-readme-animated-svg-cards).
+
+</details>
