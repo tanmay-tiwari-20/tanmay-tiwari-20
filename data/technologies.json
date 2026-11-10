@@ -1,0 +1,2737 @@
+{
+  "username": "tanmay-tiwari-20",
+  "as_of": "2026-11-10",
+  "scope": "Current default branches of public non-fork repositories, excluding the profile repository. Explicit package dependencies, devDependencies, optionalDependencies and peerDependencies; plus script/stylesheet CDN references in root or one-level HTML only where no package/Python manifest exists.",
+  "percentage_basis": "Repository coverage: repositories with each technology / all eligible repositories. Each technology counts once per repository. Categories overlap; percentages do not sum to 100. These are declared dependencies and references, not proficiency, runtime adoption, code bytes or complete historical usage.",
+  "repository_count": 46,
+  "scanned_repositories": 46,
+  "manifest_repositories": 34,
+  "manifest_count": 38,
+  "cdn_scanned_repositories": 11,
+  "repositories_scanned": [
+    "3d-Cube",
+    "3D-Robo",
+    "4th-Dimension",
+    "Apple-iPhone15",
+    "Baithak",
+    "book-store-website",
+    "card",
+    "Cinefy",
+    "Code-Vault",
+    "devndez",
+    "Edusavvy",
+    "GSAP",
+    "HackShastra1",
+    "HackShastra2.0",
+    "HRMS",
+    "InstaClone",
+    "IPL-Captaincy-Analysis",
+    "IPL-Score-Predictor",
+    "Neumorphic-Calculator",
+    "obys-agency",
+    "ochi-clone",
+    "OTP-Generator",
+    "Password-Generator",
+    "Pen-Brawl",
+    "Pinterest",
+    "PitchDeck",
+    "Portfolio",
+    "Portfolio-2.0",
+    "premier",
+    "react-api-project",
+    "Refokus",
+    "Resumify",
+    "Routing",
+    "Sabu",
+    "Samyoj",
+    "shirt-showcaser",
+    "songs",
+    "Spools",
+    "Squid-Game",
+    "Strot",
+    "tailwind",
+    "todo-list",
+    "Unoverse",
+    "Wastify",
+    "Zentry",
+    "Zenzone"
+  ],
+  "repositories_with_manifests": [
+    "4th-Dimension",
+    "Apple-iPhone15",
+    "Baithak",
+    "book-store-website",
+    "card",
+    "Cinefy",
+    "Code-Vault",
+    "devndez",
+    "Edusavvy",
+    "HackShastra1",
+    "HackShastra2.0",
+    "HRMS",
+    "InstaClone",
+    "IPL-Score-Predictor",
+    "ochi-clone",
+    "Pen-Brawl",
+    "Pinterest",
+    "PitchDeck",
+    "Portfolio",
+    "Portfolio-2.0",
+    "react-api-project",
+    "Refokus",
+    "Resumify",
+    "Routing",
+    "Sabu",
+    "Samyoj",
+    "shirt-showcaser",
+    "songs",
+    "Spools",
+    "Strot",
+    "todo-list",
+    "Unoverse",
+    "Wastify",
+    "Zentry"
+  ],
+  "technology_count": 159,
+  "package_identifier_count": 229,
+  "technologies": [
+    {
+      "name": "Tailwind CSS",
+      "category": "Styling",
+      "package_names": [
+        "@tailwindcss/postcss",
+        "@tailwindcss/typography",
+        "@tailwindcss/vite",
+        "tailwindcss"
+      ],
+      "repositories": [
+        "Apple-iPhone15",
+        "Baithak",
+        "book-store-website",
+        "card",
+        "Cinefy",
+        "Code-Vault",
+        "devndez",
+        "Edusavvy",
+        "HackShastra1",
+        "HackShastra2.0",
+        "IPL-Score-Predictor",
+        "ochi-clone",
+        "OTP-Generator",
+        "Password-Generator",
+        "Pen-Brawl",
+        "PitchDeck",
+        "Portfolio",
+        "Portfolio-2.0",
+        "react-api-project",
+        "Refokus",
+        "Resumify",
+        "Routing",
+        "Samyoj",
+        "shirt-showcaser",
+        "songs",
+        "Spools",
+        "Strot",
+        "tailwind",
+        "todo-list",
+        "Unoverse",
+        "Wastify",
+        "Zentry"
+      ],
+      "count": 32,
+      "percent": 69.57
+    },
+    {
+      "name": "React",
+      "category": "UI framework",
+      "package_names": [
+        "react",
+        "react-dom"
+      ],
+      "repositories": [
+        "4th-Dimension",
+        "Apple-iPhone15",
+        "Baithak",
+        "book-store-website",
+        "card",
+        "Cinefy",
+        "Code-Vault",
+        "devndez",
+        "Edusavvy",
+        "HackShastra1",
+        "HackShastra2.0",
+        "HRMS",
+        "IPL-Score-Predictor",
+        "ochi-clone",
+        "Pen-Brawl",
+        "PitchDeck",
+        "Portfolio",
+        "Portfolio-2.0",
+        "react-api-project",
+        "Refokus",
+        "Resumify",
+        "Routing",
+        "Samyoj",
+        "shirt-showcaser",
+        "songs",
+        "Spools",
+        "Strot",
+        "todo-list",
+        "Unoverse",
+        "Wastify",
+        "Zentry"
+      ],
+      "count": 31,
+      "percent": 67.39
+    },
+    {
+      "name": "TypeScript type definitions",
+      "category": "Type definitions",
+      "package_names": [
+        "@types/bcryptjs",
+        "@types/canvas-confetti",
+        "@types/chai",
+        "@types/compression",
+        "@types/cors",
+        "@types/express",
+        "@types/jsonwebtoken",
+        "@types/leaflet",
+        "@types/markdown-it",
+        "@types/mocha",
+        "@types/node",
+        "@types/react",
+        "@types/react-dom",
+        "@types/three"
+      ],
+      "repositories": [
+        "4th-Dimension",
+        "Apple-iPhone15",
+        "Baithak",
+        "book-store-website",
+        "card",
+        "Cinefy",
+        "devndez",
+        "Edusavvy",
+        "HackShastra1",
+        "HackShastra2.0",
+        "IPL-Score-Predictor",
+        "ochi-clone",
+        "Pen-Brawl",
+        "PitchDeck",
+        "Portfolio",
+        "Portfolio-2.0",
+        "react-api-project",
+        "Refokus",
+        "Resumify",
+        "Routing",
+        "Samyoj",
+        "shirt-showcaser",
+        "songs",
+        "Spools",
+        "Strot",
+        "Unoverse",
+        "Wastify",
+        "Zentry"
+      ],
+      "count": 28,
+      "percent": 60.87
+    },
+    {
+      "name": "ESLint",
+      "category": "Development tooling",
+      "package_names": [
+        "@eslint/eslintrc",
+        "@eslint/js",
+        "eslint",
+        "eslint-config-next",
+        "eslint-plugin-react",
+        "eslint-plugin-react-hooks",
+        "eslint-plugin-react-refresh"
+      ],
+      "repositories": [
+        "Apple-iPhone15",
+        "Baithak",
+        "book-store-website",
+        "card",
+        "Cinefy",
+        "Code-Vault",
+        "devndez",
+        "Edusavvy",
+        "HackShastra1",
+        "HackShastra2.0",
+        "IPL-Score-Predictor",
+        "ochi-clone",
+        "Pen-Brawl",
+        "PitchDeck",
+        "Portfolio",
+        "Portfolio-2.0",
+        "react-api-project",
+        "Refokus",
+        "Routing",
+        "Samyoj",
+        "shirt-showcaser",
+        "songs",
+        "Spools",
+        "Strot",
+        "Unoverse",
+        "Zentry"
+      ],
+      "count": 26,
+      "percent": 56.52
+    },
+    {
+      "name": "PostCSS",
+      "category": "Build tooling",
+      "package_names": [
+        "postcss"
+      ],
+      "repositories": [
+        "Apple-iPhone15",
+        "Baithak",
+        "book-store-website",
+        "card",
+        "Cinefy",
+        "Edusavvy",
+        "HackShastra1",
+        "ochi-clone",
+        "Pen-Brawl",
+        "PitchDeck",
+        "Portfolio",
+        "react-api-project",
+        "Refokus",
+        "Routing",
+        "shirt-showcaser",
+        "songs",
+        "Spools",
+        "todo-list",
+        "Wastify",
+        "Zentry"
+      ],
+      "count": 20,
+      "percent": 43.48
+    },
+    {
+      "name": "Vite",
+      "category": "Build tooling",
+      "package_names": [
+        "@vitejs/plugin-react",
+        "vite",
+        "vite-plugin-pwa",
+        "vite-tsconfig-paths"
+      ],
+      "repositories": [
+        "Apple-iPhone15",
+        "book-store-website",
+        "card",
+        "Cinefy",
+        "Edusavvy",
+        "HackShastra1",
+        "IPL-Score-Predictor",
+        "ochi-clone",
+        "Portfolio",
+        "react-api-project",
+        "Refokus",
+        "Resumify",
+        "Routing",
+        "shirt-showcaser",
+        "songs",
+        "Spools",
+        "Zentry"
+      ],
+      "count": 17,
+      "percent": 36.96
+    },
+    {
+      "name": "Autoprefixer",
+      "category": "Build tooling",
+      "package_names": [
+        "autoprefixer"
+      ],
+      "repositories": [
+        "Apple-iPhone15",
+        "book-store-website",
+        "card",
+        "Cinefy",
+        "Edusavvy",
+        "HackShastra1",
+        "ochi-clone",
+        "Pen-Brawl",
+        "Portfolio",
+        "react-api-project",
+        "Refokus",
+        "Routing",
+        "shirt-showcaser",
+        "songs",
+        "Spools",
+        "Zentry"
+      ],
+      "count": 16,
+      "percent": 34.78
+    },
+    {
+      "name": "Motion / Framer Motion",
+      "category": "Animation",
+      "package_names": [
+        "framer-motion",
+        "motion"
+      ],
+      "repositories": [
+        "card",
+        "Code-Vault",
+        "devndez",
+        "HackShastra1",
+        "HackShastra2.0",
+        "ochi-clone",
+        "Portfolio-2.0",
+        "Refokus",
+        "Resumify",
+        "shirt-showcaser",
+        "Spools",
+        "Strot",
+        "Unoverse",
+        "Wastify"
+      ],
+      "count": 14,
+      "percent": 30.43
+    },
+    {
+      "name": "Next.js",
+      "category": "Web framework",
+      "package_names": [
+        "next"
+      ],
+      "repositories": [
+        "4th-Dimension",
+        "Baithak",
+        "Code-Vault",
+        "devndez",
+        "HackShastra2.0",
+        "Pen-Brawl",
+        "PitchDeck",
+        "Portfolio-2.0",
+        "Samyoj",
+        "Strot",
+        "todo-list",
+        "Unoverse",
+        "Wastify"
+      ],
+      "count": 13,
+      "percent": 28.26
+    },
+    {
+      "name": "Lucide React",
+      "category": "Icons",
+      "package_names": [
+        "lucide-react"
+      ],
+      "repositories": [
+        "Baithak",
+        "Code-Vault",
+        "devndez",
+        "HackShastra2.0",
+        "IPL-Score-Predictor",
+        "Pen-Brawl",
+        "PitchDeck",
+        "Portfolio-2.0",
+        "Samyoj",
+        "Strot",
+        "Unoverse",
+        "Wastify"
+      ],
+      "count": 12,
+      "percent": 26.09
+    },
+    {
+      "name": "React Icons",
+      "category": "Icons",
+      "package_names": [
+        "react-icons"
+      ],
+      "repositories": [
+        "book-store-website",
+        "card",
+        "Edusavvy",
+        "HackShastra1",
+        "HackShastra2.0",
+        "HRMS",
+        "ochi-clone",
+        "Portfolio-2.0",
+        "Refokus",
+        "songs",
+        "Spools",
+        "Zentry"
+      ],
+      "count": 12,
+      "percent": 26.09
+    },
+    {
+      "name": "TypeScript",
+      "category": "Language tooling",
+      "package_names": [
+        "typescript"
+      ],
+      "repositories": [
+        "4th-Dimension",
+        "Baithak",
+        "devndez",
+        "HackShastra2.0",
+        "Pen-Brawl",
+        "PitchDeck",
+        "Portfolio-2.0",
+        "Resumify",
+        "Samyoj",
+        "Strot",
+        "Unoverse",
+        "Wastify"
+      ],
+      "count": 12,
+      "percent": 26.09
+    },
+    {
+      "name": "GSAP",
+      "category": "Animation",
+      "package_names": [
+        "@gsap/react",
+        "gsap"
+      ],
+      "repositories": [
+        "Apple-iPhone15",
+        "GSAP",
+        "HackShastra1",
+        "HackShastra2.0",
+        "obys-agency",
+        "ochi-clone",
+        "Password-Generator",
+        "Portfolio-2.0",
+        "Resumify",
+        "Squid-Game",
+        "Zentry"
+      ],
+      "count": 11,
+      "percent": 23.91
+    },
+    {
+      "name": "React Router",
+      "category": "Routing",
+      "package_names": [
+        "@react-router/dev",
+        "@react-router/node",
+        "@react-router/serve",
+        "react-router",
+        "react-router-dom"
+      ],
+      "repositories": [
+        "book-store-website",
+        "Cinefy",
+        "Edusavvy",
+        "HRMS",
+        "Portfolio",
+        "react-api-project",
+        "Resumify",
+        "Routing",
+        "Spools"
+      ],
+      "count": 9,
+      "percent": 19.57
+    },
+    {
+      "name": "clsx",
+      "category": "Styling utility",
+      "package_names": [
+        "clsx"
+      ],
+      "repositories": [
+        "Baithak",
+        "devndez",
+        "HackShastra2.0",
+        "Pen-Brawl",
+        "PitchDeck",
+        "Resumify",
+        "Samyoj",
+        "Wastify"
+      ],
+      "count": 8,
+      "percent": 17.39
+    },
+    {
+      "name": "Tailwind Merge",
+      "category": "Styling",
+      "package_names": [
+        "tailwind-merge"
+      ],
+      "repositories": [
+        "Baithak",
+        "devndez",
+        "HackShastra2.0",
+        "Pen-Brawl",
+        "PitchDeck",
+        "Resumify",
+        "Samyoj",
+        "Wastify"
+      ],
+      "count": 8,
+      "percent": 17.39
+    },
+    {
+      "name": "Three.js",
+      "category": "3D graphics",
+      "package_names": [
+        "three"
+      ],
+      "repositories": [
+        "3d-Cube",
+        "3D-Robo",
+        "4th-Dimension",
+        "obys-agency",
+        "Pen-Brawl",
+        "Portfolio-2.0",
+        "shirt-showcaser",
+        "Unoverse"
+      ],
+      "count": 8,
+      "percent": 17.39
+    },
+    {
+      "name": "Express",
+      "category": "Backend framework",
+      "package_names": [
+        "express"
+      ],
+      "repositories": [
+        "book-store-website",
+        "HRMS",
+        "InstaClone",
+        "Pinterest",
+        "Sabu",
+        "Spools",
+        "Unoverse"
+      ],
+      "count": 7,
+      "percent": 15.22
+    },
+    {
+      "name": "globals",
+      "category": "Library",
+      "package_names": [
+        "globals"
+      ],
+      "repositories": [
+        "book-store-website",
+        "Edusavvy",
+        "HackShastra1",
+        "IPL-Score-Predictor",
+        "shirt-showcaser",
+        "Spools",
+        "Zentry"
+      ],
+      "count": 7,
+      "percent": 15.22
+    },
+    {
+      "name": "Drei",
+      "category": "3D graphics",
+      "package_names": [
+        "@react-three/drei"
+      ],
+      "repositories": [
+        "4th-Dimension",
+        "Apple-iPhone15",
+        "Pen-Brawl",
+        "Portfolio",
+        "shirt-showcaser",
+        "Unoverse"
+      ],
+      "count": 6,
+      "percent": 13.04
+    },
+    {
+      "name": "Mongoose",
+      "category": "Database",
+      "package_names": [
+        "mongoose"
+      ],
+      "repositories": [
+        "book-store-website",
+        "HRMS",
+        "InstaClone",
+        "Pinterest",
+        "Spools",
+        "Strot"
+      ],
+      "count": 6,
+      "percent": 13.04
+    },
+    {
+      "name": "React Three Fiber",
+      "category": "3D graphics",
+      "package_names": [
+        "@react-three/fiber"
+      ],
+      "repositories": [
+        "4th-Dimension",
+        "Apple-iPhone15",
+        "Pen-Brawl",
+        "Portfolio",
+        "shirt-showcaser",
+        "Unoverse"
+      ],
+      "count": 6,
+      "percent": 13.04
+    },
+    {
+      "name": "Class Variance Authority",
+      "category": "Styling utility",
+      "package_names": [
+        "class-variance-authority"
+      ],
+      "repositories": [
+        "Baithak",
+        "HackShastra2.0",
+        "PitchDeck",
+        "Samyoj",
+        "Wastify"
+      ],
+      "count": 5,
+      "percent": 10.87
+    },
+    {
+      "name": "JSON Web Token",
+      "category": "Authentication",
+      "package_names": [
+        "jsonwebtoken"
+      ],
+      "repositories": [
+        "book-store-website",
+        "HRMS",
+        "Spools",
+        "Strot",
+        "Unoverse"
+      ],
+      "count": 5,
+      "percent": 10.87
+    },
+    {
+      "name": "multer",
+      "category": "Library",
+      "package_names": [
+        "multer"
+      ],
+      "repositories": [
+        "book-store-website",
+        "HRMS",
+        "InstaClone",
+        "Pinterest",
+        "Spools"
+      ],
+      "count": 5,
+      "percent": 10.87
+    },
+    {
+      "name": "Axios",
+      "category": "HTTP client",
+      "package_names": [
+        "axios"
+      ],
+      "repositories": [
+        "book-store-website",
+        "Cinefy",
+        "HRMS",
+        "react-api-project"
+      ],
+      "count": 4,
+      "percent": 8.7
+    },
+    {
+      "name": "bcryptjs",
+      "category": "Authentication",
+      "package_names": [
+        "bcryptjs"
+      ],
+      "repositories": [
+        "book-store-website",
+        "HRMS",
+        "Spools",
+        "Strot"
+      ],
+      "count": 4,
+      "percent": 8.7
+    },
+    {
+      "name": "cookie-parser",
+      "category": "Library",
+      "package_names": [
+        "cookie-parser"
+      ],
+      "repositories": [
+        "HRMS",
+        "InstaClone",
+        "Pinterest",
+        "Spools"
+      ],
+      "count": 4,
+      "percent": 8.7
+    },
+    {
+      "name": "dotenv",
+      "category": "Library",
+      "package_names": [
+        "dotenv"
+      ],
+      "repositories": [
+        "book-store-website",
+        "HRMS",
+        "Pinterest",
+        "Spools"
+      ],
+      "count": 4,
+      "percent": 8.7
+    },
+    {
+      "name": "Google Fonts",
+      "category": "Typography",
+      "package_names": [
+        "cdn:google-fonts"
+      ],
+      "repositories": [
+        "Neumorphic-Calculator",
+        "premier",
+        "Squid-Game",
+        "Zenzone"
+      ],
+      "count": 4,
+      "percent": 8.7
+    },
+    {
+      "name": "Radix UI",
+      "category": "UI primitives",
+      "package_names": [
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-label",
+        "@radix-ui/react-select",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-switch",
+        "@radix-ui/react-toast",
+        "@radix-ui/react-visually-hidden"
+      ],
+      "repositories": [
+        "Baithak",
+        "PitchDeck",
+        "Samyoj",
+        "Wastify"
+      ],
+      "count": 4,
+      "percent": 8.7
+    },
+    {
+      "name": "React Hook Form",
+      "category": "Forms",
+      "package_names": [
+        "react-hook-form"
+      ],
+      "repositories": [
+        "book-store-website",
+        "Portfolio-2.0",
+        "Samyoj",
+        "songs"
+      ],
+      "count": 4,
+      "percent": 8.7
+    },
+    {
+      "name": "Remix Icon",
+      "category": "Icons",
+      "package_names": [
+        "remixicon"
+      ],
+      "repositories": [
+        "obys-agency",
+        "premier",
+        "tailwind",
+        "Zenzone"
+      ],
+      "count": 4,
+      "percent": 8.7
+    },
+    {
+      "name": "Tailwind CSS Animate",
+      "category": "Animation",
+      "package_names": [
+        "tailwindcss-animate"
+      ],
+      "repositories": [
+        "Baithak",
+        "PitchDeck",
+        "Samyoj",
+        "Wastify"
+      ],
+      "count": 4,
+      "percent": 8.7
+    },
+    {
+      "name": "Cloudinary",
+      "category": "Media service",
+      "package_names": [
+        "cloudinary"
+      ],
+      "repositories": [
+        "book-store-website",
+        "Portfolio-2.0",
+        "Spools"
+      ],
+      "count": 3,
+      "percent": 6.52
+    },
+    {
+      "name": "cors",
+      "category": "Library",
+      "package_names": [
+        "cors"
+      ],
+      "repositories": [
+        "book-store-website",
+        "HRMS",
+        "Unoverse"
+      ],
+      "count": 3,
+      "percent": 6.52
+    },
+    {
+      "name": "Locomotive Scroll",
+      "category": "Animation",
+      "package_names": [
+        "locomotive-scroll"
+      ],
+      "repositories": [
+        "obys-agency",
+        "ochi-clone",
+        "Refokus"
+      ],
+      "count": 3,
+      "percent": 6.52
+    },
+    {
+      "name": "MongoDB driver",
+      "category": "Database",
+      "package_names": [
+        "mongodb"
+      ],
+      "repositories": [
+        "HackShastra2.0",
+        "Pinterest",
+        "Portfolio-2.0"
+      ],
+      "count": 3,
+      "percent": 6.52
+    },
+    {
+      "name": "Nodemon",
+      "category": "Development tooling",
+      "package_names": [
+        "nodemon"
+      ],
+      "repositories": [
+        "book-store-website",
+        "HRMS",
+        "Spools"
+      ],
+      "count": 3,
+      "percent": 6.52
+    },
+    {
+      "name": "Socket.IO",
+      "category": "Realtime",
+      "package_names": [
+        "@socket.io/redis-adapter",
+        "socket.io",
+        "socket.io-client"
+      ],
+      "repositories": [
+        "Pen-Brawl",
+        "Spools",
+        "Unoverse"
+      ],
+      "count": 3,
+      "percent": 6.52
+    },
+    {
+      "name": "TW Animate CSS",
+      "category": "Animation",
+      "package_names": [
+        "tw-animate-css"
+      ],
+      "repositories": [
+        "HackShastra2.0",
+        "Resumify",
+        "Samyoj"
+      ],
+      "count": 3,
+      "percent": 6.52
+    },
+    {
+      "name": "Vercel Analytics",
+      "category": "Analytics",
+      "package_names": [
+        "@vercel/analytics"
+      ],
+      "repositories": [
+        "HackShastra2.0",
+        "Portfolio-2.0",
+        "Unoverse"
+      ],
+      "count": 3,
+      "percent": 6.52
+    },
+    {
+      "name": "Zod",
+      "category": "Validation",
+      "package_names": [
+        "zod"
+      ],
+      "repositories": [
+        "Portfolio-2.0",
+        "Samyoj",
+        "Unoverse"
+      ],
+      "count": 3,
+      "percent": 6.52
+    },
+    {
+      "name": "bcrypt",
+      "category": "Authentication",
+      "package_names": [
+        "bcrypt"
+      ],
+      "repositories": [
+        "book-store-website",
+        "HRMS"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "Clerk",
+      "category": "Authentication",
+      "package_names": [
+        "@clerk/nextjs"
+      ],
+      "repositories": [
+        "Baithak",
+        "Wastify"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "debug",
+      "category": "Library",
+      "package_names": [
+        "debug"
+      ],
+      "repositories": [
+        "InstaClone",
+        "Pinterest"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "EJS",
+      "category": "Templating",
+      "package_names": [
+        "ejs"
+      ],
+      "repositories": [
+        "InstaClone",
+        "Pinterest"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "express-session",
+      "category": "Library",
+      "package_names": [
+        "express-session"
+      ],
+      "repositories": [
+        "InstaClone",
+        "Pinterest"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "Font Awesome",
+      "category": "Icons",
+      "package_names": [
+        "font-awesome"
+      ],
+      "repositories": [
+        "Password-Generator",
+        "Zenzone"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "helmet",
+      "category": "Library",
+      "package_names": [
+        "helmet"
+      ],
+      "repositories": [
+        "book-store-website",
+        "Spools"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "Hook Form resolvers",
+      "category": "Forms",
+      "package_names": [
+        "@hookform/resolvers"
+      ],
+      "repositories": [
+        "Portfolio-2.0",
+        "Samyoj"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "http-errors",
+      "category": "Library",
+      "package_names": [
+        "http-errors"
+      ],
+      "repositories": [
+        "InstaClone",
+        "Pinterest"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "jQuery",
+      "category": "UI library",
+      "package_names": [
+        "jquery"
+      ],
+      "repositories": [
+        "HRMS",
+        "obys-agency"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "Lenis",
+      "category": "Animation",
+      "package_names": [
+        "lenis"
+      ],
+      "repositories": [
+        "HackShastra2.0",
+        "Portfolio-2.0"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "morgan",
+      "category": "Library",
+      "package_names": [
+        "morgan"
+      ],
+      "repositories": [
+        "InstaClone",
+        "Pinterest"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "next-themes",
+      "category": "Library",
+      "package_names": [
+        "next-themes"
+      ],
+      "repositories": [
+        "HackShastra2.0",
+        "Samyoj"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "Nodemailer",
+      "category": "Email",
+      "package_names": [
+        "nodemailer"
+      ],
+      "repositories": [
+        "book-store-website",
+        "HRMS"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "ogl",
+      "category": "Library",
+      "package_names": [
+        "ogl"
+      ],
+      "repositories": [
+        "Portfolio-2.0",
+        "Resumify"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "Passport",
+      "category": "Authentication",
+      "package_names": [
+        "passport",
+        "passport-local",
+        "passport-local-mongoose"
+      ],
+      "repositories": [
+        "InstaClone",
+        "Pinterest"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "React Chart.js",
+      "category": "Charts",
+      "package_names": [
+        "react-chartjs-2"
+      ],
+      "repositories": [
+        "book-store-website",
+        "HRMS"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "react-datepicker",
+      "category": "Library",
+      "package_names": [
+        "react-datepicker"
+      ],
+      "repositories": [
+        "Baithak",
+        "HRMS"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "react-toastify",
+      "category": "Library",
+      "package_names": [
+        "react-toastify"
+      ],
+      "repositories": [
+        "book-store-website",
+        "HRMS"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "Recharts",
+      "category": "Charts",
+      "package_names": [
+        "recharts"
+      ],
+      "repositories": [
+        "Code-Vault",
+        "IPL-Score-Predictor"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "Redux",
+      "category": "State management",
+      "package_names": [
+        "@reduxjs/toolkit",
+        "react-redux"
+      ],
+      "repositories": [
+        "Cinefy",
+        "HRMS"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "tsx",
+      "category": "Language tooling",
+      "package_names": [
+        "tsx"
+      ],
+      "repositories": [
+        "Pen-Brawl",
+        "Portfolio-2.0"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "uuid",
+      "category": "Library",
+      "package_names": [
+        "uuid"
+      ],
+      "repositories": [
+        "InstaClone",
+        "Pinterest"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "Zustand",
+      "category": "State management",
+      "package_names": [
+        "zustand"
+      ],
+      "repositories": [
+        "Resumify",
+        "Unoverse"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "@popperjs/core",
+      "category": "Library",
+      "package_names": [
+        "@popperjs/core"
+      ],
+      "repositories": [
+        "HRMS"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "@use-gesture/react",
+      "category": "Library",
+      "package_names": [
+        "@use-gesture/react"
+      ],
+      "repositories": [
+        "HackShastra2.0"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Animate.css",
+      "category": "Animation",
+      "package_names": [
+        "animate.css"
+      ],
+      "repositories": [
+        "obys-agency"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Anime.js",
+      "category": "Animation",
+      "package_names": [
+        "animejs"
+      ],
+      "repositories": [
+        "Portfolio-2.0"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "baseline-browser-mapping",
+      "category": "Library",
+      "package_names": [
+        "baseline-browser-mapping"
+      ],
+      "repositories": [
+        "HackShastra2.0"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "body-parser",
+      "category": "Library",
+      "package_names": [
+        "body-parser"
+      ],
+      "repositories": [
+        "book-store-website"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Bootstrap",
+      "category": "UI framework",
+      "package_names": [
+        "bootstrap"
+      ],
+      "repositories": [
+        "HRMS"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "canvas-confetti",
+      "category": "Library",
+      "package_names": [
+        "canvas-confetti"
+      ],
+      "repositories": [
+        "Pen-Brawl"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Chainlink Contracts",
+      "category": "Web3",
+      "package_names": [
+        "@chainlink/contracts"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Chakra UI",
+      "category": "UI framework",
+      "package_names": [
+        "@chakra-ui/icons",
+        "@chakra-ui/react"
+      ],
+      "repositories": [
+        "Spools"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Chart.js",
+      "category": "Charts",
+      "package_names": [
+        "chart.js"
+      ],
+      "repositories": [
+        "HRMS"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "classnames",
+      "category": "Styling utility",
+      "package_names": [
+        "classnames"
+      ],
+      "repositories": [
+        "Refokus"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "cobe",
+      "category": "Library",
+      "package_names": [
+        "cobe"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "compression",
+      "category": "Library",
+      "package_names": [
+        "compression"
+      ],
+      "repositories": [
+        "Unoverse"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "concurrently",
+      "category": "Library",
+      "package_names": [
+        "concurrently"
+      ],
+      "repositories": [
+        "Pen-Brawl"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "connect-flash",
+      "category": "Library",
+      "package_names": [
+        "connect-flash"
+      ],
+      "repositories": [
+        "Pinterest"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "connect-mongo",
+      "category": "Library",
+      "package_names": [
+        "connect-mongo"
+      ],
+      "repositories": [
+        "Pinterest"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "ControlKit",
+      "category": "UI controls",
+      "package_names": [
+        "cdn:controlkit.js"
+      ],
+      "repositories": [
+        "obys-agency"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Create React App",
+      "category": "Build tooling",
+      "package_names": [
+        "react-scripts"
+      ],
+      "repositories": [
+        "HRMS"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "cron",
+      "category": "Library",
+      "package_names": [
+        "cron"
+      ],
+      "repositories": [
+        "Spools"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "cross-env",
+      "category": "Library",
+      "package_names": [
+        "cross-env"
+      ],
+      "repositories": [
+        "Spools"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "date-fns",
+      "category": "Library",
+      "package_names": [
+        "date-fns"
+      ],
+      "repositories": [
+        "Spools"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "dayjs",
+      "category": "Library",
+      "package_names": [
+        "dayjs"
+      ],
+      "repositories": [
+        "Samyoj"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Drizzle",
+      "category": "Database",
+      "package_names": [
+        "drizzle-kit",
+        "drizzle-orm"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "EmailJS",
+      "category": "Email",
+      "package_names": [
+        "@emailjs/browser"
+      ],
+      "repositories": [
+        "Portfolio"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Emotion",
+      "category": "Styling",
+      "package_names": [
+        "@emotion/react",
+        "@emotion/styled"
+      ],
+      "repositories": [
+        "Spools"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "ethers.js",
+      "category": "Web3",
+      "package_names": [
+        "ethers"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "express-fileupload",
+      "category": "Library",
+      "package_names": [
+        "express-fileupload"
+      ],
+      "repositories": [
+        "Spools"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "express-rate-limit",
+      "category": "Library",
+      "package_names": [
+        "express-rate-limit"
+      ],
+      "repositories": [
+        "book-store-website"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "express-validator",
+      "category": "Library",
+      "package_names": [
+        "express-validator"
+      ],
+      "repositories": [
+        "book-store-website"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Google Generative AI SDK",
+      "category": "AI",
+      "package_names": [
+        "@google/generative-ai"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Hardhat",
+      "category": "Web3 tooling",
+      "package_names": [
+        "@nomicfoundation/hardhat-chai-matchers",
+        "@nomicfoundation/hardhat-ethers",
+        "@nomicfoundation/hardhat-ignition",
+        "@nomicfoundation/hardhat-ignition-ethers",
+        "@nomicfoundation/hardhat-network-helpers",
+        "@nomicfoundation/hardhat-toolbox",
+        "@nomicfoundation/hardhat-verify",
+        "@nomicfoundation/ignition-core",
+        "hardhat",
+        "hardhat-gas-reporter"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "ioredis",
+      "category": "Database",
+      "package_names": [
+        "ioredis"
+      ],
+      "repositories": [
+        "Unoverse"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "isbot",
+      "category": "Library",
+      "package_names": [
+        "isbot"
+      ],
+      "repositories": [
+        "Resumify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "JOSE",
+      "category": "Authentication",
+      "package_names": [
+        "jose"
+      ],
+      "repositories": [
+        "Portfolio-2.0"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "LayerZero",
+      "category": "Web3",
+      "package_names": [
+        "@layerzerolabs/lz-evm-oapp-v2"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Leaflet",
+      "category": "Maps",
+      "package_names": [
+        "leaflet"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Lettering.js",
+      "category": "Typography",
+      "package_names": [
+        "cdn:lettering.js"
+      ],
+      "repositories": [
+        "obys-agency"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Lit Protocol",
+      "category": "Web3",
+      "package_names": [
+        "@lit-protocol/lit-node-client"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "maath",
+      "category": "Library",
+      "package_names": [
+        "maath"
+      ],
+      "repositories": [
+        "shirt-showcaser"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "markdown-it",
+      "category": "Library",
+      "package_names": [
+        "markdown-it"
+      ],
+      "repositories": [
+        "PitchDeck"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Materialize",
+      "category": "UI framework",
+      "package_names": [
+        "materialize-css"
+      ],
+      "repositories": [
+        "HRMS"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "moment",
+      "category": "Library",
+      "package_names": [
+        "moment"
+      ],
+      "repositories": [
+        "HRMS"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "nanoid",
+      "category": "Library",
+      "package_names": [
+        "nanoid"
+      ],
+      "repositories": [
+        "Portfolio-2.0"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Neon",
+      "category": "Database",
+      "package_names": [
+        "@neondatabase/serverless"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "NextAuth.js",
+      "category": "Authentication",
+      "package_names": [
+        "next-auth"
+      ],
+      "repositories": [
+        "PitchDeck"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "OpenZeppelin Contracts",
+      "category": "Web3",
+      "package_names": [
+        "@openzeppelin/contracts"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "path",
+      "category": "Library",
+      "package_names": [
+        "path"
+      ],
+      "repositories": [
+        "book-store-website"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "PDF.js",
+      "category": "Documents",
+      "package_names": [
+        "pdfjs-dist"
+      ],
+      "repositories": [
+        "Resumify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Postgres.js",
+      "category": "Database",
+      "package_names": [
+        "postgres"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "postprocessing",
+      "category": "Library",
+      "package_names": [
+        "postprocessing"
+      ],
+      "repositories": [
+        "Unoverse"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Prettier",
+      "category": "Development tooling",
+      "package_names": [
+        "prettier"
+      ],
+      "repositories": [
+        "Portfolio-2.0"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "qrcode",
+      "category": "Library",
+      "package_names": [
+        "qrcode"
+      ],
+      "repositories": [
+        "Sabu"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "qrcode-terminal",
+      "category": "Library",
+      "package_names": [
+        "qrcode-terminal"
+      ],
+      "repositories": [
+        "Sabu"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Rapier",
+      "category": "3D physics",
+      "package_names": [
+        "@dimforge/rapier3d-compat"
+      ],
+      "repositories": [
+        "Pen-Brawl"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "React Google Maps",
+      "category": "Maps",
+      "package_names": [
+        "@react-google-maps/api"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "React Leaflet",
+      "category": "Maps",
+      "package_names": [
+        "react-leaflet"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "React Spring Three",
+      "category": "Animation",
+      "package_names": [
+        "@react-spring/three"
+      ],
+      "repositories": [
+        "Portfolio"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "React Three Postprocessing",
+      "category": "3D graphics",
+      "package_names": [
+        "@react-three/postprocessing"
+      ],
+      "repositories": [
+        "Unoverse"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "React Three Rapier",
+      "category": "3D physics",
+      "package_names": [
+        "@react-three/rapier"
+      ],
+      "repositories": [
+        "Pen-Brawl"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "react-color",
+      "category": "Library",
+      "package_names": [
+        "react-color"
+      ],
+      "repositories": [
+        "shirt-showcaser"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "react-dropzone",
+      "category": "Library",
+      "package_names": [
+        "react-dropzone"
+      ],
+      "repositories": [
+        "Resumify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "react-hot-toast",
+      "category": "Library",
+      "package_names": [
+        "react-hot-toast"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "react-infinite-scroll-component",
+      "category": "Library",
+      "package_names": [
+        "react-infinite-scroll-component"
+      ],
+      "repositories": [
+        "Cinefy"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "react-player",
+      "category": "Library",
+      "package_names": [
+        "react-player"
+      ],
+      "repositories": [
+        "Cinefy"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "react-vertical-timeline-component",
+      "category": "Library",
+      "package_names": [
+        "react-vertical-timeline-component"
+      ],
+      "repositories": [
+        "Portfolio"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Recoil",
+      "category": "State management",
+      "package_names": [
+        "recoil"
+      ],
+      "repositories": [
+        "Spools"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Resend",
+      "category": "Email",
+      "package_names": [
+        "resend"
+      ],
+      "repositories": [
+        "Strot"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Sanity",
+      "category": "Content management",
+      "package_names": [
+        "@sanity/image-url",
+        "@sanity/vision",
+        "next-sanity",
+        "sanity",
+        "sanity-plugin-markdown"
+      ],
+      "repositories": [
+        "PitchDeck"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "server-only",
+      "category": "Library",
+      "package_names": [
+        "server-only"
+      ],
+      "repositories": [
+        "PitchDeck"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Shery.js",
+      "category": "Animation",
+      "package_names": [
+        "sheryjs"
+      ],
+      "repositories": [
+        "obys-agency"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Sign Protocol",
+      "category": "Web3",
+      "package_names": [
+        "@ethsign/sp-sdk"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Solidity Coverage",
+      "category": "Web3 tooling",
+      "package_names": [
+        "solidity-coverage"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "sonner",
+      "category": "Library",
+      "package_names": [
+        "sonner"
+      ],
+      "repositories": [
+        "Samyoj"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Stream",
+      "category": "Video and realtime",
+      "package_names": [
+        "@stream-io/node-sdk",
+        "@stream-io/video-react-sdk"
+      ],
+      "repositories": [
+        "Baithak"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Styled Components",
+      "category": "Styling",
+      "package_names": [
+        "styled-components"
+      ],
+      "repositories": [
+        "PitchDeck"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "sweetalert",
+      "category": "Library",
+      "package_names": [
+        "sweetalert"
+      ],
+      "repositories": [
+        "HRMS"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "swiper",
+      "category": "Library",
+      "package_names": [
+        "swiper"
+      ],
+      "repositories": [
+        "book-store-website"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Testing Library",
+      "category": "Testing",
+      "package_names": [
+        "@testing-library/jest-dom",
+        "@testing-library/react",
+        "@testing-library/user-event"
+      ],
+      "repositories": [
+        "HRMS"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Textillate",
+      "category": "Animation",
+      "package_names": [
+        "textillate"
+      ],
+      "repositories": [
+        "obys-agency"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "ts-node-dev",
+      "category": "Language tooling",
+      "package_names": [
+        "ts-node-dev"
+      ],
+      "repositories": [
+        "Unoverse"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "tsParticles",
+      "category": "Animation",
+      "package_names": [
+        "tsparticles"
+      ],
+      "repositories": [
+        "Squid-Game"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "TypeChain",
+      "category": "Web3 tooling",
+      "package_names": [
+        "@typechain/ethers-v6",
+        "@typechain/hardhat",
+        "typechain"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "validator",
+      "category": "Library",
+      "package_names": [
+        "validator"
+      ],
+      "repositories": [
+        "HRMS"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Valtio",
+      "category": "State management",
+      "package_names": [
+        "valtio"
+      ],
+      "repositories": [
+        "shirt-showcaser"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Viem",
+      "category": "Web3",
+      "package_names": [
+        "viem"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Vitest",
+      "category": "Testing",
+      "package_names": [
+        "vitest"
+      ],
+      "repositories": [
+        "Unoverse"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "web-vitals",
+      "category": "Library",
+      "package_names": [
+        "web-vitals"
+      ],
+      "repositories": [
+        "HRMS"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Web3Auth",
+      "category": "Authentication",
+      "package_names": [
+        "@web3auth/base",
+        "@web3auth/ethereum-provider",
+        "@web3auth/modal"
+      ],
+      "repositories": [
+        "Wastify"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "whatsapp-web.js",
+      "category": "Library",
+      "package_names": [
+        "whatsapp-web.js"
+      ],
+      "repositories": [
+        "Sabu"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Workbox",
+      "category": "Progressive web apps",
+      "package_names": [
+        "workbox-core",
+        "workbox-precaching",
+        "workbox-routing",
+        "workbox-strategies"
+      ],
+      "repositories": [
+        "Spools"
+      ],
+      "count": 1,
+      "percent": 2.17
+    },
+    {
+      "name": "Workspace package: backend",
+      "category": "Project dependency",
+      "package_names": [
+        "backend"
+      ],
+      "repositories": [
+        "Spools"
+      ],
+      "count": 1,
+      "percent": 2.17
+    }
+  ],
+  "language_presence_basis": "Extension-based presence in current first-party source/config/test files; generated/vendor directories and .min.js/.min.css files excluded. Data formats and assets are excluded. Languages overlap. This is not GitHub Linguist byte usage, not historical totals, and embedded languages inside HTML are not inferred.",
+  "language_presence": [
+    {
+      "name": "CSS",
+      "extensions_present": [
+        ".css"
+      ],
+      "repositories": [
+        "4th-Dimension",
+        "Apple-iPhone15",
+        "Baithak",
+        "book-store-website",
+        "card",
+        "Cinefy",
+        "Code-Vault",
+        "devndez",
+        "Edusavvy",
+        "GSAP",
+        "HackShastra1",
+        "HackShastra2.0",
+        "HRMS",
+        "InstaClone",
+        "IPL-Score-Predictor",
+        "obys-agency",
+        "ochi-clone",
+        "Pen-Brawl",
+        "Pinterest",
+        "PitchDeck",
+        "Portfolio",
+        "Portfolio-2.0",
+        "premier",
+        "react-api-project",
+        "Refokus",
+        "Resumify",
+        "Routing",
+        "Samyoj",
+        "shirt-showcaser",
+        "songs",
+        "Spools",
+        "Squid-Game",
+        "Strot",
+        "todo-list",
+        "Unoverse",
+        "Wastify",
+        "Zentry",
+        "Zenzone"
+      ],
+      "count": 38,
+      "percent": 82.61
+    },
+    {
+      "name": "JavaScript",
+      "extensions_present": [
+        ".cjs",
+        ".js",
+        ".jsx",
+        ".mjs"
+      ],
+      "repositories": [
+        "4th-Dimension",
+        "Apple-iPhone15",
+        "Baithak",
+        "book-store-website",
+        "card",
+        "Cinefy",
+        "Code-Vault",
+        "devndez",
+        "Edusavvy",
+        "GSAP",
+        "HackShastra1",
+        "HackShastra2.0",
+        "HRMS",
+        "InstaClone",
+        "IPL-Score-Predictor",
+        "obys-agency",
+        "ochi-clone",
+        "Password-Generator",
+        "Pen-Brawl",
+        "Pinterest",
+        "PitchDeck",
+        "Portfolio",
+        "Portfolio-2.0",
+        "react-api-project",
+        "Refokus",
+        "Resumify",
+        "Routing",
+        "Sabu",
+        "Samyoj",
+        "shirt-showcaser",
+        "songs",
+        "Spools",
+        "Squid-Game",
+        "Strot",
+        "todo-list",
+        "Unoverse",
+        "Wastify",
+        "Zentry"
+      ],
+      "count": 38,
+      "percent": 82.61
+    },
+    {
+      "name": "HTML",
+      "extensions_present": [
+        ".html"
+      ],
+      "repositories": [
+        "3d-Cube",
+        "3D-Robo",
+        "Apple-iPhone15",
+        "book-store-website",
+        "card",
+        "Cinefy",
+        "Edusavvy",
+        "GSAP",
+        "HackShastra1",
+        "HRMS",
+        "IPL-Score-Predictor",
+        "Neumorphic-Calculator",
+        "obys-agency",
+        "ochi-clone",
+        "OTP-Generator",
+        "Password-Generator",
+        "Portfolio",
+        "premier",
+        "react-api-project",
+        "Refokus",
+        "Routing",
+        "shirt-showcaser",
+        "songs",
+        "Spools",
+        "Squid-Game",
+        "tailwind",
+        "Zentry",
+        "Zenzone"
+      ],
+      "count": 28,
+      "percent": 60.87
+    },
+    {
+      "name": "TypeScript",
+      "extensions_present": [
+        ".mts",
+        ".ts",
+        ".tsx"
+      ],
+      "repositories": [
+        "4th-Dimension",
+        "Baithak",
+        "devndez",
+        "HackShastra2.0",
+        "Pen-Brawl",
+        "PitchDeck",
+        "Portfolio-2.0",
+        "Resumify",
+        "Samyoj",
+        "Strot",
+        "Unoverse",
+        "Wastify"
+      ],
+      "count": 12,
+      "percent": 26.09
+    },
+    {
+      "name": "EJS",
+      "extensions_present": [
+        ".ejs"
+      ],
+      "repositories": [
+        "InstaClone",
+        "Pinterest"
+      ],
+      "count": 2,
+      "percent": 4.35
+    },
+    {
+      "name": "Python",
+      "extensions_present": [
+        ".py"
+      ],
+      "repositories": [
+        "IPL-Captaincy-Analysis"
+      ],
+      "count": 1,
+      "percent": 2.17
+    }
+  ],
+  "source_urls": [
+    "https://api.github.com/repos/tanmay-tiwari-20/3D-Robo/git/trees/3c9ae929da0e1989c015d61a73b0c65187b9977a",
+    "https://api.github.com/repos/tanmay-tiwari-20/3d-Cube/git/trees/bcb8529715b9535f610f898523c94b5afe2d815a",
+    "https://api.github.com/repos/tanmay-tiwari-20/4th-Dimension/git/trees/e9a6c4b019cd4e43e7ff59f8063e22b9f4b04c49",
+    "https://api.github.com/repos/tanmay-tiwari-20/Apple-iPhone15/git/trees/f17894a2e2be45b5f8788611edb8bce4a0ac2634",
+    "https://api.github.com/repos/tanmay-tiwari-20/Baithak/git/trees/1a03d25443e90cc31905582fc1460675adc91474",
+    "https://api.github.com/repos/tanmay-tiwari-20/Cinefy/git/trees/0f9a7fe2ccb63ecce905e5a24c344aec25734369",
+    "https://api.github.com/repos/tanmay-tiwari-20/Code-Vault/git/trees/a1c7f8bacc71ae51fdb0556371f4d8f98511130e",
+    "https://api.github.com/repos/tanmay-tiwari-20/Edusavvy/git/trees/5495526ea60032c9042d1825a72d2ee8b1791174",
+    "https://api.github.com/repos/tanmay-tiwari-20/GSAP/git/trees/a3692ec0c320097f176b1c0e972966f30cc04745",
+    "https://api.github.com/repos/tanmay-tiwari-20/HRMS/git/trees/7f5b0cb029abe91956bb9f427287af0a82fdac98",
+    "https://api.github.com/repos/tanmay-tiwari-20/HackShastra1/git/trees/bf441aae4f28560a1cea3bd770e5d319051a2fca",
+    "https://api.github.com/repos/tanmay-tiwari-20/HackShastra2.0/git/trees/91650585e040a4822797513b06f877a937e02215",
+    "https://api.github.com/repos/tanmay-tiwari-20/IPL-Captaincy-Analysis/git/trees/a4387f49574acf1bcf186cc56c49e8c3d1a3b0d0",
+    "https://api.github.com/repos/tanmay-tiwari-20/IPL-Score-Predictor/git/trees/225bb9e460d0f3d6a4df18d064427c80b8a446ea",
+    "https://api.github.com/repos/tanmay-tiwari-20/InstaClone/git/trees/bc319994e38e8b0cc36d5604d88601287b1379ee",
+    "https://api.github.com/repos/tanmay-tiwari-20/Neumorphic-Calculator/git/trees/4453a7dedddaddb6726f0ec03cad8856cb6fc122",
+    "https://api.github.com/repos/tanmay-tiwari-20/OTP-Generator/git/trees/1c2ae3a97b7cc1c38415a92571a3e90b6db4982c",
+    "https://api.github.com/repos/tanmay-tiwari-20/Password-Generator/git/trees/e165bc804eb6788b549b72d523a9066862927eba",
+    "https://api.github.com/repos/tanmay-tiwari-20/Pen-Brawl/git/trees/1e503abb3663e3bce11c53a1d1641abfefa7f0f8",
+    "https://api.github.com/repos/tanmay-tiwari-20/Pinterest/git/trees/d2d2333e50eb76e2e7dcc96261e0bcf8462da2de",
+    "https://api.github.com/repos/tanmay-tiwari-20/PitchDeck/git/trees/ddb80567e69bc08f75e494dca9038cfac6fc0ef1",
+    "https://api.github.com/repos/tanmay-tiwari-20/Portfolio-2.0/git/trees/eaebef78a258167ff29c5611f72aaed24e291a6b",
+    "https://api.github.com/repos/tanmay-tiwari-20/Portfolio/git/trees/343f8810ea798eae20eded8be72fbbf12e3bbfff",
+    "https://api.github.com/repos/tanmay-tiwari-20/Refokus/git/trees/59834bd980e7adfcd910ac6a03dc014df48fd537",
+    "https://api.github.com/repos/tanmay-tiwari-20/Resumify/git/trees/490506c5827ca9ce5a29ac6e17b63945a92e42e5",
+    "https://api.github.com/repos/tanmay-tiwari-20/Routing/git/trees/8cd6d57d5af61322c74dc19a508937b69690ff8e",
+    "https://api.github.com/repos/tanmay-tiwari-20/Sabu/git/trees/c4bf52db5e0ec83c4e1b0961629f0c4e0b7087bc",
+    "https://api.github.com/repos/tanmay-tiwari-20/Samyoj/git/trees/9397dc8d7d3347d3c56d3c9cf57d7ab7938c8182",
+    "https://api.github.com/repos/tanmay-tiwari-20/Spools/git/trees/5c1116b3c7154bacbfa2f67558415291c84e5b27",
+    "https://api.github.com/repos/tanmay-tiwari-20/Squid-Game/git/trees/9f3fd4d5320a9e8219b362fa5240ec25c12efdc4",
+    "https://api.github.com/repos/tanmay-tiwari-20/Strot/git/trees/dbed42f02ae83637208a6372379420fa782bf1c1",
+    "https://api.github.com/repos/tanmay-tiwari-20/Unoverse/git/trees/0695d5a285f1e33cabea1bb6ce28de8a1ac627ad",
+    "https://api.github.com/repos/tanmay-tiwari-20/Wastify/git/trees/21d8a9c86c603009157acba7bc7c9fa8b3b15179",
+    "https://api.github.com/repos/tanmay-tiwari-20/Zentry/git/trees/9438e9bd4c6c50faa3dfc40768e78a9badfcdf27",
+    "https://api.github.com/repos/tanmay-tiwari-20/Zenzone/git/trees/bf793dd395b519408e273e925682c17655af3fdd",
+    "https://api.github.com/repos/tanmay-tiwari-20/book-store-website/git/trees/aa890a7a61d39037895d167d0271f58e06201f18",
+    "https://api.github.com/repos/tanmay-tiwari-20/card/git/trees/c812dfe9bca9340ab4d803dfe8c6722177e3bd6e",
+    "https://api.github.com/repos/tanmay-tiwari-20/devndez/git/trees/c947ac7252580cd7f105fc8a040b1fc2a831fd6b",
+    "https://api.github.com/repos/tanmay-tiwari-20/obys-agency/git/trees/f323fc0bf654e696c3e129e5ba65d6b11726ad65",
+    "https://api.github.com/repos/tanmay-tiwari-20/ochi-clone/git/trees/5144ce481f4b22ebbb79cfd88f7328f134fb635e",
+    "https://api.github.com/repos/tanmay-tiwari-20/premier/git/trees/6d7d8629bde61357e83f0b36c6eee575c0d1727f",
+    "https://api.github.com/repos/tanmay-tiwari-20/react-api-project/git/trees/a158f2bdd6b87bcfa31b41e9fab8a31a78808968",
+    "https://api.github.com/repos/tanmay-tiwari-20/shirt-showcaser/git/trees/992447ca752c19b96a360d2b9679b7b3855a66b4",
+    "https://api.github.com/repos/tanmay-tiwari-20/songs/git/trees/a6d80689b22733a5cab7b4308f45e8714498a3db",
+    "https://api.github.com/repos/tanmay-tiwari-20/tailwind/git/trees/d5815451200962a136bc31c4928b659d520690e5",
+    "https://api.github.com/repos/tanmay-tiwari-20/todo-list/git/trees/6b2e929fac342fde167dd16ef2b0815ab19ac057",
+    "https://github.com/tanmay-tiwari-20/3D-Robo/blob/main/index.html",
+    "https://github.com/tanmay-tiwari-20/3d-Cube/blob/main/index.html",
+    "https://github.com/tanmay-tiwari-20/4th-Dimension/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Apple-iPhone15/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Baithak/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Cinefy/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Code-Vault/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Edusavvy/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/GSAP/blob/main/index.html",
+    "https://github.com/tanmay-tiwari-20/HRMS/blob/main/backend/package.json",
+    "https://github.com/tanmay-tiwari-20/HRMS/blob/main/frontend/package.json",
+    "https://github.com/tanmay-tiwari-20/HackShastra1/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/HackShastra2.0/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/IPL-Score-Predictor/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/InstaClone/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Neumorphic-Calculator/blob/main/index.html",
+    "https://github.com/tanmay-tiwari-20/OTP-Generator/blob/main/index.html",
+    "https://github.com/tanmay-tiwari-20/Password-Generator/blob/main/index.html",
+    "https://github.com/tanmay-tiwari-20/Pen-Brawl/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Pinterest/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/PitchDeck/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Portfolio-2.0/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Portfolio/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Refokus/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Resumify/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Routing/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Sabu/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Samyoj/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Spools/blob/main/frontend/package.json",
+    "https://github.com/tanmay-tiwari-20/Spools/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Squid-Game/blob/main/index.html",
+    "https://github.com/tanmay-tiwari-20/Strot/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Unoverse/blob/main/backend/package.json",
+    "https://github.com/tanmay-tiwari-20/Unoverse/blob/main/frontend/package.json",
+    "https://github.com/tanmay-tiwari-20/Wastify/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Zentry/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/Zenzone/blob/main/ZenZone/about-us.html",
+    "https://github.com/tanmay-tiwari-20/Zenzone/blob/main/ZenZone/blogs.html",
+    "https://github.com/tanmay-tiwari-20/Zenzone/blob/main/ZenZone/footer.html",
+    "https://github.com/tanmay-tiwari-20/Zenzone/blob/main/ZenZone/index.html",
+    "https://github.com/tanmay-tiwari-20/Zenzone/blob/main/ZenZone/page.html",
+    "https://github.com/tanmay-tiwari-20/Zenzone/blob/main/ZenZone/sessions.html",
+    "https://github.com/tanmay-tiwari-20/Zenzone/blob/main/ZenZone/yoga.html",
+    "https://github.com/tanmay-tiwari-20/book-store-website/blob/main/backend/package.json",
+    "https://github.com/tanmay-tiwari-20/book-store-website/blob/main/frontend/package.json",
+    "https://github.com/tanmay-tiwari-20/card/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/devndez/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/obys-agency/blob/main/index.html",
+    "https://github.com/tanmay-tiwari-20/ochi-clone/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/premier/blob/main/index.html",
+    "https://github.com/tanmay-tiwari-20/react-api-project/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/shirt-showcaser/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/songs/blob/main/package.json",
+    "https://github.com/tanmay-tiwari-20/tailwind/blob/main/index.html",
+    "https://github.com/tanmay-tiwari-20/todo-list/blob/main/package.json"
+  ],
+  "failures": [],
+  "unclassified_cdn_urls": []
+}

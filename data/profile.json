@@ -1,0 +1,23 @@
+{
+  "username": "tanmay-tiwari-20",
+  "name": "Tanmay Tiwari",
+  "first_name": "Tanmay",
+  "last_name": "Tiwari.",
+  "role": "Full Stack Developer",
+  "location": "India",
+  "tagline": "I turn ideas into things you can use.",
+  "intro": ["Full-stack apps. Real-time connections.", "A little creative coding in between."],
+  "portfolio": "https://takneekitanmay.tech",
+  "email": "workwithtakneekitanmay@gmail.com",
+  "projects": [
+    {"slug": "unoverse", "name": "Unoverse", "category": "PLAY / REAL-TIME", "description": ["A 3D multiplayer UNO experience", "with custom rules, bots and voice chat."], "stack": "Next.js / Three.js / Socket.IO", "url": "https://github.com/tanmay-tiwari-20/Unoverse", "accent": "blue", "icon": "cards"},
+    {"slug": "spools", "name": "Spools", "category": "CONNECT / SOCIAL", "description": ["Interest-based communities, shared", "stories and real-time conversations."], "stack": "React / Express / MongoDB", "url": "https://github.com/tanmay-tiwari-20/Spools", "accent": "red", "icon": "circles"},
+    {"slug": "baithak", "name": "Baithak", "category": "MEET / VIDEO", "description": ["Video meetings with scheduling,", "personal rooms and host controls."], "stack": "Next.js / TypeScript / Stream", "url": "https://github.com/tanmay-tiwari-20/Baithak", "accent": "yellow", "icon": "video"},
+    {"slug": "resumify", "name": "Resumify", "category": "GROW / AI", "description": ["AI-powered resume reviews, ATS", "scoring and personalized feedback."], "stack": "React / TypeScript / Puter", "url": "https://github.com/tanmay-tiwari-20/Resumify", "accent": "blue", "icon": "document"}
+  ],
+  "stack": [
+    {"label": "INTERFACE", "lines": ["React / Next.js", "TypeScript / Tailwind CSS"]},
+    {"label": "SERVER", "lines": ["Node.js / Express", "MongoDB / Socket.IO"]},
+    {"label": "EXPERIENCE", "lines": ["Three.js / GSAP", "Figma / Git / Vercel"]}
+  ]
+}
