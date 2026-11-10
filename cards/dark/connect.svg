@@ -11,7 +11,7 @@ text{font-family:Poppins,Arial,sans-serif}
 @keyframes float {0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
 @keyframes breathe {0%,100%{opacity:.65}50%{opacity:1}}
 @keyframes orbit {to{transform:rotate(360deg)}}
-@keyframes dash {to{stroke-dashoffset:-64}}
+@keyframes dash {from{stroke-dashoffset:0}to{stroke-dashoffset:var(--flow-offset)}}
 @keyframes nudge {0%,65%,100%{transform:translate(0,0)}80%{transform:translate(4px,-4px)}}
 @keyframes ping {0%,100%{opacity:.25;transform:scale(.95)}50%{opacity:.75;transform:scale(1.04)}}
 @keyframes cell-in {0%{opacity:.3;transform:scale(.65)}100%{opacity:1;transform:scale(1)}}
@@ -23,7 +23,7 @@ text{font-family:Poppins,Arial,sans-serif}
 @keyframes sweep {to{stroke-dashoffset:-240}}
 .float{animation:float 6s ease-in-out infinite}.float-slow{animation:float 8s ease-in-out -2s infinite}
 .breathe{animation:breathe 4s ease-in-out infinite}.orbit{transform-box:fill-box;transform-origin:center;animation:orbit 35s linear infinite}
-.flow{animation:dash 4s linear infinite}.arrow{animation:nudge 6s ease-in-out infinite}
+.flow{animation:dash var(--flow-duration) linear infinite}.arrow{animation:nudge 6s ease-in-out infinite}
 .ping{transform-box:fill-box;transform-origin:center;animation:ping 5s ease-in-out infinite}
 .cell{transform-box:fill-box;transform-origin:center;animation:cell-in .6s ease-out backwards}
 .typing{animation:dot 1.8s ease-in-out infinite}.draw{stroke-dasharray:1000;animation:line-in 2.4s ease-out backwards}
@@ -32,6 +32,6 @@ text{font-family:Poppins,Arial,sans-serif}
 .drift{animation:drift 7s ease-in-out infinite}.sweep{animation:sweep 14s linear infinite}
 @media(prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
-<g clip-path="url(#bounds)"><rect x="0" y="0" width="960" height="111" rx="24" fill="#000000" /><text x="30" y="34" font-size="10" fill="#ff6558" font-weight="600" letter-spacing="1.7" >FIND ME / AROUND THE INTERNET</text><text x="28" y="83" font-size="40" fill="#fff8f3" font-weight="600" letter-spacing="-1.5">Let’s connect.</text><path d="M404 64C527 1 610 120 786 53" fill="none" stroke="#352026" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><path d="M404 64C527 1 610 120 786 53" fill="none" stroke="#ff6558" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="14 26" class="flow"/><circle cx="481" cy="44" r="5" fill="#ff6558" class="breathe"/><circle cx="624" cy="69" r="5" fill="#c799ff" class="breathe"/><circle cx="767" cy="59" r="5" fill="#6bb5ff" class="breathe"/><g transform="translate(900 54)"><g class="" ><path d="M0 22L22 0M0 0H22V22" fill="none" stroke="#ff6558" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow"/></g></g></g>
+<g clip-path="url(#bounds)"><rect x="0" y="0" width="960" height="111" rx="24" fill="#000000" /><text x="30" y="34" font-size="10" fill="#ff6558" font-weight="600" letter-spacing="1.7" >FIND ME / AROUND THE INTERNET</text><text x="28" y="83" font-size="40" fill="#fff8f3" font-weight="600" letter-spacing="-1.5">Let’s connect.</text><path d="M404 64C527 1 610 120 786 53" fill="none" stroke="#352026" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><path d="M404 64C527 1 610 120 786 53" fill="none" stroke="#ff6558" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="14 26" class="flow" style="--flow-offset:-40;--flow-duration:2.5s"/><circle cx="481" cy="44" r="5" fill="#ff6558" class="breathe"/><circle cx="624" cy="69" r="5" fill="#c799ff" class="breathe"/><circle cx="767" cy="59" r="5" fill="#6bb5ff" class="breathe"/><g transform="translate(900 54)"><g class="" ><path d="M0 22L22 0M0 0H22V22" fill="none" stroke="#ff6558" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow"/></g></g></g>
 <rect x="0.5" y="0.5" width="959" height="110" rx="24" fill="none" stroke="#352026" />
 </svg>

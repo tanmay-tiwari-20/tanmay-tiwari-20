@@ -12,7 +12,7 @@ def percent(value):
 def orbit_mark(a, x, y, color='red'):
     """A header flourish spatially separate from measured chart marks."""
     body = a.path('M-20 10C-24 -13 14 -25 23 -5C32 14 -8 26 -18 7', color, 1.3,
-                  extra='opacity=".45" stroke-dasharray="4 5" class="flow"')
+                  extra=a.flow(4,5)+' opacity=".45"')
     body += a.circle(19, -10, 3, color, 'class="breathe"')
     body += a.path('M-22 6L-18 13L-13 6', color, 1.4, extra='opacity=".65"')
     return a.group(body, x, y)
@@ -225,7 +225,7 @@ def project_network(a, profile, static=False, mobile=False):
                 x = 42+j*(chip_width+gap)
                 center = x+chip_width/2
                 body += a.path(f'M240 {y+58}C240 {y+79} {center:.2f} {y+77} {center:.2f} {y+98}',
-                               color, 1.5, extra=f'stroke-dasharray="4 7" class="flow" data-project="{escape(project["name"], quote=True)}" data-technology="{escape(label, quote=True)}"')
+                               color, 1.5, extra=a.flow(4,7)+f' data-project="{escape(project["name"], quote=True)}" data-technology="{escape(label, quote=True)}"')
                 body += a.rect(x, y+98, chip_width, 36, 'bg', 11, 'line')
                 body += a.text(round(center, 2), y+121, label, 14, 'ink', 600, 'text-anchor="middle"')
         body += a.text(26, h-17, 'Documented project stacks · each line is a real relationship', 9, 'muted')
@@ -250,7 +250,7 @@ def project_network(a, profile, static=False, mobile=False):
             # through other technology nodes and suggesting nonexistent links.
             control_y = node_y+28 if x == 382 else node_y-70
             d = f'M232 {y+28}C{285+(x-382)*.2:.2f} {y+28} {x-68} {control_y} {x} {node_y+28}'
-            body += a.path(d, color, 1.7, extra=f'opacity=".48" stroke-dasharray="4 8" class="flow" data-project="{escape(project["name"], quote=True)}" data-technology="{escape(tool, quote=True)}"')
+            body += a.path(d, color, 1.7, extra=a.flow(4,8)+f' opacity=".48" data-project="{escape(project["name"], quote=True)}" data-technology="{escape(tool, quote=True)}"')
             memberships[tool].append(color)
     for i, project in enumerate(projects):
         y, color = 149+i*99, ACCENTS[i % len(ACCENTS)]

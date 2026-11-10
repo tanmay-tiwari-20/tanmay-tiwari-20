@@ -234,6 +234,4 @@ I'm **Tanmay Tiwari**, a full-stack developer from India. I build web applicatio
 
 The charts describe public repositories and their observed technologies. [Full technology inventory and percentages](./docs/TECHNOLOGIES.md) · [Measurement definitions and profile maintenance](./docs/PROFILE.md).
 
-Design inspired by [Avi Vashishta's animated SVG README cards](https://www.avivashishta.com/blog/github-profile-readme-animated-svg-cards).
-
 </details>

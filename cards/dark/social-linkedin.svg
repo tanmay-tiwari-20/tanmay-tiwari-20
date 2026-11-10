@@ -11,7 +11,7 @@ text{font-family:Poppins,Arial,sans-serif}
 @keyframes float {0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
 @keyframes breathe {0%,100%{opacity:.65}50%{opacity:1}}
 @keyframes orbit {to{transform:rotate(360deg)}}
-@keyframes dash {to{stroke-dashoffset:-64}}
+@keyframes dash {from{stroke-dashoffset:0}to{stroke-dashoffset:var(--flow-offset)}}
 @keyframes nudge {0%,65%,100%{transform:translate(0,0)}80%{transform:translate(4px,-4px)}}
 @keyframes ping {0%,100%{opacity:.25;transform:scale(.95)}50%{opacity:.75;transform:scale(1.04)}}
 @keyframes cell-in {0%{opacity:.3;transform:scale(.65)}100%{opacity:1;transform:scale(1)}}
@@ -23,7 +23,7 @@ text{font-family:Poppins,Arial,sans-serif}
 @keyframes sweep {to{stroke-dashoffset:-240}}
 .float{animation:float 6s ease-in-out infinite}.float-slow{animation:float 8s ease-in-out -2s infinite}
 .breathe{animation:breathe 4s ease-in-out infinite}.orbit{transform-box:fill-box;transform-origin:center;animation:orbit 35s linear infinite}
-.flow{animation:dash 4s linear infinite}.arrow{animation:nudge 6s ease-in-out infinite}
+.flow{animation:dash var(--flow-duration) linear infinite}.arrow{animation:nudge 6s ease-in-out infinite}
 .ping{transform-box:fill-box;transform-origin:center;animation:ping 5s ease-in-out infinite}
 .cell{transform-box:fill-box;transform-origin:center;animation:cell-in .6s ease-out backwards}
 .typing{animation:dot 1.8s ease-in-out infinite}.draw{stroke-dasharray:1000;animation:line-in 2.4s ease-out backwards}
@@ -32,6 +32,6 @@ text{font-family:Poppins,Arial,sans-serif}
 .drift{animation:drift 7s ease-in-out infinite}.sweep{animation:sweep 14s linear infinite}
 @media(prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
-<g clip-path="url(#bounds)"><rect x="0" y="0" width="470" height="129" rx="24" fill="#000000" /><circle cx="447" cy="12" r="88" fill="url(#halo)" /><rect x="23" y="33" width="61" height="61" rx="18" fill="#211216" /><g transform="translate(37 46) scale(1)"><path d="M5 12V28M5 5V5.1M13 28V12H19V15C25 7 30 13 30 19V28M19 28V20" fill="none" stroke="#6bb5ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></g><text x="107" y="63" font-size="30" fill="#fff8f3" font-weight="600" letter-spacing="-.8">LinkedIn</text><text x="109" y="89" font-size="13" fill="#c1a9a0" font-weight="400" >Ideas, work &amp; connections</text><g transform="translate(424 51)"><g class="" ><path d="M0 18L18 0M0 0H18V18" fill="none" stroke="#6bb5ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow"/></g></g><path d="M108 107H367" fill="none" stroke="#6bb5ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="34 89" class="flow" opacity=".65"/></g>
+<g clip-path="url(#bounds)"><rect x="0" y="0" width="470" height="129" rx="24" fill="#000000" /><circle cx="447" cy="12" r="88" fill="url(#halo)" /><rect x="23" y="33" width="61" height="61" rx="18" fill="#211216" /><g transform="translate(37 46) scale(1)"><path d="M5.372 24H.398V7.982h4.974zM2.882 5.797C1.29 5.797 0 4.478 0 2.886a2.884 2.884 0 0 1 5.768 0c0 1.592-1.291 2.911-2.886 2.911zM23.994 24H19.03v-7.797c0-1.858-.038-4.243-2.586-4.243-2.586 0-2.982 2.02-2.982 4.109V24H8.493V7.982h4.771v2.185h.069c.664-1.258 2.286-2.586 4.706-2.586C23.073 7.581 24 10.897 24 15.204V24z" transform="translate(2 2) scale(1.2)" fill="#6bb5ff"/></g><text x="107" y="63" font-size="30" fill="#fff8f3" font-weight="600" letter-spacing="-.8">LinkedIn</text><text x="109" y="89" font-size="13" fill="#c1a9a0" font-weight="400" >Ideas, work &amp; connections</text><g transform="translate(424 51)"><g class="" ><path d="M0 18L18 0M0 0H18V18" fill="none" stroke="#6bb5ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow"/></g></g><path d="M108 107H367" fill="none" stroke="#6bb5ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="34 89" class="flow" style="--flow-offset:-123;--flow-duration:7.6875s" opacity=".65"/></g>
 <rect x="0.5" y="0.5" width="469" height="128" rx="24" fill="none" stroke="#352026" />
 </svg>

@@ -39,7 +39,7 @@ MOTION='''
 @keyframes float {0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
 @keyframes breathe {0%,100%{opacity:.65}50%{opacity:1}}
 @keyframes orbit {to{transform:rotate(360deg)}}
-@keyframes dash {to{stroke-dashoffset:-64}}
+@keyframes dash {from{stroke-dashoffset:0}to{stroke-dashoffset:var(--flow-offset)}}
 @keyframes nudge {0%,65%,100%{transform:translate(0,0)}80%{transform:translate(4px,-4px)}}
 @keyframes ping {0%,100%{opacity:.25;transform:scale(.95)}50%{opacity:.75;transform:scale(1.04)}}
 @keyframes cell-in {0%{opacity:.3;transform:scale(.65)}100%{opacity:1;transform:scale(1)}}
@@ -51,7 +51,7 @@ MOTION='''
 @keyframes sweep {to{stroke-dashoffset:-240}}
 .float{animation:float 6s ease-in-out infinite}.float-slow{animation:float 8s ease-in-out -2s infinite}
 .breathe{animation:breathe 4s ease-in-out infinite}.orbit{transform-box:fill-box;transform-origin:center;animation:orbit 35s linear infinite}
-.flow{animation:dash 4s linear infinite}.arrow{animation:nudge 6s ease-in-out infinite}
+.flow{animation:dash var(--flow-duration) linear infinite}.arrow{animation:nudge 6s ease-in-out infinite}
 .ping{transform-box:fill-box;transform-origin:center;animation:ping 5s ease-in-out infinite}
 .cell{transform-box:fill-box;transform-origin:center;animation:cell-in .6s ease-out backwards}
 .typing{animation:dot 1.8s ease-in-out infinite}.draw{stroke-dasharray:1000;animation:line-in 2.4s ease-out backwards}
@@ -80,6 +80,13 @@ class Art:
 
     def path(self,d,color='line',width=1.5,fill='none',extra=''):
         return f'<path d="{d}" fill="{self.color(fill)}" stroke="{self.color(color)}" stroke-width="{width}" stroke-linecap="round" stroke-linejoin="round" {extra}/>'
+
+    def flow(self,*pattern):
+        # One complete dash pattern makes the last frame identical to the first.
+        # Odd-length SVG dash lists repeat twice; keep motion at 16 units/second.
+        period=sum(pattern)*(2 if len(pattern)%2 else 1)
+        dashes=' '.join(f'{value:g}' for value in pattern)
+        return f'stroke-dasharray="{dashes}" class="flow" style="--flow-offset:-{period:g};--flow-duration:{period/16:g}s"'
 
     def circle(self,x,y,r,fill='blue',extra=''):
         return f'<circle cx="{x}" cy="{y}" r="{r}" fill="{self.color(fill)}" {extra}/>'
@@ -154,11 +161,11 @@ def hero(profile,static=False,theme='light',mobile=False):
     body+=a.text(26,283,profile['last_name'],118,'red',600,extra='letter-spacing="-6"')
     body+=a.text(37,332,profile['role'],23,weight=600)+a.text(37,365,profile['tagline'],15,'muted')
     body+=a.pill(37,392,'REAL-TIME APPS','red',138)+a.pill(185,392,'CREATIVE CODE','violet',140)
-    body+=a.path('M440 344C513 347 505 206 565 220M552 208L566 220L551 227','red',1.8,extra='stroke-dasharray="6 5" class="flow"')
+    body+=a.path('M440 344C513 347 505 206 565 220M552 208L566 220L551 227','red',1.8,extra=a.flow(6,5))
     body+=portrait_scene(a,558,86,377,372)
     body+=a.path('M36 481H924','line',1)+a.label(37,518,'DESIGN / BUILD / SHIP')
     body+=a.text(675,520,'BASED IN INDIA',10,'muted',600,extra='letter-spacing="1.8"')+a.arrow(900,502,'red')
-    body+=a.path('M36 536H330','red',2,extra='stroke-dasharray="42 20 7 20" class="flow" opacity=".65"')
+    body+=a.path('M36 536H330','red',2,extra=a.flow(42,20,7,20)+' opacity=".65"')
     return a.finish(profile['name']+' / Full Stack Developer',profile['tagline']+' Based in India, open to collaboration. Portrait and coral editorial styling inspired by his portfolio.',960,558,body,static)
 
 
@@ -166,7 +173,7 @@ def build_loop(static=False,theme='light'):
     a=Art(theme)
     body=a.circle(923,145,177,'url(#wash)','opacity=".5"')+a.label(32,33,'THE BUILD LOOP')
     body+=a.text(30,78,'Curiosity. Code. Repeat.',32,weight=600)+a.text(33,105,'From a first idea to something people can use.',14,'muted')
-    body+=a.path('M131 169H829','line',2)+a.path('M131 169H829','blue',2,extra='stroke-dasharray="9 23" class="flow"')
+    body+=a.path('M131 169H829','line',2)+a.path('M131 169H829','blue',2,extra=a.flow(9,23))
     for i,(name,icon,color) in enumerate((('Explore','design','blue'),('Build','code','violet'),('Refine','refine','red'),('Ship','ship','mint'))):
         x=130+i*233
         body+=a.circle(x,169,32,'panel',f'stroke="{a.color(color)}" stroke-opacity=".28"')
@@ -238,13 +245,13 @@ def tile(kind,static=False,theme='light'):
 def project_visual(a,kind):
     body=a.rect(0,0,326,181,'soft',20)+a.circle(300,13,80,'url(#wash)')
     if kind=='cards':
-        body+=f'<ellipse cx="160" cy="145" rx="124" ry="23" fill="none" stroke="{a.t["blue"]}" stroke-opacity=".23" stroke-dasharray="3 8" class="flow"/>'
+        body+=f'<ellipse cx="160" cy="145" rx="124" ry="23" fill="none" stroke="{a.t["blue"]}" stroke-opacity=".23" {a.flow(3,8)}/>'
         for i,(x,y,angle,color,value) in enumerate(((91,31,-15,'violet','7'),(133,20,0,'blue','8'),(178,31,15,'red','+2'))):
             card=a.rect(0,0,66,105,color,11)+f'<ellipse cx="33" cy="54" rx="24" ry="36" fill="none" stroke="white" stroke-width="2" opacity=".6"/>'+a.text(33,65,value,29,'#ffffff',600,'text-anchor="middle"')+a.text(9,20,value,9,'#ffffff',600)
             body+=a.group(f'<g transform="rotate({angle} 33 52)">{card}</g>',x,y,'float',f'style="animation-delay:-{i*1.5}s"')
         body+=a.circle(50,51,4,'yellow','class="breathe"')+a.circle(272,123,3,'mint','class="breathe"')
     elif kind=='circles':
-        body+=a.path('M63 53L260 126M63 126L260 53','line',1.5,extra='stroke-dasharray="5 8" class="flow"')
+        body+=a.path('M63 53L260 126M63 126L260 53','line',1.5,extra=a.flow(5,8))
         for i,(x,y,w,c) in enumerate(((30,26,175,'violet'),(107,86,185,'blue'))):
             chat=a.rect(0,0,w,62,'panel',15,'line')+a.circle(23,22,11,c)+a.rect(43,16,w-60,6,'line',3)+a.rect(43,29,w-87,5,'line',3)
             for j in range(3):chat+=a.circle(46+j*10,46,2.6,c,f'class="typing" style="animation-delay:{j*.25}s"')
@@ -290,9 +297,12 @@ def stack_card(profile,static=False,theme='light'):
 
 
 def social_icon(a,kind,x,y,color='red',scale=1):
+    if kind=='linkedin':
+        # Filled brand letterforms: a separate i dot/stem and a complete n.
+        mark='M5.372 24H.398V7.982h4.974zM2.882 5.797C1.29 5.797 0 4.478 0 2.886a2.884 2.884 0 0 1 5.768 0c0 1.592-1.291 2.911-2.886 2.911zM23.994 24H19.03v-7.797c0-1.858-.038-4.243-2.586-4.243-2.586 0-2.982 2.02-2.982 4.109V24H8.493V7.982h4.771v2.185h.069c.664-1.258 2.286-2.586 4.706-2.586C23.073 7.581 24 10.897 24 15.204V24z'
+        return f'<g transform="translate({x} {y}) scale({scale})"><path d="{mark}" transform="translate(2 2) scale(1.2)" fill="{a.color(color)}"/></g>'
     paths={
         'portfolio':'M3 16A13 13 0 1 0 29 16A13 13 0 1 0 3 16M3 16H29M16 3C7 11 7 21 16 29C25 21 25 11 16 3Z',
-        'linkedin':'M5 12V28M5 5V5.1M13 28V12H19V15C25 7 30 13 30 19V28M19 28V20',
         'instagram':'M10 3H23Q30 3 30 10V23Q30 30 23 30H10Q3 30 3 23V10Q3 3 10 3ZM23 16.5A6.5 6.5 0 1 0 10 16.5A6.5 6.5 0 1 0 23 16.5M24 9H24.1',
         'github':'M11 30V24C5 25 5 21 2 20M23 30V24C23 21 22 20 21 20C29 19 31 15 29 9L28 3L21 6C18 5 14 5 11 6L4 3L3 9C1 15 3 19 11 20C10 21 10 23 11 24',
         'email':'M3 6H29V27H3ZM3 7L16 18L29 7M3 27L12 17M29 27L20 17',
@@ -306,7 +316,7 @@ def connect(static=False,theme='light',mobile=False):
     body+=a.text(28,83,'Let’s connect.',34 if mobile else 40,weight=600,extra='letter-spacing="-1.5"')
     if not mobile:
         body+=a.path('M404 64C527 1 610 120 786 53','line',1.5)
-        body+=a.path('M404 64C527 1 610 120 786 53','red',2,extra='stroke-dasharray="14 26" class="flow"')
+        body+=a.path('M404 64C527 1 610 120 786 53','red',2,extra=a.flow(14,26))
         for i,(x,y,col) in enumerate(((481,44,'red'),(624,69,'violet'),(767,59,'blue'))):
             body+=a.circle(x,y,5,col,'class="breathe"')
         body+=a.arrow(900,54,'red',22)
@@ -339,7 +349,7 @@ def social_card(kind,profile,static=False,theme='light',mobile=False):
     body=a.circle(447,12,88,'url(#halo)')+a.rect(23,33,61,61,'soft',18)
     body+=social_icon(a,kind,37,46,color,1)+a.text(107,63,title,30,'ink',600,extra='letter-spacing="-.8"')
     body+=a.text(109,89,subtitle,13,'muted')+a.arrow(424,51,color,18)
-    body+=a.path('M108 107H367',color,1.6,extra='stroke-dasharray="34 89" class="flow" opacity=".65"')
+    body+=a.path('M108 107H367',color,1.6,extra=a.flow(34,89)+' opacity=".65"')
     return a.finish(title+' / Tanmay Tiwari',subtitle+'. Click this graphic to '+('send Tanmay an email.' if kind=='email' else 'open his '+title+' profile.'),470,129,body,static)
 
 
