@@ -219,7 +219,4 @@ I'm **Tanmay Tiwari**, a full-stack developer from India. I build web applicatio
 [Portfolio](https://takneekitanmay.tech) · [GitHub](https://github.com/tanmay-tiwari-20) · [LinkedIn](https://www.linkedin.com/in/tanmay-tiwari20/) · [Instagram](https://www.instagram.com/takneekitanmay/) · [X](https://x.com/TakneekiTanmay) · [Email](mailto:workwithtakneekitanmay@gmail.com)
 
 The skill tiles show real tools found in my public projects. [Skill evidence and complete dependency inventory](./docs/TECHNOLOGIES.md) · [Profile maintenance](./docs/PROFILE.md).
-
-Design inspired by [Avi Vashishta's animated SVG README cards](https://www.avivashishta.com/blog/github-profile-readme-animated-svg-cards).
-
 </details>
