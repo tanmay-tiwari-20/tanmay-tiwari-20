@@ -420,6 +420,10 @@ def main():
     profile=json.loads(args.profile.read_text(encoding='utf-8'));data=load_activity(args.data,profile['username'])
     themes=THEMES if args.theme=='both' else (args.theme,)
     generated={theme:build_cards(profile,data,args.static,theme) for theme in themes}
+    previous_names=set()
+    manifest_path=ROOT/'data/card-manifest.json'
+    if not args.static and args.output is None and args.theme=='both' and manifest_path.exists():
+        previous_names=set(json.loads(manifest_path.read_text(encoding='utf-8')).get('cards', []))
     for theme,cards in generated.items():
         destination=output/theme;destination.mkdir(parents=True,exist_ok=True)
         for name,value in cards.items():
@@ -428,7 +432,12 @@ def main():
             temp.replace(destination/name)
     if not args.static and args.output is None and args.theme=='both':
         manifest={'themes':['light','dark'],'cards':sorted(generated['light'])}
-        (ROOT/'data/card-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
+        manifest_path.write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
+        # Retire only known generated cards from the previous manifest.
+        for name in previous_names-set(manifest['cards']):
+            if re.fullmatch(r'[a-z0-9-]+\.svg',name):
+                for theme in themes:
+                    (output/theme/name).unlink(missing_ok=True)
     print(f'Rendered {sum(map(len,generated.values()))} graphics: {", ".join(generated)}. Repository analytics included; contribution calendar {"included" if data else "unavailable and omitted"}.')
 
 

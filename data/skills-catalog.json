@@ -1,0 +1,1380 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "id": "languages",
+      "title": "Languages & data",
+      "subtitle": "From the browser to data apps.",
+      "accent": "blue"
+    },
+    {
+      "id": "interface",
+      "title": "Interfaces & styling",
+      "subtitle": "The foundations of every screen.",
+      "accent": "violet"
+    },
+    {
+      "id": "creative",
+      "title": "Animation & 3D",
+      "subtitle": "Motion, interaction and immersive worlds.",
+      "accent": "mint"
+    },
+    {
+      "id": "backend",
+      "title": "Backend & authentication",
+      "subtitle": "Servers, connections and secure sessions.",
+      "accent": "yellow"
+    },
+    {
+      "id": "data",
+      "title": "Data, content & maps",
+      "subtitle": "Databases, schemas, content and maps.",
+      "accent": "cyan"
+    },
+    {
+      "id": "platforms",
+      "title": "Platforms & integrations",
+      "subtitle": "Services connected to my projects.",
+      "accent": "red"
+    },
+    {
+      "id": "tools",
+      "title": "Build, testing & utilities",
+      "subtitle": "Tools for building, checking and processing.",
+      "accent": "blue"
+    },
+    {
+      "id": "web3",
+      "title": "Blockchain tooling",
+      "subtitle": "Libraries and protocols in my repositories.",
+      "accent": "violet"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "group": "languages",
+      "logo": "javascript.svg",
+      "color": "#F7DF1E",
+      "icon_source": "https://github.com/voodootikigod/logo.js/blob/1544bdeed6d618a6cfe4f0650d04ab8d9cfa76d9/js.svg",
+      "technology_names": [],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": [
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "group": "languages",
+      "logo": "typescript.svg",
+      "color": "#3178C6",
+      "icon_source": "https://www.typescriptlang.org/branding",
+      "technology_names": [
+        "TypeScript"
+      ],
+      "supporting_technologies": [
+        "TypeScript type definitions",
+        "tsx",
+        "ts-node-dev"
+      ],
+      "source_skills": [],
+      "language_names": [
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "HTML",
+      "group": "languages",
+      "logo": "html5.svg",
+      "color": "#E34F26",
+      "icon_source": "https://www.w3.org/html/logo/",
+      "technology_names": [],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": [
+        "HTML"
+      ]
+    },
+    {
+      "name": "CSS",
+      "group": "languages",
+      "logo": "css.svg",
+      "color": "#663399",
+      "icon_source": "https://github.com/CSS-Next/logo.css/blob/bacc20878227204b283c68a6b935f8279e06b0cd/css.svg",
+      "technology_names": [],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": [
+        "CSS"
+      ]
+    },
+    {
+      "name": "Python",
+      "group": "languages",
+      "logo": "python.svg",
+      "color": "#3776AB",
+      "icon_source": "https://www.python.org/community/logos/",
+      "technology_names": [],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": [
+        "Python"
+      ]
+    },
+    {
+      "name": "EJS",
+      "group": "languages",
+      "logo": "ejs.svg",
+      "color": "#B4CA65",
+      "icon_source": "https://github.com/mde/ejs-site/blob/dd845093a46b373df42108b888a0ad80085a5c94/ejs.svg",
+      "technology_names": [
+        "EJS"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": [
+        "EJS"
+      ]
+    },
+    {
+      "name": "NumPy",
+      "group": "languages",
+      "logo": "numpy.svg",
+      "color": "#013243",
+      "icon_source": "https://numpy.org/press-kit/",
+      "technology_names": [],
+      "supporting_technologies": [],
+      "source_skills": [
+        "NumPy"
+      ],
+      "language_names": []
+    },
+    {
+      "name": "pandas",
+      "group": "languages",
+      "logo": "pandas.svg",
+      "color": "#150458",
+      "icon_source": "https://pandas.pydata.org/about/citing.html",
+      "technology_names": [],
+      "supporting_technologies": [],
+      "source_skills": [
+        "pandas"
+      ],
+      "language_names": []
+    },
+    {
+      "name": "Streamlit",
+      "group": "languages",
+      "logo": "streamlit.svg",
+      "color": "#FF4B4B",
+      "icon_source": "https://www.streamlit.io/brand",
+      "technology_names": [],
+      "supporting_technologies": [],
+      "source_skills": [
+        "Streamlit"
+      ],
+      "language_names": []
+    },
+    {
+      "name": "React",
+      "group": "interface",
+      "logo": "react.svg",
+      "color": "#61DAFB",
+      "icon_source": "https://github.com/facebook/create-react-app/blob/282c03f9525fdf8061ffa1ec50dce89296d916bd/test/fixtures/relative-paths/src/logo.svg",
+      "technology_names": [
+        "React"
+      ],
+      "supporting_technologies": [
+        "React Icons",
+        "@use-gesture/react",
+        "react-color",
+        "react-datepicker",
+        "react-dropzone",
+        "react-hot-toast",
+        "react-infinite-scroll-component",
+        "react-player",
+        "react-toastify",
+        "react-vertical-timeline-component",
+        "sonner"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Next.js",
+      "group": "interface",
+      "logo": "nextdotjs.svg",
+      "color": "#000000",
+      "icon_source": "https://vercel.com/design/brands#next-js",
+      "technology_names": [
+        "Next.js"
+      ],
+      "supporting_technologies": [
+        "next-themes",
+        "server-only"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "React Router",
+      "group": "interface",
+      "logo": "reactrouter.svg",
+      "color": "#CA4245",
+      "icon_source": "https://github.com/ReactTraining/react-router/blob/c94bcd8cef0c811f80b02777ec26fee3618f8e86/website/static/safari-pinned-tab.svg",
+      "technology_names": [
+        "React Router"
+      ],
+      "supporting_technologies": [
+        "isbot"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Redux",
+      "group": "interface",
+      "logo": "redux.svg",
+      "color": "#764ABC",
+      "icon_source": "https://github.com/reduxjs/redux/blob/abb5f892f7e46849e5ca9bc13e75cfbc944a71b6/logo/logo.svg",
+      "technology_names": [
+        "Redux"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Zustand",
+      "group": "interface",
+      "logo": "zustand.svg",
+      "color": "#806147",
+      "icon_source": "https://github.com/pmndrs/zustand/blob/main/examples/starter/src/assets/zustand-mascot.svg",
+      "technology_names": [
+        "Zustand"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Recoil",
+      "group": "interface",
+      "logo": "recoil.svg",
+      "color": "#3578E5",
+      "icon_source": "https://recoiljs.org",
+      "technology_names": [
+        "Recoil"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Valtio",
+      "group": "interface",
+      "logo": "valtio.svg",
+      "color": "#75D8E8",
+      "icon_source": "https://api.github.com/repos/pmndrs/valtio/git/blobs/ebaee0c6d750e6ddc051463734922a88eb84c305",
+      "technology_names": [
+        "Valtio"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Radix UI",
+      "group": "interface",
+      "logo": "radixui.svg",
+      "color": "#161618",
+      "icon_source": "https://www.radix-ui.com",
+      "technology_names": [
+        "Radix UI"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Chakra UI",
+      "group": "interface",
+      "logo": "chakraui.svg",
+      "color": "#1BB2A9",
+      "icon_source": "https://github.com/chakra-ui/chakra-ui/blob/e08025b359146d80ab46f1d35da82a11780c5316/media/logomark-colored.svg",
+      "technology_names": [
+        "Chakra UI"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Bootstrap",
+      "group": "interface",
+      "logo": "bootstrap.svg",
+      "color": "#7952B3",
+      "icon_source": "https://getbootstrap.com/docs/5.3/about/brand",
+      "technology_names": [
+        "Bootstrap"
+      ],
+      "supporting_technologies": [
+        "@popperjs/core"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "jQuery",
+      "group": "interface",
+      "logo": "jquery.svg",
+      "color": "#0769AD",
+      "icon_source": "https://brand.jquery.org/logos/",
+      "technology_names": [
+        "jQuery"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Materialize",
+      "group": "interface",
+      "logo": "materialize.svg",
+      "color": "#EE6E73",
+      "icon_source": "https://materializeweb.com/images/materialize.svg",
+      "technology_names": [
+        "Materialize"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "React Hook Form",
+      "group": "interface",
+      "logo": "reacthookform.svg",
+      "color": "#EC5990",
+      "icon_source": "https://github.com/react-hook-form/documentation/blob/d049ffe923336ce7a5bf58990c54c07f39ab2429/src/images/Logo.svg",
+      "technology_names": [
+        "React Hook Form"
+      ],
+      "supporting_technologies": [
+        "Hook Form resolvers"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Chart.js",
+      "group": "interface",
+      "logo": "chartdotjs.svg",
+      "color": "#FF6384",
+      "icon_source": "https://www.chartjs.org",
+      "technology_names": [
+        "Chart.js"
+      ],
+      "supporting_technologies": [
+        "React Chart.js"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Recharts",
+      "group": "interface",
+      "logo": "recharts.svg",
+      "color": "#22B5BF",
+      "icon_source": "https://github.com/recharts/recharts/blob/main/www/public/logo.svg",
+      "technology_names": [
+        "Recharts"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Lucide",
+      "group": "interface",
+      "logo": "lucide.svg",
+      "color": "#F56565",
+      "icon_source": "https://lucide.dev",
+      "technology_names": [
+        "Lucide React"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Remix Icon",
+      "group": "interface",
+      "logo": "remixicon.svg",
+      "color": "#3758F9",
+      "icon_source": "https://github.com/Remix-Design/RemixIcon/blob/master/.github/files/logo-github.svg",
+      "technology_names": [
+        "Remix Icon"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Font Awesome",
+      "group": "interface",
+      "logo": "fontawesome.svg",
+      "color": "#538DD7",
+      "icon_source": "https://fontawesome.com",
+      "technology_names": [
+        "Font Awesome"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Swiper",
+      "group": "interface",
+      "logo": "swiper.svg",
+      "color": "#6332F6",
+      "icon_source": "https://swiperjs.com",
+      "technology_names": [
+        "swiper"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "SweetAlert",
+      "group": "interface",
+      "logo": "sweetalert.svg",
+      "color": "#FF8E97",
+      "icon_source": "https://api.github.com/repos/t4t5/sweetalert/git/blobs/4e524132ecb864f7c6c431054578ba3dacb78249",
+      "technology_names": [
+        "sweetalert"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Tailwind CSS",
+      "group": "interface",
+      "logo": "tailwindcss.svg",
+      "color": "#06B6D4",
+      "icon_source": "https://tailwindcss.com/brand",
+      "technology_names": [
+        "Tailwind CSS"
+      ],
+      "supporting_technologies": [
+        "Tailwind Merge",
+        "Tailwind CSS Animate",
+        "TW Animate CSS",
+        "Class Variance Authority",
+        "clsx",
+        "classnames"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Emotion",
+      "group": "interface",
+      "logo": "emotion.svg",
+      "color": "#D26AC2",
+      "icon_source": "https://api.github.com/repos/emotion-js/emotion/git/blobs/a9621bb7ec2e09dd4024130dde1f1ec047628860",
+      "technology_names": [
+        "Emotion"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Styled Components",
+      "group": "interface",
+      "logo": "styledcomponents.svg",
+      "color": "#DB7093",
+      "icon_source": "https://www.styled-components.com",
+      "technology_names": [
+        "Styled Components"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "PostCSS",
+      "group": "interface",
+      "logo": "postcss.svg",
+      "color": "#DD3A0A",
+      "icon_source": "https://postcss.org",
+      "technology_names": [
+        "PostCSS"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Autoprefixer",
+      "group": "interface",
+      "logo": "autoprefixer.svg",
+      "color": "#DD3735",
+      "icon_source": "https://github.com/postcss/autoprefixer/blob/1341747bc8142a147342f55eea5ed4286a3ca318/logo.svg",
+      "technology_names": [
+        "Autoprefixer"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Google Fonts",
+      "group": "interface",
+      "logo": "googlefonts.svg",
+      "color": "#4285F4",
+      "icon_source": "https://fonts.google.com",
+      "technology_names": [
+        "Google Fonts"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "GSAP",
+      "group": "creative",
+      "logo": "gsap.svg",
+      "color": "#0AE448",
+      "icon_source": "https://gsap.com/brand/",
+      "technology_names": [
+        "GSAP"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Motion",
+      "group": "creative",
+      "logo": "motion.svg",
+      "color": "#FFF312",
+      "icon_source": "https://motion.dev",
+      "technology_names": [
+        "Motion / Framer Motion"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Three.js",
+      "group": "creative",
+      "logo": "threedotjs.svg",
+      "color": "#000000",
+      "icon_source": "https://github.com/mrdoob/three.js/blob/a567b810cfcb7f6a03e4faea99f03c53081da477/files/icon.svg",
+      "technology_names": [
+        "Three.js"
+      ],
+      "supporting_technologies": [
+        "ogl",
+        "cobe",
+        "maath",
+        "postprocessing"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "React Three Fiber",
+      "group": "creative",
+      "logo": "reactthreefiber.svg",
+      "color": "#000000",
+      "icon_source": "https://github.com/pmndrs/react-three-fiber/blob/master/example/favicon.svg",
+      "technology_names": [
+        "React Three Fiber"
+      ],
+      "supporting_technologies": [
+        "Drei",
+        "React Three Postprocessing",
+        "React Spring Three"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Rapier",
+      "group": "creative",
+      "logo": "rapier.svg",
+      "color": "#D5A72A",
+      "icon_source": "https://github.com/dimforge/rapier.rs/blob/master/static/img/rapier_logo_color_notext.svg",
+      "technology_names": [
+        "Rapier"
+      ],
+      "supporting_technologies": [
+        "React Three Rapier"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Lenis",
+      "group": "creative",
+      "logo": "lenis.svg",
+      "color": "#FF98A2",
+      "icon_source": "https://github.com/locomotivemtl/locomotive-scroll/blob/main/packages/landing/assets/images/sprite/logo-lenis.svg",
+      "technology_names": [
+        "Lenis"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Locomotive Scroll",
+      "group": "creative",
+      "logo": "locomotivescroll.svg",
+      "color": "#000000",
+      "icon_source": "https://github.com/locomotivemtl/locomotive-scroll/blob/main/packages/landing/assets/static/images/favicons/safari-pinned-tab.svg",
+      "technology_names": [
+        "Locomotive Scroll"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Anime.js",
+      "group": "creative",
+      "logo": "animedotjs.svg",
+      "color": "#000000",
+      "icon_source": "https://github.com/simple-icons/simple-icons/pull/13197#issuecomment-2900606090",
+      "technology_names": [
+        "Anime.js"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Node.js",
+      "group": "backend",
+      "logo": "nodedotjs.svg",
+      "color": "#5FA04E",
+      "icon_source": "https://nodejs.org/en/about/branding",
+      "technology_names": [],
+      "supporting_technologies": [
+        "bcrypt",
+        "bcryptjs",
+        "JOSE",
+        "path",
+        "uuid",
+        "nanoid",
+        "cron",
+        "debug"
+      ],
+      "source_skills": [
+        "Node.js"
+      ],
+      "language_names": []
+    },
+    {
+      "name": "Express",
+      "group": "backend",
+      "logo": "express.svg",
+      "color": "#0A0A0A",
+      "icon_source": "https://github.com/openjs-foundation/artwork/blob/3816245ebbf4707bdafde748350ac8476b6b5b62/projects/express/express-icon-black.svg",
+      "technology_names": [
+        "Express"
+      ],
+      "supporting_technologies": [
+        "body-parser",
+        "compression",
+        "connect-flash",
+        "cookie-parser",
+        "cors",
+        "express-fileupload",
+        "express-rate-limit",
+        "express-session",
+        "express-validator",
+        "helmet",
+        "http-errors",
+        "morgan",
+        "multer",
+        "validator"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Socket.IO",
+      "group": "backend",
+      "logo": "socketdotio.svg",
+      "color": "#010101",
+      "icon_source": "https://socket.io",
+      "technology_names": [
+        "Socket.IO"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Axios",
+      "group": "backend",
+      "logo": "axios.svg",
+      "color": "#5A29E4",
+      "icon_source": "https://github.com/axios/axios-docs/blob/ba35d67160f94419c1b0292831cd1a4b378adb42/assets/logo.svg",
+      "technology_names": [
+        "Axios"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Zod",
+      "group": "backend",
+      "logo": "zod.svg",
+      "color": "#408AFF",
+      "icon_source": "https://github.com/colinhacks/zod/blob/ff89187172ac6aa4a6264592980d1628ee785242/logo/Logo%20White.ai",
+      "technology_names": [
+        "Zod"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Passport",
+      "group": "backend",
+      "logo": "passport.svg",
+      "color": "#34E27A",
+      "icon_source": "https://www.passportjs.org",
+      "technology_names": [
+        "Passport"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Clerk",
+      "group": "backend",
+      "logo": "clerk.svg",
+      "color": "#6C47FF",
+      "icon_source": "https://clerk.com",
+      "technology_names": [
+        "Clerk"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "NextAuth.js",
+      "group": "backend",
+      "logo": "authjs.svg",
+      "color": "#7C3AED",
+      "icon_source": "https://github.com/nextauthjs/next-auth/blob/main/docs/public/img/logo-sm.png",
+      "technology_names": [
+        "NextAuth.js"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": [],
+      "logo_background": "light"
+    },
+    {
+      "name": "jsonwebtoken",
+      "group": "backend",
+      "logo": "jsonwebtokens.svg",
+      "color": "#000000",
+      "icon_source": "https://jwt.io",
+      "technology_names": [
+        "JSON Web Token"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "dotenv",
+      "group": "backend",
+      "logo": "dotenv.svg",
+      "color": "#ECD53F",
+      "icon_source": "https://github.com/motdotla/dotenv/blob/40e75440337d1de2345dc8326d6108331f583fd8/dotenv.svg",
+      "technology_names": [
+        "dotenv"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "MongoDB",
+      "group": "data",
+      "logo": "mongodb.svg",
+      "color": "#47A248",
+      "icon_source": "https://www.mongodb.com/pressroom",
+      "technology_names": [
+        "MongoDB driver"
+      ],
+      "supporting_technologies": [
+        "connect-mongo"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Mongoose",
+      "group": "data",
+      "logo": "mongoose.svg",
+      "color": "#880000",
+      "icon_source": "https://github.com/Automattic/mongoose/blob/7971a4dbd55888f0b005e65b06024109af8352f7/docs/images/mongoose.svg",
+      "technology_names": [
+        "Mongoose"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Redis",
+      "group": "data",
+      "logo": "redis.svg",
+      "color": "#FF4438",
+      "icon_source": "https://redis.io/brand-guidelines",
+      "technology_names": [
+        "ioredis"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [
+        "Redis"
+      ],
+      "language_names": []
+    },
+    {
+      "name": "PostgreSQL",
+      "group": "data",
+      "logo": "postgresql.svg",
+      "color": "#4169E1",
+      "icon_source": "https://wiki.postgresql.org/wiki/Logo",
+      "technology_names": [
+        "Postgres.js"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Neon",
+      "group": "data",
+      "logo": "neon.svg",
+      "color": "#34D59A",
+      "icon_source": "https://neon.com/brand",
+      "technology_names": [
+        "Neon"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Drizzle",
+      "group": "data",
+      "logo": "drizzle.svg",
+      "color": "#C5F74F",
+      "icon_source": "https://orm.drizzle.team",
+      "technology_names": [
+        "Drizzle"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Sanity",
+      "group": "data",
+      "logo": "sanity.svg",
+      "color": "#0D0E12",
+      "icon_source": "https://github.com/sanity-io/logos/blob/e298a1ac2757c83910fe08b496a115bc9aef06bd/src/sanityMonogram.tsx",
+      "technology_names": [
+        "Sanity"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Leaflet",
+      "group": "data",
+      "logo": "leaflet.svg",
+      "color": "#199900",
+      "icon_source": "https://github.com/Leaflet/Leaflet/blob/d843c3b88486713827d7e860b58bdba75bfbd5a2/src/images/logo.svg",
+      "technology_names": [
+        "Leaflet"
+      ],
+      "supporting_technologies": [
+        "React Leaflet"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Google Maps",
+      "group": "data",
+      "logo": "googlemaps.svg",
+      "color": "#4285F4",
+      "icon_source": "https://commons.wikimedia.org/wiki/File:Google_Maps_icon.svg",
+      "technology_names": [
+        "React Google Maps"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Cloudinary",
+      "group": "platforms",
+      "logo": "cloudinary.svg",
+      "color": "#3448C5",
+      "icon_source": "https://cloudinary.com",
+      "technology_names": [
+        "Cloudinary"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Vercel Analytics",
+      "group": "platforms",
+      "logo": "vercel.svg",
+      "color": "#000000",
+      "icon_source": "https://vercel.com/geist/brands",
+      "technology_names": [
+        "Vercel Analytics"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Google Gemini",
+      "group": "platforms",
+      "logo": "googlegemini.svg",
+      "color": "#8E75B2",
+      "icon_source": "https://gemini.google.com",
+      "technology_names": [
+        "Google Generative AI SDK"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Stream",
+      "group": "platforms",
+      "logo": "stream.svg",
+      "color": "#005FFF",
+      "icon_source": "https://getstream.io/assets/_variants/images/stream-dark-402w-36a3281f.webp",
+      "technology_names": [
+        "Stream"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": [],
+      "logo_background": "light"
+    },
+    {
+      "name": "Puter.js",
+      "group": "platforms",
+      "logo": "puter.svg",
+      "color": "#5865F2",
+      "icon_source": "https://github.com/HeyPuter/puter/blob/main/src/gui/src/images/logo.png",
+      "technology_names": [],
+      "supporting_technologies": [],
+      "source_skills": [
+        "Puter.js"
+      ],
+      "language_names": [],
+      "logo_background": "light"
+    },
+    {
+      "name": "EmailJS",
+      "group": "platforms",
+      "logo": "emailjs.svg",
+      "color": "#FF8434",
+      "icon_source": "https://www.emailjs.com",
+      "technology_names": [
+        "EmailJS"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Nodemailer",
+      "group": "platforms",
+      "logo": "nodemailer.svg",
+      "color": "#22B573",
+      "icon_source": "https://github.com/nodemailer/nodemailer/blob/master/assets/nm_logo_200x136.png",
+      "technology_names": [
+        "Nodemailer"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": [],
+      "logo_background": "light"
+    },
+    {
+      "name": "Resend",
+      "group": "platforms",
+      "logo": "resend.svg",
+      "color": "#000000",
+      "icon_source": "https://resend.com/brand",
+      "technology_names": [
+        "Resend"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "npm",
+      "group": "tools",
+      "logo": "npm.svg",
+      "color": "#CB3837",
+      "icon_source": "https://www.npmjs.com",
+      "technology_names": [],
+      "supporting_technologies": [
+        "Animate.css",
+        "canvas-confetti",
+        "concurrently",
+        "ControlKit",
+        "cross-env",
+        "Lettering.js",
+        "markdown-it",
+        "qrcode",
+        "qrcode-terminal",
+        "Shery.js",
+        "Textillate",
+        "tsParticles",
+        "whatsapp-web.js"
+      ],
+      "source_skills": [
+        "npm"
+      ],
+      "language_names": []
+    },
+    {
+      "name": "Docker / Compose",
+      "group": "tools",
+      "logo": "docker.svg",
+      "color": "#2496ED",
+      "icon_source": "https://www.docker.com/company/newsroom/media-resources",
+      "technology_names": [],
+      "supporting_technologies": [],
+      "source_skills": [
+        "Docker",
+        "Docker Compose"
+      ],
+      "language_names": []
+    },
+    {
+      "name": "Vite",
+      "group": "tools",
+      "logo": "vite.svg",
+      "color": "#9135FF",
+      "icon_source": "https://github.com/voidzero-dev/community-design-resources/blob/55902097229cf01cf2a4ceb376f992f5cf306756/brand-assets/vite/vite-icon-color-bracketless.svg",
+      "technology_names": [
+        "Vite"
+      ],
+      "supporting_technologies": [
+        "baseline-browser-mapping"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "ESLint",
+      "group": "tools",
+      "logo": "eslint.svg",
+      "color": "#4B32C3",
+      "icon_source": "https://eslint.org",
+      "technology_names": [
+        "ESLint"
+      ],
+      "supporting_technologies": [
+        "globals"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Prettier",
+      "group": "tools",
+      "logo": "prettier.svg",
+      "color": "#F7B93E",
+      "icon_source": "https://github.com/prettier/prettier-logo/blob/06997b307e0608ebee2044dafa0b9429d6b5a103/images/prettier-icon-clean-centred.svg",
+      "technology_names": [
+        "Prettier"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Nodemon",
+      "group": "tools",
+      "logo": "nodemon.svg",
+      "color": "#76D04B",
+      "icon_source": "https://nodemon.io",
+      "technology_names": [
+        "Nodemon"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Create React App",
+      "group": "tools",
+      "logo": "createreactapp.svg",
+      "color": "#09D3AC",
+      "icon_source": "https://github.com/facebook/create-react-app/blob/9d0369b1fe3260e620b08effcf85f1edefc5d1ea/docusaurus/website/static/img/logo.svg",
+      "technology_names": [
+        "Create React App"
+      ],
+      "supporting_technologies": [
+        "web-vitals"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Workbox",
+      "group": "tools",
+      "logo": "workbox.svg",
+      "color": "#FF7A00",
+      "icon_source": "https://developer.chrome.com/static/docs/workbox/workbox.png",
+      "technology_names": [
+        "Workbox"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": [],
+      "logo_background": "dark"
+    },
+    {
+      "name": "PDF.js",
+      "group": "tools",
+      "logo": "pdfjs.svg",
+      "color": "#FF501A",
+      "icon_source": "https://api.github.com/repos/mozilla/pdf.js/git/blobs/9c2486e9349608463c4c92645077477a91ab0d4d",
+      "technology_names": [
+        "PDF.js"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "date-fns",
+      "group": "tools",
+      "logo": "datefns.svg",
+      "color": "#770C56",
+      "icon_source": "https://date-fns.org",
+      "technology_names": [
+        "date-fns"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Moment.js",
+      "group": "tools",
+      "logo": "moment.svg",
+      "color": "#61B494",
+      "icon_source": "https://api.github.com/repos/moment/momentjs.com/git/blobs/4971ca4dd4f8fd65f4c67fa1bc6e0e86da346c89",
+      "technology_names": [
+        "moment"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Day.js",
+      "group": "tools",
+      "logo": "dayjs.svg",
+      "color": "#FF5F4C",
+      "icon_source": "https://user-images.githubusercontent.com/17680888/39081119-3057bbe2-456e-11e8-862c-646133ad4b43.png",
+      "technology_names": [
+        "dayjs"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": [],
+      "logo_background": "dark"
+    },
+    {
+      "name": "Testing Library",
+      "group": "tools",
+      "logo": "testinglibrary.svg",
+      "color": "#E33332",
+      "icon_source": "https://testing-library.com",
+      "technology_names": [
+        "Testing Library"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Vitest",
+      "group": "tools",
+      "logo": "vitest.svg",
+      "color": "#00FF74",
+      "icon_source": "https://github.com/voidzero-dev/community-design-resources/blob/55902097229cf01cf2a4ceb376f992f5cf306756/brand-assets/vitest/vitest-icon-color-bracketless.svg",
+      "technology_names": [
+        "Vitest"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Hardhat",
+      "group": "web3",
+      "logo": "hardhat.svg",
+      "color": "#FFF100",
+      "icon_source": "https://hardhat.org/images/hardhat-logo.svg",
+      "technology_names": [
+        "Hardhat"
+      ],
+      "supporting_technologies": [
+        "Solidity Coverage",
+        "TypeChain"
+      ],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "ethers.js",
+      "group": "web3",
+      "logo": "ethers.svg",
+      "color": "#2535A0",
+      "icon_source": "https://docs.ethers.org/v6",
+      "technology_names": [
+        "ethers.js"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Viem",
+      "group": "web3",
+      "logo": "viem.svg",
+      "color": "#F3D59C",
+      "icon_source": "https://github.com/wevm/viem/blob/main/site/public/logo-light-hug.svg",
+      "technology_names": [
+        "Viem"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Chainlink",
+      "group": "web3",
+      "logo": "chainlink.svg",
+      "color": "#375BD2",
+      "icon_source": "https://chain.link/brand-assets",
+      "technology_names": [
+        "Chainlink Contracts"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "OpenZeppelin",
+      "group": "web3",
+      "logo": "openzeppelin.svg",
+      "color": "#4E5EE4",
+      "icon_source": "https://openzeppelin.com",
+      "technology_names": [
+        "OpenZeppelin Contracts"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "LayerZero",
+      "group": "web3",
+      "logo": "layerzero.svg",
+      "color": "#000000",
+      "icon_source": "https://layerzero.network/static/logo.svg",
+      "technology_names": [
+        "LayerZero"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Lit Protocol",
+      "group": "web3",
+      "logo": "litprotocol.svg",
+      "color": "#000000",
+      "icon_source": "https://mintcdn.com/litprotocol/QETV3ZoD4rHDsUls/logo/light.svg",
+      "technology_names": [
+        "Lit Protocol"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    },
+    {
+      "name": "Sign Protocol",
+      "group": "web3",
+      "logo": "signprotocol.svg",
+      "color": "#FF5F00",
+      "icon_source": "https://docs.sign.global/assets/brand/sign-logo.png",
+      "technology_names": [
+        "Sign Protocol"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": [],
+      "logo_background": "light"
+    },
+    {
+      "name": "Web3Auth",
+      "group": "web3",
+      "logo": "web3auth.svg",
+      "color": "#0364FF",
+      "icon_source": "https://web3auth.io/images/web-3-auth-logo-light.svg",
+      "technology_names": [
+        "Web3Auth"
+      ],
+      "supporting_technologies": [],
+      "source_skills": [],
+      "language_names": []
+    }
+  ],
+  "exclusions": [
+    {
+      "technology": "Workspace package: backend",
+      "reason": "Repository-local workspace package; not an independent technology or skill."
+    }
+  ]
+}

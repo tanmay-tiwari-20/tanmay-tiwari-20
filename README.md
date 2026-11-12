@@ -83,89 +83,75 @@
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/footprint-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="./cards/light/footprint-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/footprint.svg" />
-  <img src="./cards/light/footprint.svg" width="100%" alt="Source-language presence: the percentage of audited repositories containing each language. A repository may contain multiple languages." />
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/skills-01-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="./cards/light/skills-01-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/skills-01.svg" />
+  <img src="./cards/light/skills-01.svg" width="100%" alt="Languages &amp; data: JavaScript; TypeScript; HTML; CSS; Python; EJS; NumPy; pandas; Streamlit. Authentic logo and name tiles." />
 </picture>
 </p>
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/technologies-01-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="./cards/light/technologies-01-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/technologies-01.svg" />
-  <img src="./cards/light/technologies-01.svg" width="100%" alt="Technology usage by audited repository: declared direct dependencies and verified CDN use. Percentages overlap. Page 1 of 8." />
-</picture>
-</p>
-
-<details>
-<summary>View all technology percentages</summary>
-
-<p>
-<picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/technologies-02-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="./cards/light/technologies-02-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/technologies-02.svg" />
-  <img src="./cards/light/technologies-02.svg" width="100%" alt="Technology usage by audited repository: declared direct dependencies and verified CDN use. Percentages overlap. Page 2 of 8." />
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/skills-02-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="./cards/light/skills-02-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/skills-02.svg" />
+  <img src="./cards/light/skills-02.svg" width="100%" alt="Interfaces &amp; styling: React; Next.js; React Router; Redux; Zustand; Recoil; Valtio; Radix UI; Chakra UI; Bootstrap; jQuery; Materialize; React Hook Form; Chart.js; Recharts; Lucide; Remix Icon; Font Awesome; Swiper; SweetAlert; Tailwind CSS; Emotion; Styled Components; PostCSS; Autoprefixer; Google Fonts. Authentic logo and name tiles." />
 </picture>
 </p>
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/technologies-03-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="./cards/light/technologies-03-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/technologies-03.svg" />
-  <img src="./cards/light/technologies-03.svg" width="100%" alt="Technology usage by audited repository: declared direct dependencies and verified CDN use. Percentages overlap. Page 3 of 8." />
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/skills-03-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="./cards/light/skills-03-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/skills-03.svg" />
+  <img src="./cards/light/skills-03.svg" width="100%" alt="Animation &amp; 3D: GSAP; Motion; Three.js; React Three Fiber; Rapier; Lenis; Locomotive Scroll; Anime.js. Authentic logo and name tiles." />
 </picture>
 </p>
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/technologies-04-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="./cards/light/technologies-04-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/technologies-04.svg" />
-  <img src="./cards/light/technologies-04.svg" width="100%" alt="Technology usage by audited repository: declared direct dependencies and verified CDN use. Percentages overlap. Page 4 of 8." />
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/skills-04-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="./cards/light/skills-04-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/skills-04.svg" />
+  <img src="./cards/light/skills-04.svg" width="100%" alt="Backend &amp; authentication: Node.js; Express; Socket.IO; Axios; Zod; Passport; Clerk; NextAuth.js; jsonwebtoken; dotenv. Authentic logo and name tiles." />
 </picture>
 </p>
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/technologies-05-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="./cards/light/technologies-05-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/technologies-05.svg" />
-  <img src="./cards/light/technologies-05.svg" width="100%" alt="Technology usage by audited repository: declared direct dependencies and verified CDN use. Percentages overlap. Page 5 of 8." />
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/skills-05-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="./cards/light/skills-05-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/skills-05.svg" />
+  <img src="./cards/light/skills-05.svg" width="100%" alt="Data, content &amp; maps: MongoDB; Mongoose; Redis; PostgreSQL; Neon; Drizzle; Sanity; Leaflet; Google Maps. Authentic logo and name tiles." />
 </picture>
 </p>
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/technologies-06-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="./cards/light/technologies-06-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/technologies-06.svg" />
-  <img src="./cards/light/technologies-06.svg" width="100%" alt="Technology usage by audited repository: declared direct dependencies and verified CDN use. Percentages overlap. Page 6 of 8." />
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/skills-06-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="./cards/light/skills-06-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/skills-06.svg" />
+  <img src="./cards/light/skills-06.svg" width="100%" alt="Platforms &amp; integrations: Cloudinary; Vercel Analytics; Google Gemini; Stream; Puter.js; EmailJS; Nodemailer; Resend. Authentic logo and name tiles." />
 </picture>
 </p>
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/technologies-07-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="./cards/light/technologies-07-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/technologies-07.svg" />
-  <img src="./cards/light/technologies-07.svg" width="100%" alt="Technology usage by audited repository: declared direct dependencies and verified CDN use. Percentages overlap. Page 7 of 8." />
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/skills-07-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="./cards/light/skills-07-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/skills-07.svg" />
+  <img src="./cards/light/skills-07.svg" width="100%" alt="Build, testing &amp; utilities: npm; Docker / Compose; Vite; ESLint; Prettier; Nodemon; Create React App; Workbox; PDF.js; date-fns; Moment.js; Day.js; Testing Library; Vitest. Authentic logo and name tiles." />
 </picture>
 </p>
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/technologies-08-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="./cards/light/technologies-08-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/technologies-08.svg" />
-  <img src="./cards/light/technologies-08.svg" width="100%" alt="Technology usage by audited repository: declared direct dependencies and verified CDN use. Percentages overlap. Page 8 of 8." />
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/skills-08-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="./cards/light/skills-08-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/skills-08.svg" />
+  <img src="./cards/light/skills-08.svg" width="100%" alt="Blockchain tooling: Hardhat; ethers.js; Viem; Chainlink; OpenZeppelin; LayerZero; Lit Protocol; Sign Protocol; Web3Auth. Authentic logo and name tiles." />
 </picture>
 </p>
-
-</details>
 
 <p>
 <picture>
@@ -226,12 +212,14 @@ I'm **Tanmay Tiwari**, a full-stack developer from India. I build web applicatio
 - **Frontend:** React, Next.js, TypeScript, JavaScript, Tailwind CSS.
 - **Backend:** Node.js, Express, MongoDB, Redis, Socket.IO.
 - **Creative web:** Three.js, React Three Fiber, GSAP, Framer Motion.
-- **Tools:** Git, GitHub, Vercel, Vite, Figma.
+- **Tools:** Docker, npm, Vercel Analytics, Vite, ESLint.
 
 ### Find me
 
 [Portfolio](https://takneekitanmay.tech) · [GitHub](https://github.com/tanmay-tiwari-20) · [LinkedIn](https://www.linkedin.com/in/tanmay-tiwari20/) · [Instagram](https://www.instagram.com/takneekitanmay/) · [X](https://x.com/TakneekiTanmay) · [Email](mailto:workwithtakneekitanmay@gmail.com)
 
-The charts describe public repositories and their observed technologies. [Full technology inventory and percentages](./docs/TECHNOLOGIES.md) · [Measurement definitions and profile maintenance](./docs/PROFILE.md).
+The skill tiles show real tools found in my public projects. [Skill evidence and complete dependency inventory](./docs/TECHNOLOGIES.md) · [Profile maintenance](./docs/PROFILE.md).
+
+Design inspired by [Avi Vashishta's animated SVG README cards](https://www.avivashishta.com/blog/github-profile-readme-animated-svg-cards).
 
 </details>

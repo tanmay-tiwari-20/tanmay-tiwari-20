@@ -1,0 +1,167 @@
+{
+  "username": "tanmay-tiwari-20",
+  "verified_on": "2026-11-12",
+  "base_audit_as_of": "2026-11-12",
+  "scope": "Supplemental source and configuration evidence from public default branches. Immutable Git blob URLs identify the exact inspected file contents. These observations supplement the complete stored repository audit; they do not claim a complete historical or runtime-usage audit.",
+  "repository_comparison": {
+    "checked_on": "2026-11-12",
+    "method": "GitHub connector repository search for user:tanmay-tiwari-20, page 1, 100 results requested",
+    "public_repositories_returned": 47,
+    "public_projects_excluding_profile": 46,
+    "new_project_names": [],
+    "stored_project_names_not_returned": [],
+    "note": "All 46 stored project names were returned. The normalized search result does not expose fork flags or total_count, so this comparison does not replace the stored complete audit."
+  },
+  "skills": [
+    {
+      "name": "pandas",
+      "repositories": ["IPL-Captaincy-Analysis"],
+      "evidence": [
+        {
+          "repository": "IPL-Captaincy-Analysis",
+          "path": "captain.py",
+          "blob_sha": "e286a428e8d94894d0b786020d9913078c0c3772",
+          "url": "https://api.github.com/repos/tanmay-tiwari-20/IPL-Captaincy-Analysis/git/blobs/e286a428e8d94894d0b786020d9913078c0c3772",
+          "file_url": "https://github.com/tanmay-tiwari-20/IPL-Captaincy-Analysis/blob/main/captain.py",
+          "excerpt": "import pandas as pd\ndf = pd.read_csv(uploaded_file)\nchart_data = pd.DataFrame({"
+        }
+      ]
+    },
+    {
+      "name": "NumPy",
+      "repositories": ["IPL-Captaincy-Analysis"],
+      "evidence": [
+        {
+          "repository": "IPL-Captaincy-Analysis",
+          "path": "captain.py",
+          "blob_sha": "e286a428e8d94894d0b786020d9913078c0c3772",
+          "url": "https://api.github.com/repos/tanmay-tiwari-20/IPL-Captaincy-Analysis/git/blobs/e286a428e8d94894d0b786020d9913078c0c3772",
+          "file_url": "https://github.com/tanmay-tiwari-20/IPL-Captaincy-Analysis/blob/main/captain.py",
+          "excerpt": "import numpy as np\ndf['Win_Percentage'] = np.where(df['Matches_Played'] > 0,"
+        }
+      ]
+    },
+    {
+      "name": "Streamlit",
+      "repositories": ["IPL-Captaincy-Analysis"],
+      "evidence": [
+        {
+          "repository": "IPL-Captaincy-Analysis",
+          "path": "captain.py",
+          "blob_sha": "e286a428e8d94894d0b786020d9913078c0c3772",
+          "url": "https://api.github.com/repos/tanmay-tiwari-20/IPL-Captaincy-Analysis/git/blobs/e286a428e8d94894d0b786020d9913078c0c3772",
+          "file_url": "https://github.com/tanmay-tiwari-20/IPL-Captaincy-Analysis/blob/main/captain.py",
+          "excerpt": "import streamlit as st\nst.set_page_config(\nst.bar_chart(chart_data.set_index('Metric'), use_container_width=True)"
+        }
+      ]
+    },
+    {
+      "name": "Puter.js",
+      "repositories": ["Resumify"],
+      "evidence": [
+        {
+          "repository": "Resumify",
+          "path": "app/root.tsx",
+          "blob_sha": "90af1f33033fe9f7816781c94aefbcc53382fa03",
+          "url": "https://api.github.com/repos/tanmay-tiwari-20/Resumify/git/blobs/90af1f33033fe9f7816781c94aefbcc53382fa03",
+          "file_url": "https://github.com/tanmay-tiwari-20/Resumify/blob/main/app/root.tsx",
+          "excerpt": "import { usePuterStore } from \"./lib/puter\";\n<script src=\"https://js.puter.com/v2/\"></script>"
+        },
+        {
+          "repository": "Resumify",
+          "path": "app/lib/puter.ts",
+          "blob_sha": "2c90606887fe81dfd8c0494ef72337d0cb7fd886",
+          "url": "https://api.github.com/repos/tanmay-tiwari-20/Resumify/git/blobs/2c90606887fe81dfd8c0494ef72337d0cb7fd886",
+          "file_url": "https://github.com/tanmay-tiwari-20/Resumify/blob/main/app/lib/puter.ts",
+          "excerpt": "const puter = getPuter();\nconst user = await puter.auth.getUser();"
+        }
+      ]
+    },
+    {
+      "name": "Docker",
+      "repositories": ["Resumify", "Unoverse"],
+      "evidence": [
+        {
+          "repository": "Resumify",
+          "path": "Dockerfile",
+          "blob_sha": "207bf937e383fd111f21287c1eb2d80589fc4306",
+          "url": "https://api.github.com/repos/tanmay-tiwari-20/Resumify/git/blobs/207bf937e383fd111f21287c1eb2d80589fc4306",
+          "file_url": "https://github.com/tanmay-tiwari-20/Resumify/blob/main/Dockerfile",
+          "excerpt": "FROM node:20-alpine AS build-env\nCOPY --from=development-dependencies-env /app/node_modules /app/node_modules\nRUN npm run build"
+        },
+        {
+          "repository": "Unoverse",
+          "path": "docker-compose.yml",
+          "blob_sha": "d7243cc252d92cee6837f8a7bcbf6a2a87570808",
+          "url": "https://api.github.com/repos/tanmay-tiwari-20/Unoverse/git/blobs/d7243cc252d92cee6837f8a7bcbf6a2a87570808",
+          "file_url": "https://github.com/tanmay-tiwari-20/Unoverse/blob/main/docker-compose.yml",
+          "excerpt": "services:\n  redis:\n    image: redis:7-alpine\n  backend:\n    build: ./backend"
+        }
+      ]
+    },
+    {
+      "name": "Docker Compose",
+      "repositories": ["Unoverse"],
+      "evidence": [
+        {
+          "repository": "Unoverse",
+          "path": "docker-compose.yml",
+          "blob_sha": "d7243cc252d92cee6837f8a7bcbf6a2a87570808",
+          "url": "https://api.github.com/repos/tanmay-tiwari-20/Unoverse/git/blobs/d7243cc252d92cee6837f8a7bcbf6a2a87570808",
+          "file_url": "https://github.com/tanmay-tiwari-20/Unoverse/blob/main/docker-compose.yml",
+          "excerpt": "#   docker compose up --build\nservices:\n  redis:\n    image: redis:7-alpine\n  backend:\n    build: ./backend"
+        }
+      ]
+    },
+    {
+      "name": "Redis",
+      "repositories": ["Unoverse"],
+      "evidence": [
+        {
+          "repository": "Unoverse",
+          "path": "docker-compose.yml",
+          "blob_sha": "d7243cc252d92cee6837f8a7bcbf6a2a87570808",
+          "url": "https://api.github.com/repos/tanmay-tiwari-20/Unoverse/git/blobs/d7243cc252d92cee6837f8a7bcbf6a2a87570808",
+          "file_url": "https://github.com/tanmay-tiwari-20/Unoverse/blob/main/docker-compose.yml",
+          "excerpt": "image: redis:7-alpine\ncommand: [\"redis-server\", \"--appendonly\", \"yes\"]\nSTORE: redis\nREDIS_URL: redis://redis:6379"
+        }
+      ]
+    },
+    {
+      "name": "Node.js",
+      "repositories": ["Resumify", "Unoverse"],
+      "evidence": [
+        {
+          "repository": "Resumify",
+          "path": "Dockerfile",
+          "blob_sha": "207bf937e383fd111f21287c1eb2d80589fc4306",
+          "url": "https://api.github.com/repos/tanmay-tiwari-20/Resumify/git/blobs/207bf937e383fd111f21287c1eb2d80589fc4306",
+          "file_url": "https://github.com/tanmay-tiwari-20/Resumify/blob/main/Dockerfile",
+          "excerpt": "FROM node:20-alpine\nCMD [\"npm\", \"run\", \"start\"]"
+        },
+        {
+          "repository": "Unoverse",
+          "path": "backend/package.json",
+          "blob_sha": "a55a5aef09c0b3757653a127ab7d6b1457ecffdc",
+          "url": "https://api.github.com/repos/tanmay-tiwari-20/Unoverse/git/blobs/a55a5aef09c0b3757653a127ab7d6b1457ecffdc",
+          "file_url": "https://github.com/tanmay-tiwari-20/Unoverse/blob/main/backend/package.json",
+          "excerpt": "\"main\": \"dist/index.js\",\n\"start\": \"node dist/index.js\""
+        }
+      ]
+    },
+    {
+      "name": "npm",
+      "repositories": ["Resumify"],
+      "evidence": [
+        {
+          "repository": "Resumify",
+          "path": "Dockerfile",
+          "blob_sha": "207bf937e383fd111f21287c1eb2d80589fc4306",
+          "url": "https://api.github.com/repos/tanmay-tiwari-20/Resumify/git/blobs/207bf937e383fd111f21287c1eb2d80589fc4306",
+          "file_url": "https://github.com/tanmay-tiwari-20/Resumify/blob/main/Dockerfile",
+          "excerpt": "RUN npm ci\nRUN npm ci --omit=dev\nRUN npm run build\nCMD [\"npm\", \"run\", \"start\"]"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "username": "tanmay-tiwari-20",
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-12",
   "scope": "public non-fork repositories, excluding profile repo",
   "repository_count": 46,
   "stars": 5,
@@ -16,28 +16,28 @@
       "repository_count": 22,
       "percent": 47.83,
       "repository_names": [
-        "shirt-showcaser",
-        "Edusavvy",
-        "Portfolio",
-        "Sabu",
-        "Code-Vault",
-        "book-store-website",
-        "HackShastra1",
-        "todo-list",
         "Apple-iPhone15",
-        "Routing",
+        "book-store-website",
+        "card",
         "Cinefy",
-        "IPL-Score-Predictor",
-        "songs",
-        "Refokus",
+        "Code-Vault",
+        "Edusavvy",
+        "HackShastra1",
         "HRMS",
-        "react-api-project",
-        "Resumify",
-        "Spools",
-        "Password-Generator",
-        "Squid-Game",
+        "IPL-Score-Predictor",
         "ochi-clone",
-        "card"
+        "Password-Generator",
+        "Portfolio",
+        "react-api-project",
+        "Refokus",
+        "Resumify",
+        "Routing",
+        "Sabu",
+        "shirt-showcaser",
+        "songs",
+        "Spools",
+        "Squid-Game",
+        "todo-list"
       ]
     },
     {
@@ -45,17 +45,17 @@
       "repository_count": 11,
       "percent": 23.91,
       "repository_names": [
-        "Strot",
-        "Unoverse",
+        "4th-Dimension",
+        "Baithak",
+        "devndez",
+        "HackShastra2.0",
         "Pen-Brawl",
         "PitchDeck",
         "Portfolio-2.0",
         "Samyoj",
-        "Baithak",
-        "4th-Dimension",
-        "Wastify",
-        "devndez",
-        "HackShastra2.0"
+        "Strot",
+        "Unoverse",
+        "Wastify"
       ]
     },
     {
@@ -63,12 +63,12 @@
       "repository_count": 6,
       "percent": 13.04,
       "repository_names": [
-        "Zenzone",
+        "3d-Cube",
+        "3D-Robo",
+        "Neumorphic-Calculator",
         "OTP-Generator",
         "tailwind",
-        "3D-Robo",
-        "3d-Cube",
-        "Neumorphic-Calculator"
+        "Zenzone"
       ]
     },
     {
@@ -76,10 +76,10 @@
       "repository_count": 4,
       "percent": 8.7,
       "repository_names": [
+        "GSAP",
         "obys-agency",
-        "Zentry",
         "premier",
-        "GSAP"
+        "Zentry"
       ]
     },
     {
@@ -87,8 +87,8 @@
       "repository_count": 2,
       "percent": 4.35,
       "repository_names": [
-        "Pinterest",
-        "InstaClone"
+        "InstaClone",
+        "Pinterest"
       ]
     },
     {
@@ -260,345 +260,22 @@
   "creation_timeline_basis": "Repository created_at month in UTC; counts repositories created, not commits or contributions",
   "repositories": [
     {
-      "name": "Strot",
-      "full_name": "tanmay-tiwari-20/Strot",
-      "html_url": "https://github.com/tanmay-tiwari-20/Strot",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 1,
-      "forks_count": 0,
-      "created_at": "2026-06-14T20:36:21Z",
-      "pushed_at": "2026-06-27T17:54:24Z",
-      "visibility": "public",
-      "primary_language": "TypeScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Strot"
-      ]
-    },
-    {
-      "name": "shirt-showcaser",
-      "full_name": "tanmay-tiwari-20/shirt-showcaser",
-      "html_url": "https://github.com/tanmay-tiwari-20/shirt-showcaser",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 1,
-      "forks_count": 0,
-      "created_at": "2024-09-05T18:13:03Z",
-      "pushed_at": "2024-09-09T16:21:26Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/shirt-showcaser"
-      ]
-    },
-    {
-      "name": "Edusavvy",
-      "full_name": "tanmay-tiwari-20/Edusavvy",
-      "html_url": "https://github.com/tanmay-tiwari-20/Edusavvy",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 1,
-      "forks_count": 0,
-      "created_at": "2024-10-07T06:40:32Z",
-      "pushed_at": "2024-10-15T06:14:55Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Edusavvy"
-      ]
-    },
-    {
-      "name": "Portfolio",
-      "full_name": "tanmay-tiwari-20/Portfolio",
-      "html_url": "https://github.com/tanmay-tiwari-20/Portfolio",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 1,
-      "forks_count": 0,
-      "created_at": "2024-08-04T17:36:08Z",
-      "pushed_at": "2025-03-02T17:22:14Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Portfolio"
-      ]
-    },
-    {
-      "name": "Unoverse",
-      "full_name": "tanmay-tiwari-20/Unoverse",
-      "html_url": "https://github.com/tanmay-tiwari-20/Unoverse",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 1,
-      "forks_count": 0,
-      "created_at": "2026-06-28T13:09:18Z",
-      "pushed_at": "2026-10-16T19:25:10Z",
-      "visibility": "public",
-      "primary_language": "TypeScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Unoverse"
-      ]
-    },
-    {
-      "name": "obys-agency",
-      "full_name": "tanmay-tiwari-20/obys-agency",
-      "html_url": "https://github.com/tanmay-tiwari-20/obys-agency",
+      "name": "3d-Cube",
+      "full_name": "tanmay-tiwari-20/3d-Cube",
+      "html_url": "https://github.com/tanmay-tiwari-20/3d-Cube",
       "fork": false,
       "archived": false,
       "default_branch": "main",
       "stargazers_count": 0,
       "forks_count": 0,
-      "created_at": "2024-07-05T13:14:53Z",
-      "pushed_at": "2024-08-31T09:21:44Z",
-      "visibility": "public",
-      "primary_language": "CSS",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/obys-agency"
-      ]
-    },
-    {
-      "name": "Pen-Brawl",
-      "full_name": "tanmay-tiwari-20/Pen-Brawl",
-      "html_url": "https://github.com/tanmay-tiwari-20/Pen-Brawl",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2026-08-20T16:17:58Z",
-      "pushed_at": "2026-08-27T16:34:05Z",
-      "visibility": "public",
-      "primary_language": "TypeScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Pen-Brawl"
-      ]
-    },
-    {
-      "name": "Zenzone",
-      "full_name": "tanmay-tiwari-20/Zenzone",
-      "html_url": "https://github.com/tanmay-tiwari-20/Zenzone",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2024-07-10T16:34:26Z",
-      "pushed_at": "2024-07-10T16:41:49Z",
+      "created_at": "2025-05-14T08:03:16Z",
+      "pushed_at": "2025-05-14T08:09:17Z",
       "visibility": "public",
       "primary_language": "HTML",
       "languages": null,
       "language_bytes_available": false,
       "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Zenzone"
-      ]
-    },
-    {
-      "name": "IPL-Captaincy-Analysis",
-      "full_name": "tanmay-tiwari-20/IPL-Captaincy-Analysis",
-      "html_url": "https://github.com/tanmay-tiwari-20/IPL-Captaincy-Analysis",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2025-03-24T12:39:40Z",
-      "pushed_at": "2025-03-24T12:43:41Z",
-      "visibility": "public",
-      "primary_language": "Python",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/IPL-Captaincy-Analysis"
-      ]
-    },
-    {
-      "name": "Zentry",
-      "full_name": "tanmay-tiwari-20/Zentry",
-      "html_url": "https://github.com/tanmay-tiwari-20/Zentry",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2024-11-27T17:56:06Z",
-      "pushed_at": "2024-11-28T09:47:59Z",
-      "visibility": "public",
-      "primary_language": "CSS",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Zentry"
-      ]
-    },
-    {
-      "name": "Sabu",
-      "full_name": "tanmay-tiwari-20/Sabu",
-      "html_url": "https://github.com/tanmay-tiwari-20/Sabu",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2025-04-27T16:00:53Z",
-      "pushed_at": "2025-05-03T16:10:55Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Sabu"
-      ]
-    },
-    {
-      "name": "PitchDeck",
-      "full_name": "tanmay-tiwari-20/PitchDeck",
-      "html_url": "https://github.com/tanmay-tiwari-20/PitchDeck",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2024-11-01T05:39:46Z",
-      "pushed_at": "2025-02-03T16:04:49Z",
-      "visibility": "public",
-      "primary_language": "TypeScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/PitchDeck"
-      ]
-    },
-    {
-      "name": "Portfolio-2.0",
-      "full_name": "tanmay-tiwari-20/Portfolio-2.0",
-      "html_url": "https://github.com/tanmay-tiwari-20/Portfolio-2.0",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2026-10-18T17:40:47Z",
-      "pushed_at": "2026-11-10T10:28:48Z",
-      "visibility": "public",
-      "primary_language": "TypeScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Portfolio-2.0"
-      ]
-    },
-    {
-      "name": "Pinterest",
-      "full_name": "tanmay-tiwari-20/Pinterest",
-      "html_url": "https://github.com/tanmay-tiwari-20/Pinterest",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2024-08-26T12:06:57Z",
-      "pushed_at": "2024-08-31T09:04:20Z",
-      "visibility": "public",
-      "primary_language": "EJS",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Pinterest"
-      ]
-    },
-    {
-      "name": "OTP-Generator",
-      "full_name": "tanmay-tiwari-20/OTP-Generator",
-      "html_url": "https://github.com/tanmay-tiwari-20/OTP-Generator",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2025-03-19T06:41:43Z",
-      "pushed_at": "2025-03-19T07:02:06Z",
-      "visibility": "public",
-      "primary_language": "HTML",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/OTP-Generator"
-      ]
-    },
-    {
-      "name": "Code-Vault",
-      "full_name": "tanmay-tiwari-20/Code-Vault",
-      "html_url": "https://github.com/tanmay-tiwari-20/Code-Vault",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2025-06-14T13:58:17Z",
-      "pushed_at": "2026-06-25T20:21:00Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Code-Vault"
-      ]
-    },
-    {
-      "name": "tailwind",
-      "full_name": "tanmay-tiwari-20/tailwind",
-      "html_url": "https://github.com/tanmay-tiwari-20/tailwind",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2024-07-08T18:55:20Z",
-      "pushed_at": "2024-07-10T16:03:38Z",
-      "visibility": "public",
-      "primary_language": "HTML",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/tailwind"
-      ]
-    },
-    {
-      "name": "book-store-website",
-      "full_name": "tanmay-tiwari-20/book-store-website",
-      "html_url": "https://github.com/tanmay-tiwari-20/book-store-website",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2024-11-28T09:41:03Z",
-      "pushed_at": "2024-12-28T12:14:31Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/book-store-website"
+        "https://api.github.com/repos/tanmay-tiwari-20/3d-Cube"
       ]
     },
     {
@@ -621,60 +298,22 @@
       ]
     },
     {
-      "name": "HackShastra1",
-      "full_name": "tanmay-tiwari-20/HackShastra1",
-      "html_url": "https://github.com/tanmay-tiwari-20/HackShastra1",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 1,
-      "created_at": "2024-11-13T09:00:07Z",
-      "pushed_at": "2024-11-20T17:50:35Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/HackShastra1"
-      ]
-    },
-    {
-      "name": "todo-list",
-      "full_name": "tanmay-tiwari-20/todo-list",
-      "html_url": "https://github.com/tanmay-tiwari-20/todo-list",
+      "name": "4th-Dimension",
+      "full_name": "tanmay-tiwari-20/4th-Dimension",
+      "html_url": "https://github.com/tanmay-tiwari-20/4th-Dimension",
       "fork": false,
       "archived": false,
       "default_branch": "main",
       "stargazers_count": 0,
       "forks_count": 0,
-      "created_at": "2024-07-11T15:59:44Z",
-      "pushed_at": "2025-12-24T15:08:17Z",
+      "created_at": "2026-10-14T16:42:33Z",
+      "pushed_at": "2026-10-14T18:25:53Z",
       "visibility": "public",
-      "primary_language": "JavaScript",
+      "primary_language": "TypeScript",
       "languages": null,
       "language_bytes_available": false,
       "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/todo-list"
-      ]
-    },
-    {
-      "name": "premier",
-      "full_name": "tanmay-tiwari-20/premier",
-      "html_url": "https://github.com/tanmay-tiwari-20/premier",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2024-05-28T17:05:48Z",
-      "pushed_at": "2024-08-31T09:23:54Z",
-      "visibility": "public",
-      "primary_language": "CSS",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/premier"
+        "https://api.github.com/repos/tanmay-tiwari-20/4th-Dimension"
       ]
     },
     {
@@ -697,158 +336,6 @@
       ]
     },
     {
-      "name": "3d-Cube",
-      "full_name": "tanmay-tiwari-20/3d-Cube",
-      "html_url": "https://github.com/tanmay-tiwari-20/3d-Cube",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2025-05-14T08:03:16Z",
-      "pushed_at": "2025-05-14T08:09:17Z",
-      "visibility": "public",
-      "primary_language": "HTML",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/3d-Cube"
-      ]
-    },
-    {
-      "name": "Samyoj",
-      "full_name": "tanmay-tiwari-20/Samyoj",
-      "html_url": "https://github.com/tanmay-tiwari-20/Samyoj",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2025-04-14T15:57:10Z",
-      "pushed_at": "2025-04-16T16:50:02Z",
-      "visibility": "public",
-      "primary_language": "TypeScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Samyoj"
-      ]
-    },
-    {
-      "name": "Routing",
-      "full_name": "tanmay-tiwari-20/Routing",
-      "html_url": "https://github.com/tanmay-tiwari-20/Routing",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2024-07-24T12:02:07Z",
-      "pushed_at": "2024-07-24T12:07:44Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Routing"
-      ]
-    },
-    {
-      "name": "Cinefy",
-      "full_name": "tanmay-tiwari-20/Cinefy",
-      "html_url": "https://github.com/tanmay-tiwari-20/Cinefy",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2024-08-01T19:20:53Z",
-      "pushed_at": "2024-08-01T19:21:45Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Cinefy"
-      ]
-    },
-    {
-      "name": "IPL-Score-Predictor",
-      "full_name": "tanmay-tiwari-20/IPL-Score-Predictor",
-      "html_url": "https://github.com/tanmay-tiwari-20/IPL-Score-Predictor",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2025-03-22T10:36:01Z",
-      "pushed_at": "2025-03-22T11:54:50Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/IPL-Score-Predictor"
-      ]
-    },
-    {
-      "name": "songs",
-      "full_name": "tanmay-tiwari-20/songs",
-      "html_url": "https://github.com/tanmay-tiwari-20/songs",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2024-07-22T10:28:55Z",
-      "pushed_at": "2024-07-22T17:12:48Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/songs"
-      ]
-    },
-    {
-      "name": "Refokus",
-      "full_name": "tanmay-tiwari-20/Refokus",
-      "html_url": "https://github.com/tanmay-tiwari-20/Refokus",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2024-07-25T18:32:49Z",
-      "pushed_at": "2024-08-31T08:45:01Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Refokus"
-      ]
-    },
-    {
-      "name": "HRMS",
-      "full_name": "tanmay-tiwari-20/HRMS",
-      "html_url": "https://github.com/tanmay-tiwari-20/HRMS",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2025-05-24T07:51:51Z",
-      "pushed_at": "2025-05-24T07:52:47Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/HRMS"
-      ]
-    },
-    {
       "name": "Baithak",
       "full_name": "tanmay-tiwari-20/Baithak",
       "html_url": "https://github.com/tanmay-tiwari-20/Baithak",
@@ -868,212 +355,22 @@
       ]
     },
     {
-      "name": "InstaClone",
-      "full_name": "tanmay-tiwari-20/InstaClone",
-      "html_url": "https://github.com/tanmay-tiwari-20/InstaClone",
+      "name": "book-store-website",
+      "full_name": "tanmay-tiwari-20/book-store-website",
+      "html_url": "https://github.com/tanmay-tiwari-20/book-store-website",
       "fork": false,
       "archived": false,
       "default_branch": "main",
       "stargazers_count": 0,
       "forks_count": 0,
-      "created_at": "2024-09-01T15:58:12Z",
-      "pushed_at": "2024-09-03T16:48:54Z",
-      "visibility": "public",
-      "primary_language": "EJS",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/InstaClone"
-      ]
-    },
-    {
-      "name": "react-api-project",
-      "full_name": "tanmay-tiwari-20/react-api-project",
-      "html_url": "https://github.com/tanmay-tiwari-20/react-api-project",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2024-07-25T13:10:39Z",
-      "pushed_at": "2024-07-25T13:11:52Z",
+      "created_at": "2024-11-28T09:41:03Z",
+      "pushed_at": "2024-12-28T12:14:31Z",
       "visibility": "public",
       "primary_language": "JavaScript",
       "languages": null,
       "language_bytes_available": false,
       "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/react-api-project"
-      ]
-    },
-    {
-      "name": "Resumify",
-      "full_name": "tanmay-tiwari-20/Resumify",
-      "html_url": "https://github.com/tanmay-tiwari-20/Resumify",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2025-08-10T15:12:08Z",
-      "pushed_at": "2025-08-31T09:25:37Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Resumify"
-      ]
-    },
-    {
-      "name": "4th-Dimension",
-      "full_name": "tanmay-tiwari-20/4th-Dimension",
-      "html_url": "https://github.com/tanmay-tiwari-20/4th-Dimension",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2026-10-14T16:42:33Z",
-      "pushed_at": "2026-10-14T18:25:53Z",
-      "visibility": "public",
-      "primary_language": "TypeScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/4th-Dimension"
-      ]
-    },
-    {
-      "name": "Wastify",
-      "full_name": "tanmay-tiwari-20/Wastify",
-      "html_url": "https://github.com/tanmay-tiwari-20/Wastify",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2025-04-24T10:45:02Z",
-      "pushed_at": "2025-12-23T21:12:02Z",
-      "visibility": "public",
-      "primary_language": "TypeScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Wastify"
-      ]
-    },
-    {
-      "name": "Spools",
-      "full_name": "tanmay-tiwari-20/Spools",
-      "html_url": "https://github.com/tanmay-tiwari-20/Spools",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2024-09-18T05:05:49Z",
-      "pushed_at": "2026-10-04T15:58:01Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Spools"
-      ]
-    },
-    {
-      "name": "Password-Generator",
-      "full_name": "tanmay-tiwari-20/Password-Generator",
-      "html_url": "https://github.com/tanmay-tiwari-20/Password-Generator",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2025-03-20T11:42:35Z",
-      "pushed_at": "2025-03-20T11:43:26Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Password-Generator"
-      ]
-    },
-    {
-      "name": "Neumorphic-Calculator",
-      "full_name": "tanmay-tiwari-20/Neumorphic-Calculator",
-      "html_url": "https://github.com/tanmay-tiwari-20/Neumorphic-Calculator",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2025-04-17T12:26:20Z",
-      "pushed_at": "2025-04-19T12:07:34Z",
-      "visibility": "public",
-      "primary_language": "HTML",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Neumorphic-Calculator"
-      ]
-    },
-    {
-      "name": "GSAP",
-      "full_name": "tanmay-tiwari-20/GSAP",
-      "html_url": "https://github.com/tanmay-tiwari-20/GSAP",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2024-07-04T18:38:56Z",
-      "pushed_at": "2025-03-28T10:52:21Z",
-      "visibility": "public",
-      "primary_language": "CSS",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/GSAP"
-      ]
-    },
-    {
-      "name": "Squid-Game",
-      "full_name": "tanmay-tiwari-20/Squid-Game",
-      "html_url": "https://github.com/tanmay-tiwari-20/Squid-Game",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2025-07-02T12:26:20Z",
-      "pushed_at": "2025-07-04T14:59:14Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/Squid-Game"
-      ]
-    },
-    {
-      "name": "ochi-clone",
-      "full_name": "tanmay-tiwari-20/ochi-clone",
-      "html_url": "https://github.com/tanmay-tiwari-20/ochi-clone",
-      "fork": false,
-      "archived": false,
-      "default_branch": "main",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "created_at": "2024-07-28T09:39:33Z",
-      "pushed_at": "2024-08-31T08:49:49Z",
-      "visibility": "public",
-      "primary_language": "JavaScript",
-      "languages": null,
-      "language_bytes_available": false,
-      "sources": [
-        "https://api.github.com/repos/tanmay-tiwari-20/ochi-clone"
+        "https://api.github.com/repos/tanmay-tiwari-20/book-store-website"
       ]
     },
     {
@@ -1096,6 +393,44 @@
       ]
     },
     {
+      "name": "Cinefy",
+      "full_name": "tanmay-tiwari-20/Cinefy",
+      "html_url": "https://github.com/tanmay-tiwari-20/Cinefy",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-08-01T19:20:53Z",
+      "pushed_at": "2024-08-01T19:21:45Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Cinefy"
+      ]
+    },
+    {
+      "name": "Code-Vault",
+      "full_name": "tanmay-tiwari-20/Code-Vault",
+      "html_url": "https://github.com/tanmay-tiwari-20/Code-Vault",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2025-06-14T13:58:17Z",
+      "pushed_at": "2026-06-25T20:21:00Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Code-Vault"
+      ]
+    },
+    {
       "name": "devndez",
       "full_name": "tanmay-tiwari-20/devndez",
       "html_url": "https://github.com/tanmay-tiwari-20/devndez",
@@ -1112,6 +447,63 @@
       "language_bytes_available": false,
       "sources": [
         "https://api.github.com/repos/tanmay-tiwari-20/devndez"
+      ]
+    },
+    {
+      "name": "Edusavvy",
+      "full_name": "tanmay-tiwari-20/Edusavvy",
+      "html_url": "https://github.com/tanmay-tiwari-20/Edusavvy",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "created_at": "2024-10-07T06:40:32Z",
+      "pushed_at": "2024-10-15T06:14:55Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Edusavvy"
+      ]
+    },
+    {
+      "name": "GSAP",
+      "full_name": "tanmay-tiwari-20/GSAP",
+      "html_url": "https://github.com/tanmay-tiwari-20/GSAP",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-07-04T18:38:56Z",
+      "pushed_at": "2025-03-28T10:52:21Z",
+      "visibility": "public",
+      "primary_language": "CSS",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/GSAP"
+      ]
+    },
+    {
+      "name": "HackShastra1",
+      "full_name": "tanmay-tiwari-20/HackShastra1",
+      "html_url": "https://github.com/tanmay-tiwari-20/HackShastra1",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 1,
+      "created_at": "2024-11-13T09:00:07Z",
+      "pushed_at": "2024-11-20T17:50:35Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/HackShastra1"
       ]
     },
     {
@@ -1132,6 +524,614 @@
       "sources": [
         "https://api.github.com/repos/tanmay-tiwari-20/HackShastra2.0"
       ]
+    },
+    {
+      "name": "HRMS",
+      "full_name": "tanmay-tiwari-20/HRMS",
+      "html_url": "https://github.com/tanmay-tiwari-20/HRMS",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2025-05-24T07:51:51Z",
+      "pushed_at": "2025-05-24T07:52:47Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/HRMS"
+      ]
+    },
+    {
+      "name": "InstaClone",
+      "full_name": "tanmay-tiwari-20/InstaClone",
+      "html_url": "https://github.com/tanmay-tiwari-20/InstaClone",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-09-01T15:58:12Z",
+      "pushed_at": "2024-09-03T16:48:54Z",
+      "visibility": "public",
+      "primary_language": "EJS",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/InstaClone"
+      ]
+    },
+    {
+      "name": "IPL-Captaincy-Analysis",
+      "full_name": "tanmay-tiwari-20/IPL-Captaincy-Analysis",
+      "html_url": "https://github.com/tanmay-tiwari-20/IPL-Captaincy-Analysis",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2025-03-24T12:39:40Z",
+      "pushed_at": "2025-03-24T12:43:41Z",
+      "visibility": "public",
+      "primary_language": "Python",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/IPL-Captaincy-Analysis"
+      ]
+    },
+    {
+      "name": "IPL-Score-Predictor",
+      "full_name": "tanmay-tiwari-20/IPL-Score-Predictor",
+      "html_url": "https://github.com/tanmay-tiwari-20/IPL-Score-Predictor",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2025-03-22T10:36:01Z",
+      "pushed_at": "2025-03-22T11:54:50Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/IPL-Score-Predictor"
+      ]
+    },
+    {
+      "name": "Neumorphic-Calculator",
+      "full_name": "tanmay-tiwari-20/Neumorphic-Calculator",
+      "html_url": "https://github.com/tanmay-tiwari-20/Neumorphic-Calculator",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2025-04-17T12:26:20Z",
+      "pushed_at": "2025-04-19T12:07:34Z",
+      "visibility": "public",
+      "primary_language": "HTML",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Neumorphic-Calculator"
+      ]
+    },
+    {
+      "name": "obys-agency",
+      "full_name": "tanmay-tiwari-20/obys-agency",
+      "html_url": "https://github.com/tanmay-tiwari-20/obys-agency",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-07-05T13:14:53Z",
+      "pushed_at": "2024-08-31T09:21:44Z",
+      "visibility": "public",
+      "primary_language": "CSS",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/obys-agency"
+      ]
+    },
+    {
+      "name": "ochi-clone",
+      "full_name": "tanmay-tiwari-20/ochi-clone",
+      "html_url": "https://github.com/tanmay-tiwari-20/ochi-clone",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-07-28T09:39:33Z",
+      "pushed_at": "2024-08-31T08:49:49Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/ochi-clone"
+      ]
+    },
+    {
+      "name": "OTP-Generator",
+      "full_name": "tanmay-tiwari-20/OTP-Generator",
+      "html_url": "https://github.com/tanmay-tiwari-20/OTP-Generator",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2025-03-19T06:41:43Z",
+      "pushed_at": "2025-03-19T07:02:06Z",
+      "visibility": "public",
+      "primary_language": "HTML",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/OTP-Generator"
+      ]
+    },
+    {
+      "name": "Password-Generator",
+      "full_name": "tanmay-tiwari-20/Password-Generator",
+      "html_url": "https://github.com/tanmay-tiwari-20/Password-Generator",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2025-03-20T11:42:35Z",
+      "pushed_at": "2025-03-20T11:43:26Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Password-Generator"
+      ]
+    },
+    {
+      "name": "Pen-Brawl",
+      "full_name": "tanmay-tiwari-20/Pen-Brawl",
+      "html_url": "https://github.com/tanmay-tiwari-20/Pen-Brawl",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2026-08-20T16:17:58Z",
+      "pushed_at": "2026-08-27T16:34:05Z",
+      "visibility": "public",
+      "primary_language": "TypeScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Pen-Brawl"
+      ]
+    },
+    {
+      "name": "Pinterest",
+      "full_name": "tanmay-tiwari-20/Pinterest",
+      "html_url": "https://github.com/tanmay-tiwari-20/Pinterest",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-08-26T12:06:57Z",
+      "pushed_at": "2024-08-31T09:04:20Z",
+      "visibility": "public",
+      "primary_language": "EJS",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Pinterest"
+      ]
+    },
+    {
+      "name": "PitchDeck",
+      "full_name": "tanmay-tiwari-20/PitchDeck",
+      "html_url": "https://github.com/tanmay-tiwari-20/PitchDeck",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-11-01T05:39:46Z",
+      "pushed_at": "2025-02-03T16:04:49Z",
+      "visibility": "public",
+      "primary_language": "TypeScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/PitchDeck"
+      ]
+    },
+    {
+      "name": "Portfolio",
+      "full_name": "tanmay-tiwari-20/Portfolio",
+      "html_url": "https://github.com/tanmay-tiwari-20/Portfolio",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "created_at": "2024-08-04T17:36:08Z",
+      "pushed_at": "2025-03-02T17:22:14Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Portfolio"
+      ]
+    },
+    {
+      "name": "Portfolio-2.0",
+      "full_name": "tanmay-tiwari-20/Portfolio-2.0",
+      "html_url": "https://github.com/tanmay-tiwari-20/Portfolio-2.0",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2026-10-18T17:40:47Z",
+      "pushed_at": "2026-11-12T10:22:17Z",
+      "visibility": "public",
+      "primary_language": "TypeScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Portfolio-2.0"
+      ]
+    },
+    {
+      "name": "premier",
+      "full_name": "tanmay-tiwari-20/premier",
+      "html_url": "https://github.com/tanmay-tiwari-20/premier",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-05-28T17:05:48Z",
+      "pushed_at": "2024-08-31T09:23:54Z",
+      "visibility": "public",
+      "primary_language": "CSS",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/premier"
+      ]
+    },
+    {
+      "name": "react-api-project",
+      "full_name": "tanmay-tiwari-20/react-api-project",
+      "html_url": "https://github.com/tanmay-tiwari-20/react-api-project",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-07-25T13:10:39Z",
+      "pushed_at": "2024-07-25T13:11:52Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/react-api-project"
+      ]
+    },
+    {
+      "name": "Refokus",
+      "full_name": "tanmay-tiwari-20/Refokus",
+      "html_url": "https://github.com/tanmay-tiwari-20/Refokus",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-07-25T18:32:49Z",
+      "pushed_at": "2024-08-31T08:45:01Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Refokus"
+      ]
+    },
+    {
+      "name": "Resumify",
+      "full_name": "tanmay-tiwari-20/Resumify",
+      "html_url": "https://github.com/tanmay-tiwari-20/Resumify",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2025-08-10T15:12:08Z",
+      "pushed_at": "2025-08-31T09:25:37Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Resumify"
+      ]
+    },
+    {
+      "name": "Routing",
+      "full_name": "tanmay-tiwari-20/Routing",
+      "html_url": "https://github.com/tanmay-tiwari-20/Routing",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-07-24T12:02:07Z",
+      "pushed_at": "2024-07-24T12:07:44Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Routing"
+      ]
+    },
+    {
+      "name": "Sabu",
+      "full_name": "tanmay-tiwari-20/Sabu",
+      "html_url": "https://github.com/tanmay-tiwari-20/Sabu",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2025-04-27T16:00:53Z",
+      "pushed_at": "2025-05-03T16:10:55Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Sabu"
+      ]
+    },
+    {
+      "name": "Samyoj",
+      "full_name": "tanmay-tiwari-20/Samyoj",
+      "html_url": "https://github.com/tanmay-tiwari-20/Samyoj",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2025-04-14T15:57:10Z",
+      "pushed_at": "2025-04-16T16:50:02Z",
+      "visibility": "public",
+      "primary_language": "TypeScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Samyoj"
+      ]
+    },
+    {
+      "name": "shirt-showcaser",
+      "full_name": "tanmay-tiwari-20/shirt-showcaser",
+      "html_url": "https://github.com/tanmay-tiwari-20/shirt-showcaser",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "created_at": "2024-09-05T18:13:03Z",
+      "pushed_at": "2024-09-09T16:21:26Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/shirt-showcaser"
+      ]
+    },
+    {
+      "name": "songs",
+      "full_name": "tanmay-tiwari-20/songs",
+      "html_url": "https://github.com/tanmay-tiwari-20/songs",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-07-22T10:28:55Z",
+      "pushed_at": "2024-07-22T17:12:48Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/songs"
+      ]
+    },
+    {
+      "name": "Spools",
+      "full_name": "tanmay-tiwari-20/Spools",
+      "html_url": "https://github.com/tanmay-tiwari-20/Spools",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-09-18T05:05:49Z",
+      "pushed_at": "2026-10-04T15:58:01Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Spools"
+      ]
+    },
+    {
+      "name": "Squid-Game",
+      "full_name": "tanmay-tiwari-20/Squid-Game",
+      "html_url": "https://github.com/tanmay-tiwari-20/Squid-Game",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2025-07-02T12:26:20Z",
+      "pushed_at": "2025-07-04T14:59:14Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Squid-Game"
+      ]
+    },
+    {
+      "name": "Strot",
+      "full_name": "tanmay-tiwari-20/Strot",
+      "html_url": "https://github.com/tanmay-tiwari-20/Strot",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "created_at": "2026-06-14T20:36:21Z",
+      "pushed_at": "2026-06-27T17:54:24Z",
+      "visibility": "public",
+      "primary_language": "TypeScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Strot"
+      ]
+    },
+    {
+      "name": "tailwind",
+      "full_name": "tanmay-tiwari-20/tailwind",
+      "html_url": "https://github.com/tanmay-tiwari-20/tailwind",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-07-08T18:55:20Z",
+      "pushed_at": "2024-07-10T16:03:38Z",
+      "visibility": "public",
+      "primary_language": "HTML",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/tailwind"
+      ]
+    },
+    {
+      "name": "todo-list",
+      "full_name": "tanmay-tiwari-20/todo-list",
+      "html_url": "https://github.com/tanmay-tiwari-20/todo-list",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-07-11T15:59:44Z",
+      "pushed_at": "2025-12-24T15:08:17Z",
+      "visibility": "public",
+      "primary_language": "JavaScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/todo-list"
+      ]
+    },
+    {
+      "name": "Unoverse",
+      "full_name": "tanmay-tiwari-20/Unoverse",
+      "html_url": "https://github.com/tanmay-tiwari-20/Unoverse",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "created_at": "2026-06-28T13:09:18Z",
+      "pushed_at": "2026-10-16T19:25:10Z",
+      "visibility": "public",
+      "primary_language": "TypeScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Unoverse"
+      ]
+    },
+    {
+      "name": "Wastify",
+      "full_name": "tanmay-tiwari-20/Wastify",
+      "html_url": "https://github.com/tanmay-tiwari-20/Wastify",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2025-04-24T10:45:02Z",
+      "pushed_at": "2025-12-23T21:12:02Z",
+      "visibility": "public",
+      "primary_language": "TypeScript",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Wastify"
+      ]
+    },
+    {
+      "name": "Zentry",
+      "full_name": "tanmay-tiwari-20/Zentry",
+      "html_url": "https://github.com/tanmay-tiwari-20/Zentry",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-11-27T17:56:06Z",
+      "pushed_at": "2024-11-28T09:47:59Z",
+      "visibility": "public",
+      "primary_language": "CSS",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Zentry"
+      ]
+    },
+    {
+      "name": "Zenzone",
+      "full_name": "tanmay-tiwari-20/Zenzone",
+      "html_url": "https://github.com/tanmay-tiwari-20/Zenzone",
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "created_at": "2024-07-10T16:34:26Z",
+      "pushed_at": "2024-07-10T16:41:49Z",
+      "visibility": "public",
+      "primary_language": "HTML",
+      "languages": null,
+      "language_bytes_available": false,
+      "sources": [
+        "https://api.github.com/repos/tanmay-tiwari-20/Zenzone"
+      ]
     }
   ],
   "excluded": [
@@ -1141,61 +1141,62 @@
     }
   ],
   "completeness": {
-    "query": "user:tanmay-tiwari-20 is:public fork:true",
+    "endpoint": "https://api.github.com/search/repositories?q=user%3Atanmay-tiwari-20&per_page=100&page=1",
     "per_page": 100,
-    "page_1_count": 47,
-    "page_2_count": 0,
-    "metadata_verified_count": 47
+    "page_counts": [
+      47
+    ],
+    "metadata_verified_count": 47,
+    "method": "Complete public owner repository search, followed by individual repository metadata GETs through the GitHub connector."
   },
   "source_urls": [
-    "https://api.github.com/search/repositories?q=user%3Atanmay-tiwari-20%20is%3Apublic%20fork%3Atrue&per_page=100&page=1",
-    "https://api.github.com/search/repositories?q=user%3Atanmay-tiwari-20%20is%3Apublic%20fork%3Atrue&per_page=100&page=2",
-    "https://api.github.com/repos/tanmay-tiwari-20/Strot",
-    "https://api.github.com/repos/tanmay-tiwari-20/shirt-showcaser",
-    "https://api.github.com/repos/tanmay-tiwari-20/Edusavvy",
-    "https://api.github.com/repos/tanmay-tiwari-20/Portfolio",
-    "https://api.github.com/repos/tanmay-tiwari-20/Unoverse",
-    "https://api.github.com/repos/tanmay-tiwari-20/obys-agency",
-    "https://api.github.com/repos/tanmay-tiwari-20/Pen-Brawl",
-    "https://api.github.com/repos/tanmay-tiwari-20/Zenzone",
-    "https://api.github.com/repos/tanmay-tiwari-20/IPL-Captaincy-Analysis",
-    "https://api.github.com/repos/tanmay-tiwari-20/Zentry",
-    "https://api.github.com/repos/tanmay-tiwari-20/Sabu",
-    "https://api.github.com/repos/tanmay-tiwari-20/PitchDeck",
-    "https://api.github.com/repos/tanmay-tiwari-20/Portfolio-2.0",
-    "https://api.github.com/repos/tanmay-tiwari-20/Pinterest",
-    "https://api.github.com/repos/tanmay-tiwari-20/OTP-Generator",
-    "https://api.github.com/repos/tanmay-tiwari-20/Code-Vault",
-    "https://api.github.com/repos/tanmay-tiwari-20/tailwind",
-    "https://api.github.com/repos/tanmay-tiwari-20/book-store-website",
+    "https://api.github.com/search/repositories?q=user%3Atanmay-tiwari-20&per_page=100&page=1",
     "https://api.github.com/repos/tanmay-tiwari-20/3D-Robo",
-    "https://api.github.com/repos/tanmay-tiwari-20/HackShastra1",
-    "https://api.github.com/repos/tanmay-tiwari-20/todo-list",
-    "https://api.github.com/repos/tanmay-tiwari-20/premier",
-    "https://api.github.com/repos/tanmay-tiwari-20/Apple-iPhone15",
     "https://api.github.com/repos/tanmay-tiwari-20/3d-Cube",
-    "https://api.github.com/repos/tanmay-tiwari-20/Samyoj",
-    "https://api.github.com/repos/tanmay-tiwari-20/Routing",
-    "https://api.github.com/repos/tanmay-tiwari-20/Cinefy",
-    "https://api.github.com/repos/tanmay-tiwari-20/IPL-Score-Predictor",
-    "https://api.github.com/repos/tanmay-tiwari-20/songs",
-    "https://api.github.com/repos/tanmay-tiwari-20/Refokus",
-    "https://api.github.com/repos/tanmay-tiwari-20/HRMS",
-    "https://api.github.com/repos/tanmay-tiwari-20/Baithak",
-    "https://api.github.com/repos/tanmay-tiwari-20/InstaClone",
-    "https://api.github.com/repos/tanmay-tiwari-20/react-api-project",
-    "https://api.github.com/repos/tanmay-tiwari-20/Resumify",
     "https://api.github.com/repos/tanmay-tiwari-20/4th-Dimension",
-    "https://api.github.com/repos/tanmay-tiwari-20/Wastify",
-    "https://api.github.com/repos/tanmay-tiwari-20/Spools",
-    "https://api.github.com/repos/tanmay-tiwari-20/Password-Generator",
-    "https://api.github.com/repos/tanmay-tiwari-20/Neumorphic-Calculator",
+    "https://api.github.com/repos/tanmay-tiwari-20/Apple-iPhone15",
+    "https://api.github.com/repos/tanmay-tiwari-20/Baithak",
+    "https://api.github.com/repos/tanmay-tiwari-20/Cinefy",
+    "https://api.github.com/repos/tanmay-tiwari-20/Code-Vault",
+    "https://api.github.com/repos/tanmay-tiwari-20/Edusavvy",
     "https://api.github.com/repos/tanmay-tiwari-20/GSAP",
+    "https://api.github.com/repos/tanmay-tiwari-20/HRMS",
+    "https://api.github.com/repos/tanmay-tiwari-20/HackShastra1",
+    "https://api.github.com/repos/tanmay-tiwari-20/HackShastra2.0",
+    "https://api.github.com/repos/tanmay-tiwari-20/IPL-Captaincy-Analysis",
+    "https://api.github.com/repos/tanmay-tiwari-20/IPL-Score-Predictor",
+    "https://api.github.com/repos/tanmay-tiwari-20/InstaClone",
+    "https://api.github.com/repos/tanmay-tiwari-20/Neumorphic-Calculator",
+    "https://api.github.com/repos/tanmay-tiwari-20/OTP-Generator",
+    "https://api.github.com/repos/tanmay-tiwari-20/Password-Generator",
+    "https://api.github.com/repos/tanmay-tiwari-20/Pen-Brawl",
+    "https://api.github.com/repos/tanmay-tiwari-20/Pinterest",
+    "https://api.github.com/repos/tanmay-tiwari-20/PitchDeck",
+    "https://api.github.com/repos/tanmay-tiwari-20/Portfolio",
+    "https://api.github.com/repos/tanmay-tiwari-20/Portfolio-2.0",
+    "https://api.github.com/repos/tanmay-tiwari-20/Refokus",
+    "https://api.github.com/repos/tanmay-tiwari-20/Resumify",
+    "https://api.github.com/repos/tanmay-tiwari-20/Routing",
+    "https://api.github.com/repos/tanmay-tiwari-20/Sabu",
+    "https://api.github.com/repos/tanmay-tiwari-20/Samyoj",
+    "https://api.github.com/repos/tanmay-tiwari-20/Spools",
     "https://api.github.com/repos/tanmay-tiwari-20/Squid-Game",
-    "https://api.github.com/repos/tanmay-tiwari-20/tanmay-tiwari-20",
-    "https://api.github.com/repos/tanmay-tiwari-20/ochi-clone",
+    "https://api.github.com/repos/tanmay-tiwari-20/Strot",
+    "https://api.github.com/repos/tanmay-tiwari-20/Unoverse",
+    "https://api.github.com/repos/tanmay-tiwari-20/Wastify",
+    "https://api.github.com/repos/tanmay-tiwari-20/Zentry",
+    "https://api.github.com/repos/tanmay-tiwari-20/Zenzone",
+    "https://api.github.com/repos/tanmay-tiwari-20/book-store-website",
     "https://api.github.com/repos/tanmay-tiwari-20/card",
     "https://api.github.com/repos/tanmay-tiwari-20/devndez",
-    "https://api.github.com/repos/tanmay-tiwari-20/HackShastra2.0"
+    "https://api.github.com/repos/tanmay-tiwari-20/obys-agency",
+    "https://api.github.com/repos/tanmay-tiwari-20/ochi-clone",
+    "https://api.github.com/repos/tanmay-tiwari-20/premier",
+    "https://api.github.com/repos/tanmay-tiwari-20/react-api-project",
+    "https://api.github.com/repos/tanmay-tiwari-20/shirt-showcaser",
+    "https://api.github.com/repos/tanmay-tiwari-20/songs",
+    "https://api.github.com/repos/tanmay-tiwari-20/tailwind",
+    "https://api.github.com/repos/tanmay-tiwari-20/tanmay-tiwari-20",
+    "https://api.github.com/repos/tanmay-tiwari-20/todo-list"
   ]
 }

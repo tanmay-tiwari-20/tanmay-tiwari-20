@@ -4,25 +4,31 @@ This profile combines the supplied portrait with animated graphs and diagrams ge
 
 ## What the percentages measure
 
-The graphs measure repositories and observed technologies. They do not estimate expertise or use source-code byte percentages.
+The primary-language graph measures repositories. Source-language and dependency percentages are retained in the detailed evidence document. The skill tiles show real named tools without estimating expertise.
 
 | Graph | Measurement | Denominator |
 | --- | --- | --- |
 | Primary languages | Repositories assigned each primary language by GitHub | Eligible repositories with a nonempty GitHub primary-language value |
-| Source-language presence | Repositories containing source files in each detected language | Repositories included in the source audit |
-| Technologies | Repositories with a declared direct dependency or verified CDN use of each technology | Repositories included in the technology audit |
+| Source-language presence (evidence document) | Repositories containing source files in each detected language | Repositories included in the source audit |
+| Technologies (evidence document) | Repositories with a declared direct dependency or verified CDN use of each technology | Repositories included in the technology audit |
 
 Primary-language shares describe one primary language per repository. Source-language and technology percentages overlap because one repository can contain several languages and use several technologies; these percentages are not expected to add up to 100%.
 
-Technology graphs include the declared direct production, development, optional, and peer dependencies that the audit reports. The audit also checks script and stylesheet CDN references in root or one-level HTML files where no package or Python manifest exists. It examines current default branches, so the results describe the audited files rather than complete historical usage or transitive dependencies. The first graph appears in the main profile; all remaining pages are available under **View all technology percentages**. Every reported technology is included across these pages.
+The technology evidence includes declared direct production, development, optional, and peer dependencies. The audit also checks script and stylesheet CDN references in root or one-level HTML files where no package or Python manifest exists. It examines current default branches. Skill categories remain visible in the main profile, while the complete dependency inventory and repository evidence are retained in `docs/TECHNOLOGIES.md`.
 
-The **10 November 2026** repository snapshot contains **47 public repositories**, of which **46 are eligible** after excluding the profile repository. Those eligible repositories have **5 stars** and **3 forks received** in the snapshot. The scope excludes forks owned by the account. Repository growth is a cumulative count by repository creation date, not a contribution or commit timeline.
+The **12 November 2026** repository snapshot contains **47 public repositories**, of which **46 are eligible** after excluding the profile repository. Those eligible repositories have **5 stars** and **3 forks received** in the snapshot. The scope excludes forks owned by the account. Repository growth is a cumulative count by repository creation date, not a contribution or commit timeline.
 
 The inputs record their date, scope, source evidence, and completeness:
 
 - `data/repository-metrics.json`: repository metadata, primary languages, stars, forks, and creation timeline.
 - `data/technologies.json`: source-language and technology observations, repository counts, and percentage basis, when the technology audit is available.
 - `data/contributions.json`: exact daily activity from the verified initial cache or a subsequent successful contribution-calendar fetch.
+- `data/skills-catalog.json`: named technologies, authentic local logos, category order, supporting package families, and explicit exclusions.
+- `data/skill-source-evidence.json`: source-confirmed tools not present in dependency manifests, with pinned blobs and excerpts.
+
+Skill tiles contain technology names and their actual logos. They have no coverage bars or proficiency scores. Source languages, declared tools, and directly verified runtime/service use supply the evidence. Helpers are documented under their parent tools in `docs/TECHNOLOGIES.md`; the local `backend` workspace package is excluded. Concepts such as “APIs” and “responsive design” are not added as skills. Figma is absent because the inspected code does not establish its use.
+
+The current complete repository audit is dated **12 November 2026**. It covers all 46 public, owned, non-fork project repositories and includes SHA-pinned manifest/CDN evidence. Additional source checks verify pandas, NumPy, Streamlit, Puter.js, Docker, Docker Compose, Redis, Node.js, and npm. This describes observable public repository code, not private/deleted projects or a complete Git history.
 
 The selected-project diagram connects Unoverse, Spools, Baithak, and Resumify to their documented stacks. Its connections are project descriptions, not an extra percentage metric.
 
@@ -30,7 +36,7 @@ The selected-project diagram connects Unoverse, Spools, Baithak, and Resumify to
 
 `data/card-manifest.json` is the authoritative list of assets produced by the latest renderer run. Its `cards` array contains logical SVG filenames, and its `themes` array contains `light` and `dark`. The README generator reads this manifest rather than scanning potentially obsolete files in the output folders.
 
-The generated layout is: hero, graphic social links, repository growth, primary languages, source-language presence when available, technology percentage pages, selected-project diagram and links, verified contribution graphs when available, and a contact footer.
+The generated layout is: hero, graphic social links, repository growth, primary languages, categorized skill tiles, selected-project diagram and links, verified contribution graphs when available, and a contact footer. The skill tiles replace the old Language Footprint and Technology Atlas graphs. Every category remains visible in the README.
 
 The social section has a full-width connection heading and portfolio link, followed by LinkedIn/Instagram and GitHub/email in two rows. Each smaller image uses 49% width and has its own outer README `<a>` wrapping its light/dark `<picture>`. The full-width portfolio image is also independently linked. Destinations come from the verified profile URLs; they do not rely on clickable content inside an SVG embedded as an image. The expandable plain-text section retains all contact links, including X.
 
@@ -56,13 +62,16 @@ python scripts/fetch_contributions.py
 # Generate the current SVGs and manifest, then compose the README.
 python scripts/render_cards.py
 python scripts/render_readme.py
+python scripts/render_technology_inventory.py
 ```
 
 The repository fetcher can use the `GITHUB_TOKEN` environment variable to avoid the low anonymous API rate limit. Keep tokens in environment variables or GitHub Actions secrets; never add them to profile data or SVGs.
 
 Edit biography, selected projects, and toolkit in `data/profile.json`. Regenerate both the cards and README after changes. Commit the updated data, `README.md`, and current files under both theme directories. Remove obsolete generated SVG files that are no longer listed in the manifest.
 
-`render_readme.py` accepts `--manifest`, `--profile`, `--cards-root`, and `--output` for validation or alternate output locations. It keeps every generated technology page in the README, with later pages inside an expandable section.
+After a new technology appears in the audit, add it to `data/skills-catalog.json` with an authentic logo in `assets/technology-logos/` and a provenance entry. The renderer rejects unaccounted dependencies and missing logos, preventing silent omissions or made-up marks. Add source-only skills to `data/skill-source-evidence.json` with actual file evidence before including them in the catalog. Logos are inlined as vector paths or embedded official PNG bytes and never request remote assets when viewed on GitHub.
+
+`render_readme.py` accepts `--manifest`, `--profile`, `--cards-root`, and `--output` for validation or alternate output locations. It keeps every skill category visible. The renderer retires obsolete generated assets from the previous manifest when both themes are regenerated.
 
 The card renderer accepts `--theme light`, `--theme dark`, or `--theme both` (the default). For a complete publishable README, generate both themes. Static previews are available with:
 
@@ -104,12 +113,14 @@ The fetcher reads the public calendar at `https://github.com/users/tanmay-tiwari
 
 After reviewing the design, merge the changes into `main` in `tanmay-tiwari-20/tanmay-tiwari-20`. GitHub displays that repository's root `README.md` on the profile.
 
-The **Refresh profile cards** workflow is scheduled daily at approximately **06:47 Asia/Kolkata**. GitHub may delay scheduled runs. A manual run is available under **Actions → Refresh profile cards → Run workflow** once the workflow is on `main`. The workflow uses the built-in `GITHUB_TOKEN`; a personal access token is not required. Repository policy must permit the job's `contents: write` permission and commits to `main`.
+This checkout currently has no refresh workflow. Run the data fetcher and renderers above when updating the profile. A future GitHub Actions workflow can run the same commands using the built-in `GITHUB_TOKEN` and commit the regenerated data, documentation, and cards.
 
-Run the repository checks with:
+The renderers validate complete evidence accounting, authentic local logo availability, SVG content, and README asset references. Check the generated profile with:
 
 ```sh
-python -m unittest discover -s tests -p 'test_*.py'
+python scripts/render_cards.py
+python scripts/render_readme.py
+python scripts/render_technology_inventory.py
 ```
 
-Inspect a failed Actions step before changing stored data. API or calendar changes may require updating a parser; push failures may indicate branch rules or token permissions. Preserve the last verified assets while fixing the issue. Public repositories with prolonged inactivity may need their scheduled workflow re-enabled in Actions.
+Inspect failed fetch or render output before changing stored data. API or calendar changes may require updating a parser. Preserve the last verified assets while fixing the issue.

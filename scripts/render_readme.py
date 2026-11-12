@@ -8,17 +8,17 @@ import json
 from pathlib import Path
 import re
 import tempfile
+import xml.etree.ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parents[1]
-REQUIRED = {"hero.svg", "repositories.svg", "languages.svg", "project-network.svg", "footer.svg"}
+REQUIRED = {"hero.svg", "repositories.svg", "languages.svg", "skills-01.svg", "project-network.svg", "footer.svg"}
 SOCIAL_SMALL = {"social-linkedin", "social-instagram", "social-github", "social-email"}
 SOCIAL_GROUP = {"connect.svg", "social-portfolio.svg", *(name + ".svg" for name in SOCIAL_SMALL)}
 ALT = {
     "hero": "Tanmay Tiwari — full-stack developer from India. Building web apps and real-time experiences.",
     "repositories": "Public repository growth, stars, and forks received. The timeline measures repository creation, not commits.",
     "languages": "Primary programming languages, measured as the share of eligible repositories with each GitHub primary language.",
-    "footprint": "Source-language presence: the percentage of audited repositories containing each language. A repository may contain multiple languages.",
     "project-network": "Selected project technology map connecting Unoverse, Spools, Baithak, and Resumify to their documented tools.",
     "heatmap": "My real GitHub contribution calendar for the latest 365-day reporting window.",
     "activity": "Monthly GitHub contributions, active days, streaks, and busiest day, calculated from the displayed activity window.",
@@ -50,7 +50,7 @@ def validate_manifest(manifest: dict, cards_root: Path) -> set[str]:
         raise ValueError("The card manifest must contain a unique list of filenames")
     names = set(names)
     if REQUIRED - names:
-        raise ValueError(f"Required analytics cards are missing: {sorted(REQUIRED - names)}")
+        raise ValueError(f"Required profile cards are missing: {sorted(REQUIRED - names)}")
     if SOCIAL_GROUP & names and not SOCIAL_GROUP.issubset(names):
         raise ValueError(f"The social graphic group is incomplete: {sorted(SOCIAL_GROUP - names)}")
     for name in names:
@@ -87,7 +87,7 @@ def picture(name: str, names: set[str], alt: str, link: str | None = None,
     return "<p>\n" + figure + "\n</p>" if paragraph else figure
 
 
-def render_readme(profile: dict, names: set[str]) -> str:
+def render_readme(profile: dict, names: set[str], skill_descriptions: dict[str, str] | None = None) -> str:
     if profile.get("username") != "tanmay-tiwari-20":
         raise ValueError("Profile does not belong to tanmay-tiwari-20")
     portfolio = profile["portfolio"]
@@ -107,24 +107,19 @@ def render_readme(profile: dict, names: set[str]) -> str:
                 url, alt = links[name]
                 figures.append(picture(name, names, alt, url, width="49%", paragraph=False))
             parts.append("<p>\n" + "\n".join(figures) + "\n</p>")
-    for name in ("repositories", "languages", "footprint"):
+    for name in ("repositories", "languages"):
         if name + ".svg" in names:
             parts.append(picture(name, names, ALT[name]))
 
-    pages = sorted((name[:-4] for name in names if re.fullmatch(r"technologies-\d{2,}\.svg", name)),
+    pages = sorted((name[:-4] for name in names if re.fullmatch(r"skills-\d{2,}\.svg", name)),
                    key=lambda name: int(name.rsplit("-", 1)[1]))
     if pages:
         numbers = [int(name.rsplit("-", 1)[1]) for name in pages]
         if numbers != list(range(1, len(numbers) + 1)):
-            raise ValueError("Technology graph pages must be consecutive, starting at 01")
-        def technology_figure(name):
-            return picture(name, names, "Technology usage by audited repository: declared direct dependencies and verified CDN use. "
-                           f"Percentages overlap. Page {int(name.rsplit('-', 1)[1])} of {len(pages)}.")
-        parts.append(technology_figure(pages[0]))
-        if len(pages) > 1:
-            parts.append("<details>\n<summary>View all technology percentages</summary>")
-            parts.extend(technology_figure(name) for name in pages[1:])
-            parts.append("</details>")
+            raise ValueError("Skill showcase pages must be consecutive, starting at 01")
+        for name in pages:
+            alt = (skill_descriptions or {}).get(name, "Real technologies used across Tanmay's GitHub projects")
+            parts.append(picture(name, names, alt + ". Authentic logo and name tiles."))
 
     parts.append(picture("project-network", names, ALT["project-network"]))
     parts.append("<p>" + " · ".join(f'<a href="{escape(project["url"], quote=True)}">{escape(project["name"])}</a>'
@@ -151,13 +146,13 @@ I'm **Tanmay Tiwari**, a full-stack developer from India. I build web applicatio
 - **Frontend:** React, Next.js, TypeScript, JavaScript, Tailwind CSS.
 - **Backend:** Node.js, Express, MongoDB, Redis, Socket.IO.
 - **Creative web:** Three.js, React Three Fiber, GSAP, Framer Motion.
-- **Tools:** Git, GitHub, Vercel, Vite, Figma.
+- **Tools:** Docker, npm, Vercel Analytics, Vite, ESLint.
 
 ### Find me
 
 [Portfolio]({portfolio}) · [GitHub](https://github.com/{profile["username"]}) · [LinkedIn](https://www.linkedin.com/in/tanmay-tiwari20/) · [Instagram](https://www.instagram.com/takneekitanmay/) · [X](https://x.com/TakneekiTanmay) · [Email]({email})
 
-The charts describe public repositories and their observed technologies. [Full technology inventory and percentages](./docs/TECHNOLOGIES.md) · [Measurement definitions and profile maintenance](./docs/PROFILE.md).
+The skill tiles show real tools found in my public projects. [Skill evidence and complete dependency inventory](./docs/TECHNOLOGIES.md) · [Profile maintenance](./docs/PROFILE.md).
 
 Design inspired by [Avi Vashishta's animated SVG README cards](https://www.avivashishta.com/blog/github-profile-readme-animated-svg-cards).
 
@@ -175,7 +170,12 @@ def main():
     manifest = json.loads(args.manifest.read_text(encoding="utf-8"))
     profile = json.loads(args.profile.read_text(encoding="utf-8"))
     names = validate_manifest(manifest, args.cards_root)
-    output = render_readme(profile, names)
+    skill_descriptions = {}
+    for filename in names:
+        if re.fullmatch(r"skills-\d{2,}\.svg", filename):
+            svg = ET.parse(args.cards_root / "light" / filename).getroot()
+            skill_descriptions[filename[:-4]] = svg.findtext("{http://www.w3.org/2000/svg}desc", default="Verified technologies")
+    output = render_readme(profile, names, skill_descriptions)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", newline="\n", dir=args.output.parent, delete=False) as file:
         file.write(output)

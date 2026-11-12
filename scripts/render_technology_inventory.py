@@ -6,6 +6,7 @@ import argparse
 import json
 from pathlib import Path
 import tempfile
+from render_skills import load_showcase
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -22,17 +23,29 @@ def render_inventory(data):
         if row['count'] != len(set(row['repositories'])) or row['percent'] != round(row['count']*100/denominator, 2):
             raise ValueError('Technology percentage does not match repository evidence')
     lines = [
-        '# Technology coverage', '',
+        '# Skills showcase and technology evidence', '',
         f"Snapshot: **{data['as_of']}** · **{denominator} public, non-fork repositories**, excluding the profile repository.", '',
         f"The audit found **{len(data['technologies'])} technology families** containing **{data['package_identifier_count']} distinct package/CDN identifiers**. It inspected {data['manifest_count']} manifests across {data['manifest_repositories']} repositories, plus root and one-level HTML files in {data['cdn_scanned_repositories']} repositories without manifests.", '',
         '**Coverage = repositories with a declared technology ÷ all eligible repositories.** A technology counts once per repository, even when several manifests or aliases declare it. The denominator includes repositories without manifests. Technologies and languages overlap, so their percentages do not sum to 100.', '',
         'These percentages describe current public default branches. They are not proficiency scores, time spent, code-byte percentages, deployed runtime usage, or a complete history of everything used. Private and deleted repositories, transitive dependencies, undeclared imports, and tools used outside these repositories are outside the measurement.', '',
         'Runtime, development, optional, and peer dependency declarations are included. Clear families are grouped (for example, React and React DOM); every original identifier remains in the table. Type declarations are grouped separately and do not imply that a repository is written in TypeScript. CDN identifiers prefixed with `cdn:` represent an explicitly linked service or library rather than an npm package.', '',
         'The language table uses file-extension presence in first-party source, configuration, and test files. Generated/vendor directories and minified JavaScript/CSS files are excluded; data formats, assets, and languages embedded inside HTML are not inferred. The separate profile primary-language chart uses GitHub’s one primary-language label per repository.', '',
-        '## Source-language presence', '',
-        '| Language | Repositories | Coverage | Observed extensions |',
-        '| --- | ---: | ---: | --- |',
     ]
+    groups = load_showcase(data)
+    count = sum(len(group['skills']) for group in groups)
+    lines += ['## Skills on the profile', '',
+              f'The profile showcases **{count} real, named technologies** with authentic local logos. Tiles are grouped by role. Supporting adapters, middleware, and small utility packages appear under the related tool here rather than becoming invented skills. Every audited dependency family is accounted for; the local `backend` workspace package is excluded. Source-language tiles require source files, not just type packages.', '',
+              'The showcase also includes source-confirmed pandas, NumPy, Streamlit, Puter.js, Docker, Docker Compose, Redis, Node.js, and npm. These additions are recorded with file paths, immutable blob references, and source excerpts in [the source evidence](../data/skill-source-evidence.json). Logo provenance and licenses are in [the logo inventory](../assets/technology-logos/README.md).', '',
+              '| Skill | Group | Supporting libraries | Repositories with evidence |',
+              '| --- | --- | --- | --- |']
+    for group in groups:
+        for skill in group['skills']:
+            support = ', '.join('`'+cell(value)+'`' for value in skill.get('supporting_technologies', [])) or '—'
+            repos = ', '.join(f'[{cell(name)}](https://github.com/{data["username"]}/{name})' for name in skill['repositories'])
+            lines.append(f'| {cell(skill["name"])} | {cell(group["title"])} | {support} | {repos} |')
+    lines += ['', '## Source-language presence', '',
+              '| Language | Repositories | Coverage | Observed extensions |',
+              '| --- | ---: | ---: | --- |']
     for row in data['language_presence']:
         extensions = ', '.join('`'+cell(value)+'`' for value in row['extensions_present'])
         lines.append(f"| {cell(row['name'])} | {row['count']} / {denominator} | {row['percent']:.2f}% | {extensions} |")
@@ -48,7 +61,7 @@ def render_inventory(data):
         repositories = ', '.join('`'+cell(value)+'`' for value in row['repositories'])
         lines.append(f"| {cell(row['name'])} | {repositories} |")
     lines += ['', '</details>', '',
-              'The [machine-readable audit](../data/technologies.json) includes counts, repository membership, measurement definitions, and GitHub source URLs. The [repository metadata snapshot](../data/repository-metrics.json) records the eligible set. The scheduled workflow rescans complete repository trees and immutable manifest blobs, then rebuilds the graphs and this inventory.', '']
+              'The [machine-readable audit](../data/technologies.json) includes counts, repository membership, measurement definitions, and GitHub source URLs. The [repository metadata snapshot](../data/repository-metrics.json) records the eligible set. Refresh the audit and regenerate the cards and this inventory after adding projects or technologies.', '']
     return '\n'.join(lines)
 
 
