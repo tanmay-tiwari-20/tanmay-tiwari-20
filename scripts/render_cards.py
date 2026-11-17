@@ -169,6 +169,15 @@ def hero(profile,static=False,theme='light',mobile=False):
     return a.finish(profile['name']+' / Full Stack Developer',profile['tagline']+' Based in India, open to collaboration. Portrait and coral editorial styling inspired by his portfolio.',960,558,body,static)
 
 
+def profile_views_icon(theme='light'):
+    """A small companion to the hosted counter; the count stays a live image."""
+    a=Art(theme)
+    body=a.rect(.5,.5,31,31,'panel',10,'line')
+    body+=a.path('M5 16C7.7 11.5 11.3 9 16 9S24.3 11.5 27 16C24.3 20.5 20.7 23 16 23S7.7 20.5 5 16Z','red',1.6)
+    body+=a.circle(16,16,3,'none',f'stroke="{a.t["red"]}" stroke-width="1.6"')
+    return f'<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" role="img" aria-label="Profile views" data-theme="{theme}">{body}</svg>\n'
+
+
 def build_loop(static=False,theme='light'):
     a=Art(theme)
     body=a.circle(923,145,177,'url(#wash)','opacity=".5"')+a.label(32,33,'THE BUILD LOOP')
@@ -396,6 +405,7 @@ def build_cards(profile,data,static=False,theme='light'):
     technologies=json.loads(technology_path.read_text(encoding='utf-8')) if technology_path.exists() else None
     if metrics['username']!=profile['username'] or (technologies and technologies['username']!=profile['username']):raise ValueError('Repository metrics belong to another account')
     cards={'hero.svg':hero(profile,static,theme),'hero-mobile.svg':hero(profile,static,theme,True),'footer.svg':footer(profile,static,theme),'footer-mobile.svg':footer(profile,static,theme,True)}
+    cards['profile-views-icon.svg']=profile_views_icon(theme)
     cards.update(build_social(profile,static,theme))
     cards.update(build_analytics(profile,metrics,technologies,Art,static,theme))
     if data is not None:

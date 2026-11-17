@@ -13,7 +13,16 @@
 </a>
 </p>
 
-<p><img src="https://komarev.com/ghpvc/?username=tanmay-tiwari-20&amp;label=Profile+views&amp;color=ef463e&amp;style=flat-square" alt="Profile views for tanmay-tiwari-20" /></p>
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/profile-views-icon.svg" />
+  <img src="./cards/light/profile-views-icon.svg" width="32" height="32" alt="" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=tanmay-tiwari-20&amp;label=PROFILE+VIEWS&amp;color=b82f2b&amp;style=for-the-badge&amp;abbreviated=true" />
+  <img src="https://komarev.com/ghpvc/?username=tanmay-tiwari-20&amp;label=PROFILE+VIEWS&amp;color=dc342f&amp;style=for-the-badge&amp;abbreviated=true" height="32" alt="Profile views for tanmay-tiwari-20" />
+</picture>
+</p>
 
 <p>
 <picture>
