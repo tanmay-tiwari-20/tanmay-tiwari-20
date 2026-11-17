@@ -13,13 +13,12 @@ import xml.etree.ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parents[1]
-REQUIRED = {"hero.svg", "profile-views-icon.svg", "languages.svg", "skills-01.svg", "project-network.svg", "footer.svg"}
+REQUIRED = {"hero.svg", "profile-views-icon.svg", "languages.svg", "skills-01.svg", "footer.svg"}
 SOCIAL_SMALL = {"social-linkedin", "social-instagram", "social-github", "social-email"}
 SOCIAL_GROUP = {"connect.svg", "social-portfolio.svg", *(name + ".svg" for name in SOCIAL_SMALL)}
 ALT = {
     "hero": "Tanmay Tiwari — full-stack developer from India. Building web apps and real-time experiences.",
     "languages": "Primary programming languages, measured as the share of eligible repositories with each GitHub primary language.",
-    "project-network": "Selected project technology map connecting Unoverse, Spools, Baithak, and Resumify to their documented tools.",
     "activity": "Monthly GitHub contributions, active days, streaks, and busiest day, calculated from the displayed activity window.",
     "footer": "Let's build something together. Contact workwithtakneekitanmay@gmail.com.",
     "connect": "Connect with Tanmay through his portfolio, LinkedIn, Instagram, GitHub, or email.",
@@ -142,9 +141,6 @@ def render_readme(profile: dict, names: set[str], skill_descriptions: dict[str, 
             alt = (skill_descriptions or {}).get(name, "Real technologies used across Tanmay's GitHub projects")
             parts.append(picture(name, names, alt + ". Authentic logo and name tiles."))
 
-    parts.append(picture("project-network", names, ALT["project-network"]))
-    parts.append("<p>" + " · ".join(f'<a href="{escape(project["url"], quote=True)}">{escape(project["name"])}</a>'
-                                     for project in profile["projects"]) + "</p>")
     if "activity.svg" in names:
         parts.append(picture("activity", names, ALT["activity"]))
     parts.extend([picture("footer", names, ALT["footer"], email), "</div>"])

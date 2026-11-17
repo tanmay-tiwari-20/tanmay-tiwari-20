@@ -30,13 +30,13 @@ Skill tiles contain technology names and their actual logos. They have no covera
 
 The current complete repository audit is dated **12 November 2026**. It covers all 46 public, owned, non-fork project repositories and includes SHA-pinned manifest/CDN evidence. Additional source checks verify pandas, NumPy, Streamlit, Puter.js, Docker, Docker Compose, Redis, Node.js, and npm. This describes observable public repository code, not private/deleted projects or a complete Git history.
 
-The selected-project diagram connects Unoverse, Spools, Baithak, and Resumify to their documented stacks. Its connections are project descriptions, not an extra percentage metric.
+The generated selected-project diagram connects Unoverse, Spools, Baithak, and Resumify to their documented stacks. Its connections are project descriptions, not an extra percentage metric. The diagram and its standalone project-link row are omitted from the README.
 
 ## README and themes
 
 `data/card-manifest.json` is the authoritative list of assets produced by the latest renderer run. Its `cards` array contains logical SVG filenames, and its `themes` array contains `light` and `dark`. The README generator reads this manifest rather than scanning potentially obsolete files in the output folders.
 
-The generated layout is: hero, live profile views badge, graphic social links, primary languages, categorized skill tiles, selected-project diagram and links, the verified monthly activity chart when available, and a contact footer. The repository creation card and contribution heatmap are omitted from the README, even when their assets remain in the manifest. The skill tiles replace the old Language Footprint and Technology Atlas graphs. Every category remains visible in the README.
+The generated layout is: hero, live profile views badge, graphic social links, primary languages, categorized skill tiles, the verified monthly activity chart when available, and a contact footer. The selected-project diagram, repository creation card, and contribution heatmap are omitted from the README, even when their assets remain in the manifest. The skill tiles replace the old Language Footprint and Technology Atlas graphs. Every category remains visible in the README.
 
 The social section has a full-width connection heading and portfolio link, followed by LinkedIn/Instagram and GitHub/email in two rows. Each smaller image uses 49% width and has its own outer README `<a>` wrapping its light/dark `<picture>`. The full-width portfolio image is also independently linked. Destinations come from the verified profile URLs; they do not rely on clickable content inside an SVG embedded as an image. The expandable plain-text section retains all contact links, including X.
 

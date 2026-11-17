@@ -157,17 +157,6 @@
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/project-network-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="./cards/light/project-network-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/project-network.svg" />
-  <img src="./cards/light/project-network.svg" width="100%" alt="Selected project technology map connecting Unoverse, Spools, Baithak, and Resumify to their documented tools." />
-</picture>
-</p>
-
-<p><a href="https://github.com/tanmay-tiwari-20/Unoverse">Unoverse</a> · <a href="https://github.com/tanmay-tiwari-20/Spools">Spools</a> · <a href="https://github.com/tanmay-tiwari-20/Baithak">Baithak</a> · <a href="https://github.com/tanmay-tiwari-20/Resumify">Resumify</a></p>
-
-<p>
-<picture>
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/activity-mobile.svg" />
   <source media="(max-width: 600px)" srcset="./cards/light/activity-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/activity.svg" />
