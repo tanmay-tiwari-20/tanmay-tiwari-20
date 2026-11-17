@@ -36,15 +36,21 @@ The selected-project diagram connects Unoverse, Spools, Baithak, and Resumify to
 
 `data/card-manifest.json` is the authoritative list of assets produced by the latest renderer run. Its `cards` array contains logical SVG filenames, and its `themes` array contains `light` and `dark`. The README generator reads this manifest rather than scanning potentially obsolete files in the output folders.
 
-The generated layout is: hero, graphic social links, repository growth, primary languages, categorized skill tiles, selected-project diagram and links, verified contribution graphs when available, and a contact footer. The skill tiles replace the old Language Footprint and Technology Atlas graphs. Every category remains visible in the README.
+The generated layout is: hero, live profile views badge, graphic social links, primary languages, categorized skill tiles, selected-project diagram and links, the verified monthly activity chart when available, and a contact footer. The repository creation card and contribution heatmap are omitted from the README, even when their assets remain in the manifest. The skill tiles replace the old Language Footprint and Technology Atlas graphs. Every category remains visible in the README.
 
 The social section has a full-width connection heading and portfolio link, followed by LinkedIn/Instagram and GitHub/email in two rows. Each smaller image uses 49% width and has its own outer README `<a>` wrapping its light/dark `<picture>`. The full-width portfolio image is also independently linked. Destinations come from the verified profile URLs; they do not rely on clickable content inside an SVG embedded as an image. The expandable plain-text section retains all contact links, including X.
 
-Every figure uses a native `<picture>` with light and dark image files under `cards/light/` and `cards/dark/`. Responsive figures add ordered sources for dark mobile, light mobile, dark desktop, and a light desktop `<img>` fallback. Mobile sources apply at a maximum viewport width of 600px. The fallback image carries the width and descriptive alternative text.
+Every generated card uses a native `<picture>` with light and dark image files under `cards/light/` and `cards/dark/`. Responsive figures add ordered sources for dark mobile, light mobile, dark desktop, and a light desktop `<img>` fallback. Mobile sources apply at a maximum viewport width of 600px. The fallback image carries the width and descriptive alternative text. The profile views badge is a hosted image with its own alternative text.
 
 The two themes use separate SVG palettes. The local preview uses the same image order, social rows, and clickable anchors as the generated README, and switches the actual SVG sources when changing theme or width. Its controls use the same warm coral, paper, and black palette. Animations live inside the SVGs and stop under `prefers-reduced-motion`, leaving the full chart or diagram visible.
 
-The number of generated assets varies with the technology page count and available data. The contribution heatmap and monthly chart are included only when verified contribution data exists. Without a valid snapshot, the README omits those figures entirely. A local snapshot and the scheduled refresh are separate: use the reporting date in the data and the latest Actions result to check freshness.
+The number of generated assets varies with the technology page count and available data. The monthly activity chart is included in the README only when verified contribution data exists. Without a valid snapshot, the README omits that figure entirely. Use the reporting date in the data to check freshness.
+
+## Profile views counter
+
+The README embeds a [Komarev profile views badge](https://github.com/antonkomarev/github-profile-views-counter) directly beneath the hero. `scripts/render_readme.py` builds its URL from `data/profile.json`'s username, with the profile's coral accent and a flat-square style. The counter is served dynamically and needs no local snapshot, token, or scheduled regeneration.
+
+The service counts requests to the badge image. It cannot recover historical profile visits or measure unique visitors: repeat views and image loads outside the profile can affect the total. GitHub's image proxy and browser caching can delay requests and the displayed count, so the badge is a live request counter rather than exact real-time GitHub profile analytics.
 
 ## Update data and render
 

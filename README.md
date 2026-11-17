@@ -13,6 +13,8 @@
 </a>
 </p>
 
+<p><img src="https://komarev.com/ghpvc/?username=tanmay-tiwari-20&amp;label=Profile+views&amp;color=ef463e&amp;style=flat-square" alt="Profile views for tanmay-tiwari-20" /></p>
+
 <p>
 <picture>
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/connect-mobile.svg" />
@@ -61,15 +63,6 @@
   <img src="./cards/light/social-email.svg" width="49%" alt="Email Tanmay at workwithtakneekitanmay@gmail.com." />
 </picture>
 </a>
-</p>
-
-<p>
-<picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/repositories-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="./cards/light/repositories-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/repositories.svg" />
-  <img src="./cards/light/repositories.svg" width="100%" alt="Public repository growth, stars, and forks received. The timeline measures repository creation, not commits." />
-</picture>
 </p>
 
 <p>
@@ -166,15 +159,6 @@
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/heatmap-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="./cards/light/heatmap-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/heatmap.svg" />
-  <img src="./cards/light/heatmap.svg" width="100%" alt="My real GitHub contribution calendar for the latest 365-day reporting window." />
-</picture>
-</p>
-
-<p>
-<picture>
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./cards/dark/activity-mobile.svg" />
   <source media="(max-width: 600px)" srcset="./cards/light/activity-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="./cards/dark/activity.svg" />
@@ -219,4 +203,5 @@ I'm **Tanmay Tiwari**, a full-stack developer from India. I build web applicatio
 [Portfolio](https://takneekitanmay.tech) · [GitHub](https://github.com/tanmay-tiwari-20) · [LinkedIn](https://www.linkedin.com/in/tanmay-tiwari20/) · [Instagram](https://www.instagram.com/takneekitanmay/) · [X](https://x.com/TakneekiTanmay) · [Email](mailto:workwithtakneekitanmay@gmail.com)
 
 The skill tiles show real tools found in my public projects. [Skill evidence and complete dependency inventory](./docs/TECHNOLOGIES.md) · [Profile maintenance](./docs/PROFILE.md).
+
 </details>
